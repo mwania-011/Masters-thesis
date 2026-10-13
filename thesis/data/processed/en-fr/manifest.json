@@ -1,0 +1,27 @@
+{
+  "language_pair": "en-fr",
+  "dataset": "opus_books",
+  "split_seed": 20261013,
+  "source_examples": 127085,
+  "valid_examples": 127085,
+  "cleaning": "strip whitespace; remove empty/non-string pairs",
+  "split_counts": {
+    "train": 101668,
+    "validation": 12708,
+    "test": 12709
+  },
+  "partitions": {
+    "train": {
+      "file": "train.jsonl",
+      "sha256": "366b66684956ddc5488080a3a3549ab279cf527f8b577d3a522f54e35f7ecc6d"
+    },
+    "validation": {
+      "file": "validation.jsonl",
+      "sha256": "d0257ba368ee97290150a0290916354d94ac1e827b5199f617e6fad5b7139a85"
+    },
+    "test": {
+      "file": "test.jsonl",
+      "sha256": "4c1a802d1645c4c75965b6867c77f1cb7a912b6991a77b22c335237cf47ffef3"
+    }
+  }
+}
