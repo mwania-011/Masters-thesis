@@ -36,20 +36,53 @@ def prepare_pair(lang_pair, output_dir):
                     "target": tgt,
                 })
 
-    # Group identical bilingual sentence pairs before splitting.
-    # This prevents exact-pair contamination across partitions.
-    groups = {}
-
-    for index, record in enumerate(valid_records):
-        key = (record["source"], record["target"])
-        groups.setdefault(key, []).append(index)
-
-    group_keys = sorted(groups)
-    random.Random(SPLIT_SEED).shuffle(group_keys)
-
+    # Group records connected by identical source OR target sentences.
+    # All records in a connected component enter the same partition.
     n = len(valid_records)
-    target_train = int(n * TRAIN_RATIO)
-    target_validation = int(n * VAL_RATIO)
+    parent = list(range(n))
+    sizes = [1] * n
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra == rb:
+            return
+        if sizes[ra] < sizes[rb]:
+            ra, rb = rb, ra
+        parent[rb] = ra
+        sizes[ra] += sizes[rb]
+
+    first_source = {}
+    first_target = {}
+
+    for i, record in enumerate(valid_records):
+        src = record["source"]
+        tgt = record["target"]
+
+        if src in first_source:
+            union(i, first_source[src])
+        else:
+            first_source[src] = i
+
+        if tgt in first_target:
+            union(i, first_target[tgt])
+        else:
+            first_target[tgt] = i
+
+    components = {}
+
+    for i in range(n):
+        components.setdefault(find(i), []).append(i)
+
+    component_list = list(components.values())
+    component_list.sort(key=lambda group: group[0])
+
+    random.Random(SPLIT_SEED).shuffle(component_list)
 
     partitions = {
         "train": [],
@@ -57,19 +90,26 @@ def prepare_pair(lang_pair, output_dir):
         "test": [],
     }
 
-    # Allocate complete duplicate groups, approximately preserving
-    # the requested 80/10/10 row proportions.
-    for key in group_keys:
-        group_indices = groups[key]
+    target_counts = {
+        "train": int(n * TRAIN_RATIO),
+        "validation": int(n * VAL_RATIO),
+    }
 
-        if len(partitions["train"]) < target_train:
+    # Allocate complete components; actual counts may vary slightly.
+    for component in component_list:
+        if len(partitions["train"]) < target_counts["train"]:
             destination = "train"
-        elif len(partitions["validation"]) < target_validation:
+        elif len(partitions["validation"]) < target_counts["validation"]:
             destination = "validation"
         else:
             destination = "test"
 
-        partitions[destination].extend(group_indices)
+        partitions[destination].extend(component)
+
+    print(
+        f"  Connected components: {len(component_list):,}; "
+        f"largest: {max(map(len, component_list)):,}"
+    )
 
     pair_dir = output_dir / lang_pair
     pair_dir.mkdir(parents=True, exist_ok=True)
