@@ -1,0 +1,105 @@
+{
+  "pair": "en-fr",
+  "mode": "run",
+  "runner_sha256": "00d0701b70c7714f2d5f4a8b272ed2dd67f8079939064bb7f063a43a435521bd",
+  "protocol_sha256": "c90e57e9e0676067502dc4b431986e547701aa0240a192eb398d57c2bb366ae2",
+  "matrix_sha256": "96157e465a1ef76276baf51f4d68fc0a9dbabf1638fda2893d22a7457d47ac45",
+  "status": "PASS",
+  "runs": [
+    {
+      "seed": 1,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "run",
+        "--pair",
+        "en-fr",
+        "--seed",
+        "1",
+        "--device",
+        "cuda",
+        "--approve-full"
+      ],
+      "returncode": 0,
+      "results_sha256": "6d6e44c471f45d2e11fee3e7d06b857ed9f60533f61e4791a2498df5f9931c3e"
+    },
+    {
+      "seed": 2,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "run",
+        "--pair",
+        "en-fr",
+        "--seed",
+        "2",
+        "--device",
+        "cuda",
+        "--approve-full"
+      ],
+      "returncode": 0,
+      "results_sha256": "c664b29b33b382beb48a9415c67eec4a9ecfb510c97332098b0bd5785148b011"
+    },
+    {
+      "seed": 3,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "run",
+        "--pair",
+        "en-fr",
+        "--seed",
+        "3",
+        "--device",
+        "cuda",
+        "--approve-full"
+      ],
+      "returncode": 0,
+      "results_sha256": "5730588972b628b9b8bcaa936ed333287333ca266baad29b917fe035421052d2"
+    },
+    {
+      "seed": 4,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "run",
+        "--pair",
+        "en-fr",
+        "--seed",
+        "4",
+        "--device",
+        "cuda",
+        "--approve-full"
+      ],
+      "returncode": 0,
+      "results_sha256": "45197963cdb3f92aeacd047b369584d481fc78836824c17146dc8533006d5c5f"
+    },
+    {
+      "seed": 5,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "run",
+        "--pair",
+        "en-fr",
+        "--seed",
+        "5",
+        "--device",
+        "cuda",
+        "--approve-full"
+      ],
+      "returncode": 0,
+      "results_sha256": "67646e4d1caf333587b0a90127371def173f3c31a35fa8966fbe39775554aa66"
+    }
+  ]
+}

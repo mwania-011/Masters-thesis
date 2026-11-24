@@ -1,0 +1,30 @@
+{
+  "source": "thesis/experiments/run_e0.py",
+  "source_sha256": "daf8e6a1088980328d0c0b48ef72180357957ae661e931fd279ce766fb80b918",
+  "generated_runner": "thesis/experiments/run_thesis_extended.py",
+  "generated_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "max_epochs": 40,
+  "min_epochs": 5,
+  "patience": 5,
+  "min_delta": 0.0001,
+  "language_pairs": [
+    "en-fr",
+    "en-ru",
+    "en-it",
+    "en-es"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "variants": [
+    "baseline",
+    "geo",
+    "full"
+  ],
+  "output_root": "thesis/results/thesis_extended_reference",
+  "status": "prepared; not evidence of completed training"
+}

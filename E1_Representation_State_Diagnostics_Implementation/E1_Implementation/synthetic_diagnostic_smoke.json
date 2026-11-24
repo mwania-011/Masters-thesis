@@ -1,0 +1,39 @@
+{
+  "alignment": {
+    "top1_source_to_target": 1.0,
+    "positive_cosine": 0.9997694862875175,
+    "hard_negative_cosine": 0.50072375938115,
+    "positive_hard_negative_margin": 0.49904572690636745
+  },
+  "source_geometry": {
+    "mean_pairwise_cosine": -0.01429283182099642,
+    "anisotropy_mean_vector_norm": 0.10518787465543969,
+    "covariance_spectral_concentration": 0.13684858298269037,
+    "covariance_effective_rank": 12.97250160449805,
+    "uniformity_logexp_t2": -3.5673545668937034,
+    "n": 40,
+    "dimension": 16
+  },
+  "target_geometry": {
+    "mean_pairwise_cosine": -0.014090203276318368,
+    "anisotropy_mean_vector_norm": 0.10612281472703966,
+    "covariance_spectral_concentration": 0.13658382826127838,
+    "covariance_effective_rank": 12.978144584939626,
+    "uniformity_logexp_t2": -3.5844166993666895,
+    "n": 40,
+    "dimension": 16
+  },
+  "neighborhood": {
+    "cross_lingual_neighbor_overlap_at_k": 0.97,
+    "perturbation_neighbor_stability_at_k": 0.9475,
+    "neighborhood_sensitivity": 0.05249999999999999,
+    "k": 5,
+    "noise_std": 0.01
+  },
+  "provenance": {
+    "source_file": "synthetic_validation_smoke.npz",
+    "sha256": "76fae8435ec5a77a84e27eee26d849c32044a29926e7932f06d718e50780ca39",
+    "seed": 7,
+    "split": "validation (must be verified by operator)"
+  }
+}

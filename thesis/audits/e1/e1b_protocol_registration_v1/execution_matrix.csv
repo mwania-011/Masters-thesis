@@ -1,0 +1,16 @@
+pair,seed,branches,lambda_geo,lambda_topo,steps_per_branch,total_optimizer_steps,status
+en-fr,1,control|geo|topo|full,0.0005,0.0005,3178,12712,PLANNED_NOT_STARTED
+en-fr,2,control|geo|topo|full,0.0005,0.0005,3178,12712,PLANNED_NOT_STARTED
+en-fr,3,control|geo|topo|full,0.0005,0.0005,3178,12712,PLANNED_NOT_STARTED
+en-fr,4,control|geo|topo|full,0.0005,0.0005,3178,12712,PLANNED_NOT_STARTED
+en-fr,5,control|geo|topo|full,0.0005,0.0005,3178,12712,PLANNED_NOT_STARTED
+en-it,1,control|geo|topo|full,0.0005,0.0002,809,3236,PLANNED_NOT_STARTED
+en-it,2,control|geo|topo|full,0.0005,0.0002,809,3236,PLANNED_NOT_STARTED
+en-it,3,control|geo|topo|full,0.0005,0.0002,809,3236,PLANNED_NOT_STARTED
+en-it,4,control|geo|topo|full,0.0005,0.0002,809,3236,PLANNED_NOT_STARTED
+en-it,5,control|geo|topo|full,0.0005,0.0002,809,3236,PLANNED_NOT_STARTED
+en-es,1,control|geo|topo|full,0.0005,0.0002,2337,9348,PLANNED_NOT_STARTED
+en-es,2,control|geo|topo|full,0.0005,0.0002,2337,9348,PLANNED_NOT_STARTED
+en-es,3,control|geo|topo|full,0.0005,0.0002,2337,9348,PLANNED_NOT_STARTED
+en-es,4,control|geo|topo|full,0.0005,0.0002,2337,9348,PLANNED_NOT_STARTED
+en-es,5,control|geo|topo|full,0.0005,0.0002,2337,9348,PLANNED_NOT_STARTED

@@ -1,0 +1,2172 @@
+{
+  "created_utc": "20261019T144220Z",
+  "python": "3.10.12",
+  "platform": "Linux-6.8.0-1023-oracle-x86_64-with-glibc2.35",
+  "missing_targets": [
+    "requirements.txt",
+    "pyproject.toml",
+    "environment.yml"
+  ],
+  "files": [
+    {
+      "path": "thesis/audits/e0/e0_integrity_manifest.json",
+      "bytes": 56838,
+      "sha256": "3242f7abe94ef427208f149f9df34fc462484a6069dd6f1c9beaa8fef3ac945a"
+    },
+    {
+      "path": "thesis/audits/e1/e1a_closure_audit.json",
+      "bytes": 9667,
+      "sha256": "9839fdc86763b44c37699eaa9d41b9aa32d18ffd65e1883ea0656f971dddf65e"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_batch_logs/batch_20261018T115545Z/manifest.json",
+      "bytes": 1108,
+      "sha256": "967128a03fce0099ab31790d85b8bd004c905851a60b1b0fbd6fb36922e63c31"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_batch_logs/batch_20261018T115545Z/seed2.log",
+      "bytes": 542,
+      "sha256": "aee26cba1fe82c1ad722eb8cc15674efa5859d01e6ae8c26b1c2c317390467ae"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_batch_logs/batch_20261018T121016Z/manifest.json",
+      "bytes": 3050,
+      "sha256": "38afe27f7fbbf6587e41e3c6ff290c1d3a7f533fa3fcd554978ef5cfbb46eb80"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_batch_logs/batch_20261018T121016Z/seed2.log",
+      "bytes": 2014,
+      "sha256": "7bdbd4a4514e763a7a3081ffabc3853e9695694ef31259d835dc4706718ec307"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_batch_logs/batch_20261018T121016Z/seed3.log",
+      "bytes": 2014,
+      "sha256": "1be5c4f384a722a4d92688cbec4a0e0e9c506996eec8927aa1c35e8964ef3a95"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_batch_logs/batch_20261018T121016Z/seed4.log",
+      "bytes": 2014,
+      "sha256": "e16bc2ea5bcd55bc5b66114ef8441679541fd6627cbc05250afcb6be20500a00"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_batch_logs/batch_20261018T121016Z/seed5.log",
+      "bytes": 2014,
+      "sha256": "6791dd33a9909e1ef9fb712c0c95371c288de211b9ce24399d827149e03d6bc1"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_batch_logs/enru_seeds2to5.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_failed_smoke_before_state_isolation/FAILED.txt",
+      "bytes": 53,
+      "sha256": "fee4c4ea8101c43d7d3246ddebf2db210d99ef38a8ec66e20a599fa9cd59f08b"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_failed_smoke_before_state_isolation/audit.json",
+      "bytes": 384,
+      "sha256": "e3d305259dc47206d7ab16a07213496ccb4f51d5e32ce36db14d8e1292cea6b2"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_protocol_registration_v1/analysis_protocol.md",
+      "bytes": 3582,
+      "sha256": "c90e57e9e0676067502dc4b431986e547701aa0240a192eb398d57c2bb366ae2"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_protocol_registration_v1/execution_matrix.csv",
+      "bytes": 1214,
+      "sha256": "96157e465a1ef76276baf51f4d68fc0a9dbabf1638fda2893d22a7457d47ac45"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_protocol_registration_v1/registration.json",
+      "bytes": 408,
+      "sha256": "69cc2530fa606cf35972b4113fde88fafc658ccfaf4119874591c865b4be95a7"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr_run_20261019T020034Z/manifest.json",
+      "bytes": 2612,
+      "sha256": "77c2cd07d649058ac42d8e4b51c20e54006e3a05ddd8220af941d32a071d9aef"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr_run_20261019T020034Z/seed1.log",
+      "bytes": 2019,
+      "sha256": "5826fafcdc272d7486adb0867e0f4c7169a6b007258333d0929e86b1cfbae341"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr_run_20261019T020034Z/seed2.log",
+      "bytes": 1677,
+      "sha256": "3b40d7499ff147180c752d739d23a8753c0d771b7373aa0ef00e5395201c0986"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr_run_20261019T020034Z/seed3.log",
+      "bytes": 1677,
+      "sha256": "1caea95a6ba7122d80838675316322381c821d3e5b39afc9f2a9a3172bb5b9c4"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr_run_20261019T020034Z/seed4.log",
+      "bytes": 1677,
+      "sha256": "8649bc2ae83141e81bd0c9c8229fe02c2021eaff5431a8313847e640012e76a3"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr_run_20261019T020034Z/seed5.log",
+      "bytes": 1677,
+      "sha256": "23ba424958fd756bc9d915a6758457991897f8cd34f8b50b8bef1798f53d0e25"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr_smoke_20261019T013742Z/manifest.json",
+      "bytes": 2664,
+      "sha256": "2d813e067bf8cee3d07656e22428c9ca9ab1f582a4a16549fc18812e3fa2f6cd"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr_smoke_20261019T013742Z/seed1.log",
+      "bytes": 2019,
+      "sha256": "73e0030aaabd21cc8fc8ef1e1a3b565154400513f47206dfcfeb6edb08fcf42a"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr_smoke_20261019T013742Z/seed2.log",
+      "bytes": 1677,
+      "sha256": "a5d1482398451f491d19f5eb69d2d226b37f58dcf58afb22769938afb193a9b4"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr_smoke_20261019T013742Z/seed3.log",
+      "bytes": 1677,
+      "sha256": "13beffba255d8c2c67d653d2763b6e6e4f30a3e0c99d1b401972f630cac87fdc"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr_smoke_20261019T013742Z/seed4.log",
+      "bytes": 1677,
+      "sha256": "a8920a1c2a6c1086a33456f96ffe4c9746683714d6a849137034460581da1886"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-fr_smoke_20261019T013742Z/seed5.log",
+      "bytes": 1677,
+      "sha256": "c3f73dffa5f803d7739c66e9c904bf275f18349321dc6259036d6a9a011c4a03"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it_run_20261018T141432Z/manifest.json",
+      "bytes": 2612,
+      "sha256": "5925e0ed6b55b69d6956226b6bb34e2c2e5ea03baf7c85c37f6d1ad3ad256857"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it_run_20261018T141432Z/seed1.log",
+      "bytes": 2014,
+      "sha256": "59a5730037178aec671262605e7714f387a2dbd0d15c2a3367ab172988d0f190"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it_run_20261018T141432Z/seed2.log",
+      "bytes": 2014,
+      "sha256": "ede426c95647d5c81edd2c32a62d79018726268670099f0173a352f35d40c098"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it_run_20261018T141432Z/seed3.log",
+      "bytes": 2014,
+      "sha256": "f2957d8ed1aaf77036a880e9f20bc8f6c55cbc8fe74b3e3a0aa45e3db9535067"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it_run_20261018T141432Z/seed4.log",
+      "bytes": 2014,
+      "sha256": "96c29047ecf287266922ec731cdab3ccee06ea4942e33c3bfc65c33fb8e78542"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it_run_20261018T141432Z/seed5.log",
+      "bytes": 2014,
+      "sha256": "4316b92e3eaf9f3f33d6f21c4856b0ebb79bc5517254e3e935a60df819d46433"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it_smoke_20261018T135302Z/manifest.json",
+      "bytes": 2664,
+      "sha256": "0c7a776968983bbc56c8acc71596dad5c69ab15db8bf8b2f863bca5d24d323e6"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it_smoke_20261018T135302Z/seed1.log",
+      "bytes": 2019,
+      "sha256": "645fe748e7c6387867705bbc877b6d3d589f07bdc9579e7efa7decf971c9527d"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it_smoke_20261018T135302Z/seed2.log",
+      "bytes": 2019,
+      "sha256": "ef80394c1373f697191303dc06ca353d90c1c743aa666cf9c250a1ba03919ade"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it_smoke_20261018T135302Z/seed3.log",
+      "bytes": 2019,
+      "sha256": "10c6951bb3cf026ad7c88786dbbb384abd6cd8c534c9b3d35d8e9c38f0305bfe"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it_smoke_20261018T135302Z/seed4.log",
+      "bytes": 2019,
+      "sha256": "29ac1f2056d5d47bef13a0e8b955575af6d084d046351f1081c729c287c7c256"
+    },
+    {
+      "path": "thesis/audits/e1/e1b_remaining_logs/en-it_smoke_20261018T135302Z/seed5.log",
+      "bytes": 2019,
+      "sha256": "024505fb8fb6387401652a4985e7c3d6db62b9b4deed4b6c77650831963e6db3"
+    },
+    {
+      "path": "thesis/audits/e2/run_e2_gated_heuristic_v1_original.py",
+      "bytes": 8367,
+      "sha256": "e2e16dc666e738874b932a094ee131c00b4c4102db7f6aa607cc0f9f13457174"
+    },
+    {
+      "path": "thesis/data/dataset.py",
+      "bytes": 2644,
+      "sha256": "276a658a2973eed31f3d7edb94ab0c88f3a6270b6910b7b338432e58844c044f"
+    },
+    {
+      "path": "thesis/data/prepare_datasets.py",
+      "bytes": 4649,
+      "sha256": "edcc31b4d376a3cd5a8cb3970ebaafc65703dd97f5dcaa61c647bdfeea2eef03"
+    },
+    {
+      "path": "thesis/evaluation/retrieval.py",
+      "bytes": 4765,
+      "sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e"
+    },
+    {
+      "path": "thesis/experiments/e0_config.py",
+      "bytes": 2213,
+      "sha256": "849d7b40927fdf21808e24f776e01a61606d9cbc349348886a9aa64b85cbcc0b"
+    },
+    {
+      "path": "thesis/experiments/launch_e1b_enru_seeds2to5.py",
+      "bytes": 9489,
+      "sha256": "5555962784fa71aab0ff9eeba2de292bf2c50cc5894d69f6c035d5c73c7d207e"
+    },
+    {
+      "path": "thesis/experiments/launch_e1b_remaining.py",
+      "bytes": 13593,
+      "sha256": "a7f9a24d1951b745ed8b6e5072e6ef7b8f7070f989eb5e9c5ae4618c58157cde"
+    },
+    {
+      "path": "thesis/experiments/run_e0.py",
+      "bytes": 13151,
+      "sha256": "daf8e6a1088980328d0c0b48ef72180357957ae661e931fd279ce766fb80b918"
+    },
+    {
+      "path": "thesis/experiments/run_e0_before_resume.py",
+      "bytes": 9500,
+      "sha256": "49e8c69992f792a367933d04120e1df6f9cf6c953bb29f904c0cac75c7dbc30e"
+    },
+    {
+      "path": "thesis/experiments/run_e1a_extract.py",
+      "bytes": 4933,
+      "sha256": "7f6bf102ff456238199c633b19b1c1ff4bdd9dff7637502bd9452383d05ee806"
+    },
+    {
+      "path": "thesis/experiments/run_e1b.py",
+      "bytes": 16122,
+      "sha256": "00d0701b70c7714f2d5f4a8b272ed2dd67f8079939064bb7f063a43a435521bd"
+    },
+    {
+      "path": "thesis/experiments/run_e1b.py.before_provenance_patch",
+      "bytes": 14837,
+      "sha256": "aed1c904a56eafd33e1b2459f09c7b45e1ed393c4cacc904cb284061f563619e"
+    },
+    {
+      "path": "thesis/experiments/run_e1b.py.before_state_isolation_patch",
+      "bytes": 16076,
+      "sha256": "9004ab8bce2fa35d86c9d8614e539740acef17a0217064a697b8ed882550e62f"
+    },
+    {
+      "path": "thesis/experiments/run_e2_gated.py",
+      "bytes": 8926,
+      "sha256": "7a58205c88c9962cb6f920faf2e6a9ca4f98689bf6673d2d144ec70b07aff291"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_baseline/epochs.csv",
+      "bytes": 1891,
+      "sha256": "f0d560c5ed7e6409c7b1b9759c0a057f79bac0137acb4ed62e20c88067068f64"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "398a246026343717267d06936608dbe0730c19aae8b58a58ef782cd49f020fd8"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_baseline/summary.json",
+      "bytes": 782,
+      "sha256": "3724de657f78f240845727a0d43202b0c5844c795251262d862afffe278a049c"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_full/epochs.csv",
+      "bytes": 2064,
+      "sha256": "64664543c3edbecce33b7dd0eb9f418b81e17074e58267afa106f848d21d50c7"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_full/metadata.json",
+      "bytes": 892,
+      "sha256": "068c0669e206fa33d45ec1733f43b1be5a5019dc1d5bfcdec9629edc29950f98"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_full/summary.json",
+      "bytes": 779,
+      "sha256": "279f42bd3275327b6820e80f306222fcc8dd4a5d84ddccfe181975fb509f15d4"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_geo/epochs.csv",
+      "bytes": 2022,
+      "sha256": "862c342f278ff8d48a954fbd58a942210a9e218975a7b04dd547b2250d008156"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "58927c2334b264090599cd70fa9dad1a3ddb6d51769e1e4d4823b773b5d5fcbd"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_geo/summary.json",
+      "bytes": 778,
+      "sha256": "fecb1421f5d2394d590477d26ab657a2ac8c58f3de599b0bf6fd68a2c699e70f"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_baseline/epochs.csv",
+      "bytes": 1891,
+      "sha256": "ef7861185cf4a13b8c47a248e1b8b39a8b2cb3b6fedf70cad2acabaf18b4a568"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "b876f4fedddc132507160038a1ff49772701f708cad298f85f578c43f509dfb5"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_baseline/summary.json",
+      "bytes": 782,
+      "sha256": "4de2674ceb5f9ee49333a1e85434312822a0f9831729cc88e8ddf537969f9f19"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_full/epochs.csv",
+      "bytes": 2063,
+      "sha256": "4eba89d485a8a40a3cf2c21faed4093d9a0b3ac768c471aef5b583a5e7131728"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_full/metadata.json",
+      "bytes": 892,
+      "sha256": "d9dcf6760d1c9c3405fca4ef1e54c1f32aced980de234f231380c0770ccf9878"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_full/summary.json",
+      "bytes": 776,
+      "sha256": "5ef95e90b247bda96fad16774bb5412f90e0cce65a88efbf95f00d46bc6d68c9"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_geo/epochs.csv",
+      "bytes": 2034,
+      "sha256": "add27a714f5969dd1dee668e2249880fe09d57a15b36ebd21017115649b5742c"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "249ce76d3d5a406341c8f80079ff07e060a442f196d9c3a86fe6de3eb9d42a05"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_geo/summary.json",
+      "bytes": 771,
+      "sha256": "b33297000bb6ad2fee149cf62b0db66e03920346a83b76b52819a3ebd6624c45"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_baseline/epochs.csv",
+      "bytes": 1890,
+      "sha256": "df91c42347c1541bdf0beb1ec0b88a3ddf44867cf3841e67f2116a7d11488791"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "6a94bda2ca61017bca3b04721f7f1774e4677da93c50f8b974642f3aab8a45e7"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_baseline/summary.json",
+      "bytes": 782,
+      "sha256": "269c5e4ce2bfa5e230e4901b90d5483b1be6333427c3aed2b8970a742723c649"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_full/epochs.csv",
+      "bytes": 2064,
+      "sha256": "dc3bfc816f4001ffe2ae56cba06410ed9903bee1760faa071cda8d7e978f58a3"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_full/metadata.json",
+      "bytes": 892,
+      "sha256": "15afe06d6de5637ced9034d0a12d526d15aa29424f69cccf11669d9037a2398f"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_full/summary.json",
+      "bytes": 777,
+      "sha256": "de3778d7e1c06fae63c788523070fac5203704173ad7a5f044110f3a96bac0f9"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_geo/epochs.csv",
+      "bytes": 2019,
+      "sha256": "ce3213b7abded1803bf60a2911150e025a8ae10ab5a881966e59d906d38d0352"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "197ee364a3393aed2424ce63d825bd3fd1c01d937c1b8701cecc6d224b70bff8"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_geo/summary.json",
+      "bytes": 777,
+      "sha256": "5875cdd5b686838d2c1eaf57dcf17981f88a1abfaf2bd209cae58acc202b926d"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_baseline/epochs.csv",
+      "bytes": 1889,
+      "sha256": "f65a2a8e2812885a0a967251d7dc5397a33ae113141c9f57644dd8c96249f78d"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "394b836c7ce8549f313ac444ac080405deed5a899e4d87fa524a9ab22e1799da"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_baseline/summary.json",
+      "bytes": 780,
+      "sha256": "64a0782684e6286f017428f7b91a98e4ecc7079e2a1526ce56e289f5ad2d799e"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_full/epochs.csv",
+      "bytes": 2056,
+      "sha256": "97ccd5aea2b4e0087d694ca3246e318e929c181173c24190bc1ef2d13b0a1b88"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_full/metadata.json",
+      "bytes": 892,
+      "sha256": "127cc9be1d6496dde520c9316ee9f264d72b2084670a5c25bbfb6fbe6ded08f8"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_full/summary.json",
+      "bytes": 774,
+      "sha256": "0506fe6d8bf570c2a587e7b5a14acc73130de6d8be4d6d4a8c4998eb15664c88"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_geo/epochs.csv",
+      "bytes": 2029,
+      "sha256": "1da584b332881a56cf1144e6d5bf81f53bcaa349a096e45e49eef98abff9fbfd"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "a37331a164e6fc2bcfc418e4607a9283961a392fdf83911d6d7eacf87d447aa4"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_geo/summary.json",
+      "bytes": 779,
+      "sha256": "b83e283cbb79c47061719425bf878184c1e6a2bd191acd0aeb34d5885e256585"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_baseline/epochs.csv",
+      "bytes": 1884,
+      "sha256": "911ed1053a38215db27539f1cacd457e3008f8c195da1de9fe8e4c0e34069771"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "c8cc8c85a11a7136bf410b933b4ef122fbafadd04480a0755a2d97b8a2e0e5a7"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_baseline/summary.json",
+      "bytes": 781,
+      "sha256": "1213de5b78a92e640e6f36a5266cc54aaa67bac2e4d53813d1a6d4fdc9cca6da"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_full/epochs.csv",
+      "bytes": 2057,
+      "sha256": "ed3a98431a12e1e4fc36d827e1286df8abc285855410dd4df0b01b001f8d041b"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_full/metadata.json",
+      "bytes": 892,
+      "sha256": "61e18dfc992a2b0544b6f8d6f00f8101631992a3ec12c11a8f6eeda010e2acad"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_full/summary.json",
+      "bytes": 778,
+      "sha256": "68bece70888d7b908279a0dff29fffa7fbadddb88347da101b46d616e5688921"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_geo/epochs.csv",
+      "bytes": 2026,
+      "sha256": "925c7118a12acfe3b34698689d3c054704f7b8e217871219dadb1f4db37634d0"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "affdfa448dadfa9d8e64ef8270bd7c03541eba78df707e325c7f48bd916a9a54"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_geo/summary.json",
+      "bytes": 775,
+      "sha256": "8095d811312a6bceb04a9f777b8a946035fca71cbc9c9078d1f31b55d18aefcc"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_baseline/epochs.csv",
+      "bytes": 1892,
+      "sha256": "a82eb003f93d836b04545f59151935297a91230320eb2957b8b316300789ccde"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "5de6029c5a4f0173cf39d2a5add1b707128c094a40c1763eba8062665557d97c"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_baseline/summary.json",
+      "bytes": 782,
+      "sha256": "93cba0d57e4fa4d2e01873837d6abeef0dfe48fbef145afda647a916bcc4fe38"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_full/epochs.csv",
+      "bytes": 2069,
+      "sha256": "024671d241113cbdb83a0731574d67a3cec6d078362920468ec140c99606ad40"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_full/metadata.json",
+      "bytes": 892,
+      "sha256": "aeeb84f88846d2cc6824e0bb6364156999c5b24a807c5b77c74ac10f63692874"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_full/summary.json",
+      "bytes": 777,
+      "sha256": "daf5ac91dad1d68cb6908f060981615b5c64c3f18e3ac89e800486f243e33466"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_geo/epochs.csv",
+      "bytes": 2033,
+      "sha256": "ec50bfa0cfe61150c39fa80d739bcd4475613c17ebde261fe8269d40e536da5f"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "ad221166bacb2fc33c06482e498346cd6c23285626f5bea6b2304c23da2dd20c"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_geo/summary.json",
+      "bytes": 778,
+      "sha256": "eef4bf33063b30dcad9ed1f9c4e84774d300f6537947d83115a5d6c7c0201853"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_baseline/epochs.csv",
+      "bytes": 1885,
+      "sha256": "19e2b45fa150bbdf7611d3fa08be1e97fd52568e89c7b5b59a3a17391292a236"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "d5622bee82a0574bcf3508241d8d6052901d8ee0e4080fcd9ab8bb55dd9286bf"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_baseline/summary.json",
+      "bytes": 782,
+      "sha256": "7d74a1b47e92214b3256cb2fbf3f07cf804bb740e19dd548be9a79216c0ff005"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_full/epochs.csv",
+      "bytes": 2069,
+      "sha256": "1c263511a6781076e0ff6be394d4c74916e26987e83f2f159f83aa4f7ab0997b"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_full/metadata.json",
+      "bytes": 892,
+      "sha256": "1557af7ea757f3d28a96b092b114d52baaf7ae6eab6bf80054c6c1cd2070c160"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_full/summary.json",
+      "bytes": 778,
+      "sha256": "228a16e0232cf0f0210c32b8476a014faa23d24110ecb15682726c0ea04d65a0"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_geo/epochs.csv",
+      "bytes": 2023,
+      "sha256": "abe65d77fce30635422338ddde04db3b8227407a8d0e5c6e8395fb880bff6c4e"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "0a9f01210013358422201b45bfce18b67af8cf25e6f0ff8453aac72b75e686d7"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_geo/summary.json",
+      "bytes": 775,
+      "sha256": "cf720f0e50024a88191b3094c00c7a15197849c6ff94ef8d56ba2a32cb73f19b"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_baseline/epochs.csv",
+      "bytes": 1888,
+      "sha256": "3f723f69850b5c1c292b2f93ad571d21c3096b9a5ea506f1e323c8d2ce91a32d"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "91323ed8307ed8b10c13c796b6aef4da4b21f1542b0c5a985b7e00448224e4ad"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_baseline/summary.json",
+      "bytes": 781,
+      "sha256": "9b1af2019fbc1a5a337f5b246e9ba47abaf425548143b79e14a421d94686ce3e"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_full/epochs.csv",
+      "bytes": 2070,
+      "sha256": "e058d255427f098ead5966d9312f15392bff7dc98a608015885297a4627fab72"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_full/metadata.json",
+      "bytes": 892,
+      "sha256": "ec0541bf286e5a8dd99cdf01d640b1776ce91e342b1ad5ee8b6a3ea2ace94e14"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_full/summary.json",
+      "bytes": 778,
+      "sha256": "5d5c77820e8576fdcca2e846bbf134414d551a55939b0255c9167b34c795296e"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_geo/epochs.csv",
+      "bytes": 2026,
+      "sha256": "47221540e476e3f8ab632bb94abaf3d0c24eb994c48c2b236ace58716d7a2588"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "e101fec8ee4d3055e683f8a48ab0d8aab7f2abe5bf62d88363da3f3b20de9930"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_geo/summary.json",
+      "bytes": 776,
+      "sha256": "6ecfe66f402f950adde7352e8b31faf773b92accf72ce15c8f106d7fb910af63"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_baseline/epochs.csv",
+      "bytes": 1890,
+      "sha256": "f3bcdf1ddebe1afdde0c254e178120ed93461fd8e3267f703acafd91e35eabb6"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "421b3e314856994e90c75348ca5248b39f07b58e7369122cbabf32bbe24be209"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_baseline/summary.json",
+      "bytes": 784,
+      "sha256": "c0cccaf872667ce750a222c7c4b21eb02ca8c8a966c28c2dfda400e3bc2c3d91"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_full/epochs.csv",
+      "bytes": 2073,
+      "sha256": "07f791d71555c81392af3d33f238c26177830942ba327dd92b3ce201dd37cc44"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_full/metadata.json",
+      "bytes": 892,
+      "sha256": "8cce3c65449a23d01d0370669d36ea652cd5252f48262e412be52ca2ed1f8b4b"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_full/summary.json",
+      "bytes": 779,
+      "sha256": "c3bb57d255e73acd5c0472f21638de795e4578552654cf24c4dec131e0ab01ba"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_geo/epochs.csv",
+      "bytes": 2030,
+      "sha256": "d37a3f04998a82839ec5d215f52189325dc0a04ae6ea5652d1294421bf7663d2"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "9ecbd5fa510c9a4af1e264e35239b234354d0f093bfdc2a4d3766803b4e2b869"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_geo/summary.json",
+      "bytes": 775,
+      "sha256": "afc17ba67fddd449f907764c33bbda6c28d4dbbdfd4e903e5cf61fa8fd737f74"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_baseline/epochs.csv",
+      "bytes": 1891,
+      "sha256": "ed646f0d085b87a194881ce2b33a1e5f159d7b5044fbb4170f50b2b130df6c85"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "61dd51718678c8742e0bcb803c74e14695925a4121b88ea8e274e74c09742d42"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_baseline/summary.json",
+      "bytes": 774,
+      "sha256": "f7cb3f724ac6904088bdf3a0aed532af1da0ef1e35473cda3c92c6115d7ac0d4"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_full/epochs.csv",
+      "bytes": 2066,
+      "sha256": "8cb6d70eb0117ea795206a2657624985036c3779cc802d9289cc0886b8a3ff15"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_full/metadata.json",
+      "bytes": 892,
+      "sha256": "cda8dbf761b2bd65bba1efb0333d731343227138db2f05f2a049d0e729e91225"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_full/summary.json",
+      "bytes": 776,
+      "sha256": "07832edc4d06d44d3bbf5b22e76c495ab36c5d418c415abd59913b09a5a3f279"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_geo/epochs.csv",
+      "bytes": 2034,
+      "sha256": "492bf76e1804c05802f0dcbed66b30324911c2ec8474d683e27fc70d6b09945d"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "8ea408c518a8eeb718c09e9b015a7bf60b910c020d213635559a30568c264e60"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_geo/summary.json",
+      "bytes": 780,
+      "sha256": "52edb20f4e2af8710d6a411ef355bd67bbf450b38fd0b4cb67675267e7904ae7"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_baseline/epochs.csv",
+      "bytes": 1890,
+      "sha256": "3342265297bf9ca667e76bd6d00a5a68bdedcd5ed7f0a950a745a51fb162d2eb"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "a52e3b1f4f1f1ff78f6ae9ca9b503f70977f8e2219812563f74ca54a93f7d3a0"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_baseline/summary.json",
+      "bytes": 780,
+      "sha256": "d70c3d919977df019bcad9a013c69f569c6ec70db622bae2db43347b635b376c"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_full/epochs.csv",
+      "bytes": 2070,
+      "sha256": "fa378c2affd3dd0d9440c4047e09895cd6f7a1337ca7920000bc4d7b2c7bf7d1"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_full/metadata.json",
+      "bytes": 892,
+      "sha256": "46ef52151cbee13d773f6c507c2885d6ce5ae4a8b284217cb4095f5db8acda52"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_full/summary.json",
+      "bytes": 781,
+      "sha256": "b728c2416cfee131d1625dc20e92c7e2e57769d3981e180b9b20d500acc6881c"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_geo/epochs.csv",
+      "bytes": 2034,
+      "sha256": "d28bee370b5e3d3f3913b5ff2a7188a0c29ad5290642a5f47a12700118bedf1a"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "4af745f8b3ab2a02ce29707895c2bca54fa505c49931dfab754fd65bbb4951b6"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_geo/summary.json",
+      "bytes": 774,
+      "sha256": "15cb82f22969c56f5d728cf0ae5eabdbe7b80a7f255cc00679b829d225b28787"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_baseline/epochs.csv",
+      "bytes": 1895,
+      "sha256": "5118fad2542d0d28fe94e6a6fea1ed8997a7c818b047374e7bc51b41fad65617"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "8e530e9327bddc9bf42f139eb06b7696048c539b7f7f8c902aa69d51a635873b"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_baseline/summary.json",
+      "bytes": 786,
+      "sha256": "9b360c0d51bab14c91dd9d56643a68783fc7999187b6b8918a67532a034d5a0f"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_full/epochs.csv",
+      "bytes": 2061,
+      "sha256": "72ac8069f0766c5a2e85bfbfc0e0613695275df0f037898e950999b375ece036"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_full/metadata.json",
+      "bytes": 892,
+      "sha256": "b3484a697d85bc98bfca944b9f0b855ddb3084ede21bbe6f65c51e9aac12d65c"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_full/summary.json",
+      "bytes": 780,
+      "sha256": "43a07ed4da84a6c8651bb1c0fa9afec632efeaf8c8d129c8e099d400cd8c1483"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_geo/epochs.csv",
+      "bytes": 2030,
+      "sha256": "a6a071faea7edcd7944ff91c7d9179487c802f23baeea3f3428a1efab85b690f"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "6e52687adf307dd21653f69b90a280ce38a6f2dc5d69a63b0a35794b547c6a6e"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_geo/summary.json",
+      "bytes": 782,
+      "sha256": "e1cc250926811d751832ffc5f6868d8ba212146ba59c0b12a1dfef032ea8ddb8"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_baseline/epochs.csv",
+      "bytes": 1896,
+      "sha256": "65a076ba71963fc15152cbbdf265d4a4d8fe73abc4d55a81a2c6df508c69547a"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "add10d90a621f5e1e98b10977a721de265b54e5e2fc33887336f367f80dd8810"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_baseline/summary.json",
+      "bytes": 782,
+      "sha256": "6b31d44852f8de46b3f9696b3d884af8264c76fc25db0814550bf35081986816"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_full/epochs.csv",
+      "bytes": 2075,
+      "sha256": "018684ce051e03768fc6eb426291ca33acb0ba17425b92e76ffb3304961dfdc7"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_full/metadata.json",
+      "bytes": 892,
+      "sha256": "8cd07441dfe46334b65f9c2f9e5a6c277b00002d1aed2facdd9ee2b5ec438e2a"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_full/summary.json",
+      "bytes": 781,
+      "sha256": "54435fe5e53e5fb8268b457b38782f6583cd2662b0122fe3a13c013a03f37f39"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_geo/epochs.csv",
+      "bytes": 2036,
+      "sha256": "e30f4c418a9995117ced208eb7b1b8b5fe33910554a7399f58190d4d6396039a"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "8bda185daf1611f9009df1bd4f7ee84be8947c6d47a36411a45126b202ba39f1"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_geo/summary.json",
+      "bytes": 776,
+      "sha256": "18ee1d1e1f153b30d12cb4a05749ff101ae03442cf528b2ddbc004c9e763581d"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_baseline/epochs.csv",
+      "bytes": 1894,
+      "sha256": "e218d0708eecd743c9c0495d09c93092c4f4b0969f7873666798b0055aec1a9c"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "8a0cde9cdeb9a020f2c686353b906b2c42dc067933e3f7400c772dbd0bc0b8c1"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_baseline/summary.json",
+      "bytes": 783,
+      "sha256": "f552c74b2119380f6dc94cb261b3b010719f153e653cdfa8aca0fa6c81f593a3"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_full/epochs.csv",
+      "bytes": 2071,
+      "sha256": "81fc61c90dcd852f994bf653d032f4d5d8b264c695548c745a69a39f46b781e9"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_full/metadata.json",
+      "bytes": 892,
+      "sha256": "1a29fc7e0d56029e6b01f7c2b957240b5da4ecdce325dec6d5021f75e7491488"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_full/summary.json",
+      "bytes": 779,
+      "sha256": "76eb399074ceb530e8d6751bdac7d482ae2d009414792606f2549143bf61ad49"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_geo/epochs.csv",
+      "bytes": 2032,
+      "sha256": "b152aa9e65d6fa92dda2adae58f8b58a4846eda29f220b7ba97ec05c67e09dbb"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "34b3062b31c8809169dd4502d3a0e6491e6d30f2aeaf87c816e2a44faeb9ee44"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_geo/summary.json",
+      "bytes": 778,
+      "sha256": "9cb8f6af5e519d9e8bc72c43aa784f3bb57570bbc089d6ff94587d721eafb9aa"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_baseline/epochs.csv",
+      "bytes": 1896,
+      "sha256": "09d14d0d1bb95922dce4a2737136d4aa39854b2fd890ec0cfd5f223b6270c731"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "358cbb576132072bd1e0167e86709b9002d33642435c78da1c40c056ffc26935"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_baseline/summary.json",
+      "bytes": 785,
+      "sha256": "223ec17cefbdd073865eef50a19619118b44997397afb55fe7d045242e6a869f"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_full/epochs.csv",
+      "bytes": 2072,
+      "sha256": "5ff6be3c87371de2716c1e3c674a58f7e9946060d6a5b255c2aa90a4277dea6e"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_full/metadata.json",
+      "bytes": 892,
+      "sha256": "f5cab7f259d18bd50268d0776ee0e756911cbd3d375c2128b600f24c0c02ff26"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_full/summary.json",
+      "bytes": 777,
+      "sha256": "f6f0961609b04703cea71ad34f0f33343f6723ddc1091c5496d4419ee0ae4524"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_geo/epochs.csv",
+      "bytes": 2043,
+      "sha256": "c5122c8c651d9287cca88c0497a6ac93b4e1017de3c1d507d0b26b7056dec048"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "999569474e9cb5fe03e3c17e71ee2d9e154d169ae8fd8b720cd62b9b9584f6e8"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_geo/summary.json",
+      "bytes": 775,
+      "sha256": "81be810465c881ad09b14b720f2473b2b92453f08d8d0e6b3f6eaebb3db44b9e"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_baseline/epochs.csv",
+      "bytes": 1884,
+      "sha256": "d39ef598d74c6bc548cbdba461c3cc44ea98a197bc5c6a5b0f7d74f9c3fc828e"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "6590f348bc2df6a893e8ec2390361f412bf09811fd1cb6edf104f539c8f45e2c"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_baseline/summary.json",
+      "bytes": 782,
+      "sha256": "dc0df3b718f417fb6a5f58320c9729e9c6250bde2a1b8e157f65910815929dec"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_full/epochs.csv",
+      "bytes": 2058,
+      "sha256": "b4f3d701818b50b7a458ff02a948eede722ed4043d8f78c2f9d71f603aabab15"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_full/metadata.json",
+      "bytes": 892,
+      "sha256": "bfddb64c80b5136e49ba9f3cb9cc540b98a552370575bde2f707e10b087eb976"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_full/summary.json",
+      "bytes": 779,
+      "sha256": "ba7a1c05161ccce4b1d8d6ef9f931ee402728517f225e1072243f460a996b19c"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_geo/epochs.csv",
+      "bytes": 2028,
+      "sha256": "8381cdfec8bb2e47f8d2f0dc65cf04becd6cc6e1301f081d757f106dbe0f9e29"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "e85fb2008c2d7d4e48eb899eb076a05006a9f1bda1e6b231b157d3321e00313e"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_geo/summary.json",
+      "bytes": 773,
+      "sha256": "445afde5017801fa120243d1ba67080a3ed67d08d5f9738a4552196781f5b94f"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_baseline/epochs.csv",
+      "bytes": 1885,
+      "sha256": "108129ffd2042dc49aa424ae621d3bf5b33784285915cc9642691b15754dc838"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "e76236c8c87d6e7e089bdccf44aa88006e458544679099818e32a5f249f70a21"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_baseline/summary.json",
+      "bytes": 782,
+      "sha256": "f029a30cad1aea542f6c7e15966d34a0ecace39a36fe6e0d857bc62272281c78"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_full/epochs.csv",
+      "bytes": 2071,
+      "sha256": "ef55aeb4c842df583ffd0d2f806bdbdf5a5b7072f35d0f0bc98a7f1ec6b805b3"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_full/metadata.json",
+      "bytes": 892,
+      "sha256": "b525d10361b5f3fdc75b148626c35df4e5b9038c7b8426b9ed35686c0a4e96e4"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_full/summary.json",
+      "bytes": 778,
+      "sha256": "7d98e67f00623a4e666061a641fdf4a9f343c5e0c8df9c0a419f764727645c44"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_geo/epochs.csv",
+      "bytes": 2034,
+      "sha256": "8526ed57f6e7ed30bfece569de2a3dbb104466bb9e7570e79ace48f059fff7a5"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "c66d22969e77fd43166216f94dfbf5341bfd934e35d434633cc4b9e3f2d4dc2d"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_geo/summary.json",
+      "bytes": 777,
+      "sha256": "d98617377b351f2b3cdc299e3af70d072d07e6b18f71e88199839cbd908fdd8b"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_baseline/epochs.csv",
+      "bytes": 1887,
+      "sha256": "d94ca19eb360e2f40bb794f24d5f87d1c40c7ba6050292001f37c4650b1af019"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "d0e551015019fd926e86e608da7e4d9184af651cc4e70e2af9bc16afe5e4c0c7"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_baseline/summary.json",
+      "bytes": 780,
+      "sha256": "c26be64d97f452862cd0768a77901469797253f481110cc220df02d4b24d499d"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_full/epochs.csv",
+      "bytes": 2062,
+      "sha256": "3e1cd160bc9cb4f27220f318748c574e51cc5cd10a6bb05cdc86c5a30e595efb"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_full/metadata.json",
+      "bytes": 892,
+      "sha256": "afc46f2d4dd98574b0466ac84c94b6981a0ea54eee118ccd0f068c8881175edf"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_full/summary.json",
+      "bytes": 778,
+      "sha256": "b01961798d42b671556d911fa825c26f28dcec225e7bc2bbcc2a26335da43cdc"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_geo/epochs.csv",
+      "bytes": 2032,
+      "sha256": "5c5c9621e3ee5a383ec2de9a1a648022161703fa510a43d6893e170f2f484c6c"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "c25a9f5f9ff4fbf30ca89b84e2c9ffd9a2e4138505ec80a0059b3a43f98b8d7e"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_geo/summary.json",
+      "bytes": 776,
+      "sha256": "1b333fd57a3c76df3098890c667b3a090696aa321aac2e9054094e8a7c3fc07f"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_baseline/epochs.csv",
+      "bytes": 1879,
+      "sha256": "845b1e299650d25e5b8b2d5c79a05637c7ca50c482a7af9f24715cfbe23197ae"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "8339ee084779f6baac28ad4427468bcac5a498b70f9b60d4fd272bf104e472be"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_baseline/summary.json",
+      "bytes": 778,
+      "sha256": "4ae7dbc8163cbcbfcbb2204916a4ad7a34f4d4206022338a3bfaedb6a25d4913"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_full/epochs.csv",
+      "bytes": 2056,
+      "sha256": "22cbde58d5b2deab908e50257ca48582feff524955c3cbcae7ce3c92ee538b63"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_full/metadata.json",
+      "bytes": 892,
+      "sha256": "d2fb8f90909e069458fcdbd0d9215e8794037230a8eeee9579e4720f14b9e8ca"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_full/summary.json",
+      "bytes": 782,
+      "sha256": "2aaa9b546a824ba2ded443223cb29a7957bd9587892cff491bdd56dde4b94c7a"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_geo/epochs.csv",
+      "bytes": 2033,
+      "sha256": "b2592f5a4fc9a637ed4d136327689eb7a6f9b07f29428714785f79b3babc636a"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "573a706e164d4c88cd2dc5e32ce108c80c5c240db46aca20714bb5fe905c268f"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_geo/summary.json",
+      "bytes": 778,
+      "sha256": "807128a806e35698155938316242720fe0f0afc8a2a5cb4cf53d71989d6d3392"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_baseline/epochs.csv",
+      "bytes": 1887,
+      "sha256": "76ba52e8ff941a8ed6b41576c80b1771ca822cd2d2d70df3ca42d9148e051572"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_baseline/metadata.json",
+      "bytes": 903,
+      "sha256": "91f2d13e4573f77a8bf473a27090d1d2d11e1da4bf640d95320bbe179a6df4d1"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_baseline/summary.json",
+      "bytes": 784,
+      "sha256": "a0e92b414d6bb4438d724a996a7568416aa65f64cdc520aa3fd7320adf18fd58"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_full/epochs.csv",
+      "bytes": 2062,
+      "sha256": "9cad6c86e49d412b5c349853602661dedead0dcb113c536f2377c9a6bd138ffb"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_full/metadata.json",
+      "bytes": 892,
+      "sha256": "dfde3a1456a9a9668476f393e0d43387459bb334dec36141dccf37dcb7894fcf"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_full/summary.json",
+      "bytes": 779,
+      "sha256": "3fc765902a0aaf5b91f4e225f05dfa8ef4b0a64f1d380f24a9c653f92457db05"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_geo/epochs.csv",
+      "bytes": 2032,
+      "sha256": "70265ace3486109a7fc9aa2dac0f541ecf84c4a6e31702490ed50cfe77c1ba01"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_geo/metadata.json",
+      "bytes": 887,
+      "sha256": "f20fa430fb24ba075da584c8a8433268ae17dabf450290bd97518f29a492d9a2"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_geo/summary.json",
+      "bytes": 777,
+      "sha256": "e5e959181eb101ead526463f97e51b8396e1b5f646294353296dada82bd96a29"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-es_seed1_baseline/diagnostics.json",
+      "bytes": 1431,
+      "sha256": "3baa8493a0991ae4085c09d36239d723d375ebc4036fb2c673360d8b579c32ea"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-es_seed1_baseline/extraction_report.json",
+      "bytes": 867,
+      "sha256": "09a31274301ebf237730ddb0c0b1e14b8ee7202d05a00b5920174726becb6e5d"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-es_seed2_baseline/diagnostics.json",
+      "bytes": 1427,
+      "sha256": "cd3a9f926ec15f8408fbd618234327fea5032a7b22ebaca44a6a2ca193be8a7c"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-es_seed2_baseline/extraction_report.json",
+      "bytes": 867,
+      "sha256": "4b945967321472e9202219d5aa2412eaab66e7e73391a5ad29915ca9c5672b73"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-es_seed3_baseline/diagnostics.json",
+      "bytes": 1431,
+      "sha256": "d2f6de49b9d0d5ee34d3407eb1ccfb84bd85fddfcbd81e03a273047a356854d9"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-es_seed3_baseline/extraction_report.json",
+      "bytes": 866,
+      "sha256": "6dfe5c1683db9e8d8dc65633a6d5a32359d29070100168fa2a6601496b5cf244"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-es_seed4_baseline/diagnostics.json",
+      "bytes": 1427,
+      "sha256": "0caa9d692781ea1eaea96804b1ef0682cdc90858a9435b7bb522e8178467fb60"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-es_seed4_baseline/extraction_report.json",
+      "bytes": 866,
+      "sha256": "bd0cec0968905c11fa999fe1981d1895b3820c508674ec9e91d6d52d095b4b7e"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-es_seed5_baseline/diagnostics.json",
+      "bytes": 1430,
+      "sha256": "02847c66ad420b41a2c5208d3cbb0a3e2c19257b0a901e1e1ceaa017cde1296d"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-es_seed5_baseline/extraction_report.json",
+      "bytes": 867,
+      "sha256": "27b0fada5a8f075fe73139eb780f8ce9446d91e1043c6ed408202e477e152004"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-fr_seed1_baseline/diagnostics.json",
+      "bytes": 1434,
+      "sha256": "6cc4e55c40a6f5a4784d0d81c9d6a6aa12bbb66692eea91049aec2b98bf90748"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-fr_seed1_baseline/extraction_report.json",
+      "bytes": 868,
+      "sha256": "ef6905d0899c2c1ae5f185e59ce05c421904dc64acf1d8b122388c2fe2cc4e01"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-fr_seed2_baseline/diagnostics.json",
+      "bytes": 1432,
+      "sha256": "c33e96fe4d31a73ec3c1688accbfb762b2f322fb610e6c25e75af0321ee926ff"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-fr_seed2_baseline/extraction_report.json",
+      "bytes": 865,
+      "sha256": "09e254711f259291b63c468c2611facb8bdc0a29da23a111b8105c08e60e750e"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-fr_seed3_baseline/diagnostics.json",
+      "bytes": 1433,
+      "sha256": "e37e43bebbd8567ceed73ea46b6e3a065d97ca40552964551637f30ca073ff9b"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-fr_seed3_baseline/extraction_report.json",
+      "bytes": 867,
+      "sha256": "1e7bfdd66dbfc7766ef5dc5891702e0587a2f7f20738256726ac8c002093027a"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-fr_seed4_baseline/diagnostics.json",
+      "bytes": 1435,
+      "sha256": "c8f7c7b9fd1617503bdddfc4904a6287eb95ed4bb91db398ab191cfd1c1410d8"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-fr_seed4_baseline/extraction_report.json",
+      "bytes": 868,
+      "sha256": "00e45be8e3f653f1c4c658c5290703ab58ff3b8dbcdee849fdc05289ac415969"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-fr_seed5_baseline/diagnostics.json",
+      "bytes": 1435,
+      "sha256": "1372f2b2c0d2c64e2a96075b0405ae33c95acdef89d7ba4be417c8dea0a69b22"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-fr_seed5_baseline/extraction_report.json",
+      "bytes": 868,
+      "sha256": "f2bdc9e93c5394b17730730fdcfa15f38259c12b7b362144a2de3976fc90d17d"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-it_seed1_baseline/diagnostics.json",
+      "bytes": 1430,
+      "sha256": "8f9627d486143a18e6c9fbc7033dc2dc1ed90e8cf98c813e2777d7c77a73e9cb"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-it_seed1_baseline/extraction_report.json",
+      "bytes": 864,
+      "sha256": "c61083811df80085f38b02555a054193c7b008d0bbe22ba8b1578670d18dbe8e"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-it_seed2_baseline/diagnostics.json",
+      "bytes": 1431,
+      "sha256": "d1387aa76e3bb6b10264898c704cdc8ea9960dc9b4cb8d81541c7dca7e64be79"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-it_seed2_baseline/extraction_report.json",
+      "bytes": 867,
+      "sha256": "085fdaa55ff2e1aab5e2c67253f0c801ca26f0f2a6c18d2eb9659b52d8ce6652"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-it_seed3_baseline/diagnostics.json",
+      "bytes": 1432,
+      "sha256": "f7ff301d25a8d2707785858d4448b01589eae4414d3ac544ad466262fefd4955"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-it_seed3_baseline/extraction_report.json",
+      "bytes": 866,
+      "sha256": "ae7337f4a2eb253bf5e263ed191468d809c80dc71a579c00dca9fd53d8435eeb"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-it_seed4_baseline/diagnostics.json",
+      "bytes": 1430,
+      "sha256": "a5b4700631a136c0849bad9c09403c794cc299cd0c4b035053b7307a691a6b67"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-it_seed4_baseline/extraction_report.json",
+      "bytes": 868,
+      "sha256": "e44372267fc976b402b8e6556582f21201563aa2d94508bf768b30e0d08d2c7b"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-it_seed5_baseline/diagnostics.json",
+      "bytes": 1433,
+      "sha256": "cc39d666693299e1e8cf3bfe49d9356e6a3656e5df39d24a63f4cbc97de4090e"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-it_seed5_baseline/extraction_report.json",
+      "bytes": 868,
+      "sha256": "df8d97c71c59e0c021497cbb3c9fd0c10ef5a2a3b6b554df24ad24096e6107b8"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-ru_seed1_baseline/diagnostics.json",
+      "bytes": 1399,
+      "sha256": "32252ed7a8aef1d18408ee8355e2041f2585a2a194767aaea81c91c7aeb56384"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-ru_seed1_baseline/extraction_report.json",
+      "bytes": 868,
+      "sha256": "340581fd844912de4fcc4be2bc43887dfacba9f559647c79903369c1fe86977c"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-ru_seed2_baseline/diagnostics.json",
+      "bytes": 1428,
+      "sha256": "94816c8eb596de146e19036cf289c0a904b089ad45b8590d6043e43787bcbbbb"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-ru_seed2_baseline/extraction_report.json",
+      "bytes": 865,
+      "sha256": "32819db956fca8471fe70fe526b5bef8ba4b3e41061edd3388155df56543709a"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-ru_seed3_baseline/diagnostics.json",
+      "bytes": 1430,
+      "sha256": "f998ff328a5f1604d965969001ce367fd6b3810edbec5fabf374003ee286afd4"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-ru_seed3_baseline/extraction_report.json",
+      "bytes": 865,
+      "sha256": "c7a8b7361cd835c4348aa44c1022c0452c87b8aadd95349bafca72734ef1c934"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-ru_seed4_baseline/diagnostics.json",
+      "bytes": 1427,
+      "sha256": "5dca57a4fe19cbd3e338f56405a3e58b01911a59b0fa293cacc1ecf83c5fee3e"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-ru_seed4_baseline/extraction_report.json",
+      "bytes": 863,
+      "sha256": "365401e0a30db7ba2686e4c8d2f95f7fd9e33b99ebe2c64f7b7bb7b96a98d0f8"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-ru_seed5_baseline/diagnostics.json",
+      "bytes": 1431,
+      "sha256": "a2d31eca0871df7c8de89c7ce807678afd286ba510e798cc0b7821f19b39cef5"
+    },
+    {
+      "path": "thesis/results/e1/a_embeddings/en-ru_seed5_baseline/extraction_report.json",
+      "bytes": 868,
+      "sha256": "6817211b3d5d458850ce1c8980f0b69498166b7d37dfd680f683b9daa1ab5abd"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-es_seed1/results.json",
+      "bytes": 2233512,
+      "sha256": "15a4ad2302786a143efd4e91e72fb5fb304c4420eb07d540e3d75b9cd58586f4"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-es_seed2/results.json",
+      "bytes": 2233577,
+      "sha256": "62d1bd8fd1d229a3317fbc71b781205ab8353e3530bb51dbae39a87a0671a5e2"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-es_seed3/results.json",
+      "bytes": 2233303,
+      "sha256": "e37375bba5a301c3bb7a552762110c3f77f0026e820aa10f509ece489cbb8053"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-es_seed4/results.json",
+      "bytes": 2233719,
+      "sha256": "4114375c5b1de2a6d73e0c8bdd8ed56db32070b2fa8568ad4a60d4aca2cf2b33"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-es_seed5/results.json",
+      "bytes": 2233288,
+      "sha256": "a0e39174cb836e87a36cfd5a9816dd884c81e16aa89b8f570c80f71070e6b7c7"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-fr_seed1/results.json",
+      "bytes": 3039632,
+      "sha256": "6d6e44c471f45d2e11fee3e7d06b857ed9f60533f61e4791a2498df5f9931c3e"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-fr_seed2/results.json",
+      "bytes": 3039697,
+      "sha256": "c664b29b33b382beb48a9415c67eec4a9ecfb510c97332098b0bd5785148b011"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-fr_seed3/results.json",
+      "bytes": 3039580,
+      "sha256": "5730588972b628b9b8bcaa936ed333287333ca266baad29b917fe035421052d2"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-fr_seed4/results.json",
+      "bytes": 3039520,
+      "sha256": "45197963cdb3f92aeacd047b369584d481fc78836824c17146dc8533006d5c5f"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-fr_seed5/results.json",
+      "bytes": 3039775,
+      "sha256": "67646e4d1caf333587b0a90127371def173f3c31a35fa8966fbe39775554aa66"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-it_seed1/results.json",
+      "bytes": 772961,
+      "sha256": "3782c6b1ca5569cc59f750e34579e07cff33e07533862f182968b5b39b290c53"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-it_seed2/results.json",
+      "bytes": 773009,
+      "sha256": "3c15a62c95e543f8a28a8dda173ed202e6e58fd0ad0268cf2afed22a084becd2"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-it_seed3/results.json",
+      "bytes": 772969,
+      "sha256": "96e4fddd0032878655f1665a2c221db069fae73d6c2c8db7f33a56b30ab150c3"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-it_seed4/results.json",
+      "bytes": 772956,
+      "sha256": "fae451881fd9a74da7e35cfb55cd3526b2637f3ef5343916b5f0c6f436bd1e4d"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-it_seed5/results.json",
+      "bytes": 773013,
+      "sha256": "81da33a243f92514f7db5da010587124adaf71f3427a01028e7c5fbc1bb7a5f4"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-ru_seed1/results.json",
+      "bytes": 419732,
+      "sha256": "a52d9b3497e7f7d4e421442fd93cdb4bb355bd7c8e9cfc4f2e5f9c732df1e021"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-ru_seed2/results.json",
+      "bytes": 419829,
+      "sha256": "d0e75339bcfb8d6a668ae1b994d9e476faba3d8c78a4284a4f569ed85b82b3f8"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-ru_seed3/results.json",
+      "bytes": 419660,
+      "sha256": "caf043f1f54342de964053b44fc3aac2527185c6ca6c6900df22cbbcb2817dee"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-ru_seed4/results.json",
+      "bytes": 419717,
+      "sha256": "b93c7dfdb8c3e6fb17464171479646cad5dc2226f318fc83b18942713ab57fdc"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/full/en-ru_seed5/results.json",
+      "bytes": 419760,
+      "sha256": "cc75439e2ca84d270a08477cf2e953ca0f826d38fa8b267c87c94079a5c77306"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-es_seed1/results.json",
+      "bytes": 4832,
+      "sha256": "bf4d0a87b0ee5b154e01e41e94af68858d41f09b2da78c67a7ffb196324de159"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-es_seed1/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "25bbcba46064742e9f8d8d9c598883439b3f5798dafcbd864cbaca9bebb298f7"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-es_seed2/results.json",
+      "bytes": 4869,
+      "sha256": "8b90c57f7ce6f15f3001111e529df86a624a7815dbafe2b443671f09368da4bb"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-es_seed2/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "96846680125b90d030dd69151129ae09839cca130a277b208847350a12e69748"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-es_seed3/results.json",
+      "bytes": 4843,
+      "sha256": "0e9955869c10077b72b147566d418a8b31b462ece419d4743b4d10ba4483357b"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-es_seed3/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "34282c0bd4e3c834b1895c55815a513bb433cd8522ec99881e4207730b36e21d"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-es_seed4/results.json",
+      "bytes": 4853,
+      "sha256": "7e17c02d1899bfbe16e8113f228bbcf8615713cc6d6e7e8002ae495131d34492"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-es_seed4/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "805d47e4f88e197426885e7b2c034197cb306149726a112b5473046d9b51e90a"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-es_seed5/results.json",
+      "bytes": 4846,
+      "sha256": "2a8e6562ffc67d281c84ed8084857cd6aaf82946f7dd4d25e63a87181e0a0323"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-es_seed5/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "86b6b525b4e77ab9e371938512499c17a8958739875f44503a8375480fb6ad23"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-fr_seed1/results.json",
+      "bytes": 4844,
+      "sha256": "13dfc6226058aac3af2f061fd9509fd587fe45aa1890c1cb1517c5c44cfe34c7"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-fr_seed1/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "51d404295cc33985283ccbef7307254b9da6d87e6198d2f69c42dd6fdea2c8b3"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-fr_seed2/results.json",
+      "bytes": 4827,
+      "sha256": "6b7ef44dd5b2f6055d49a1a49b371b3e882fd72a76b9097295223834f3b22487"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-fr_seed2/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "943dca4a58d61dbb74c65d4fab0f565173f4955b725a12d1514bda20c25b9efb"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-fr_seed3/results.json",
+      "bytes": 4847,
+      "sha256": "4e26aa048a93b6c81a8d6ef31ce62b3acd65b00179b63b5e05244fdc8205c3ad"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-fr_seed3/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "e1d1d951914e0bf2245e75ce48ee7afd2099e7273ab3d04828be38e2bbc0a9fc"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-fr_seed4/results.json",
+      "bytes": 4817,
+      "sha256": "c93aedd6cc684764eed9cde99854e70d707239b1db7421a267be828d1048378b"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-fr_seed4/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "4c582faa25d497ac592fc54655047ae988e8ecb69f02d35f5a2ac3e5a6edb579"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-fr_seed5/results.json",
+      "bytes": 4815,
+      "sha256": "90d72f13038d546bf37f67d56ef660928a0b9ea1f20a55ab8c6657aad98b73c1"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-fr_seed5/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "8f552a7fe9bb4c9e1199b4cd58cd57245e11f1b8173ebedd8fba4dee83977d06"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-it_seed1/results.json",
+      "bytes": 4843,
+      "sha256": "c593b9ab0db64d1956201334f31eaf22b1d72e0db9d41d3e0c566e15431feb49"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-it_seed1/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "11973ef26ad6157960f4dc1f7e78675d8781db194d5d453946d49900bafed391"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-it_seed2/results.json",
+      "bytes": 4856,
+      "sha256": "30d8a31a0afd51df027fe4a0e97d3614a90fedc1f8f7a726805b722a0cf66342"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-it_seed2/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "88057fb2dcd465cc51e1614980ff255edc79cc3d0e0e91fe09b53dc3a5276cf7"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-it_seed3/results.json",
+      "bytes": 4843,
+      "sha256": "f1cac853483ad1c91688530d46819e4019bddfec54b462a5c585bdb5c994d2bf"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-it_seed3/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "ae79df8ffc76141eca11c32877c3f93ce0d25d9d22b54a9b85654ce75ef1d4ca"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-it_seed4/results.json",
+      "bytes": 4819,
+      "sha256": "38267454d9bb2c851bba2d0a2afaba93159c7aeb09ae6327b8352a78cad9c2b6"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-it_seed4/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "a0e8ce79971094f33f11723215789a9679f5fc8eb9aad003e390c1a20b930333"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-it_seed5/results.json",
+      "bytes": 4821,
+      "sha256": "aa70fc11b1a86963aa5a9dfb49490a23d15dbe56ce7ddadc77852fc2393b294e"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-it_seed5/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "896705f8aaae70f79f2a2462e11945e8a14d4a9ccb9ef6d538eca94c6a781120"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-ru_seed1/results.json",
+      "bytes": 4848,
+      "sha256": "151fb85c925f3467b5a29b8d72e1e30776c6043b98439b9cbac526acb92bdb08"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-ru_seed1/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "e2867e01df0d5e407a85ecb57b66e2026f1ddc8a8e10bd9f872b3b9ec483ac02"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-ru_seed1_failed_before_state_isolation/FAILED.txt",
+      "bytes": 53,
+      "sha256": "fee4c4ea8101c43d7d3246ddebf2db210d99ef38a8ec66e20a599fa9cd59f08b"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-ru_seed2/results.json",
+      "bytes": 4838,
+      "sha256": "5f6dc708f195335051cf454fa31fa3be4ba72009f4dbf3fcc2899110a4cfa4ce"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-ru_seed2/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "bd0fc3f03b6e980b28dac8b4b110936feb17562f8e6d0e08d2252d651c17baa1"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-ru_seed3/results.json",
+      "bytes": 4832,
+      "sha256": "2b3845c545d0a4676189fed26cd106302bf2bab2b6239c6fcab3f8d35a73d39b"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-ru_seed3/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "b786ce68fa0e52c8f9670c3ee372fb72ff291c4e7c350defc1b170e5f2549c4c"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-ru_seed4/results.json",
+      "bytes": 4828,
+      "sha256": "56bb197965ab1b9bcb516c5a69197b6cba330f4033410da64472823dd466501c"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-ru_seed4/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "56f47983cfa4fdeffc98d996cac2ea67f907bdbcf16299d35294ce40954f6110"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-ru_seed5/results.json",
+      "bytes": 4853,
+      "sha256": "4c4eab1bdc6d0dc19320df01baebb5ccaefaf745d795b5e7baf4ec4bae111779"
+    },
+    {
+      "path": "thesis/results/e1/b_interventions/smoke/en-ru_seed5/smoke_gate.json",
+      "bytes": 403,
+      "sha256": "956a44610c4d71443573e56aa0434ba7e2f579008a05a5551bc5294586d6e78e"
+    },
+    {
+      "path": "thesis/results/e1/e1a_diagnostics_all_20.csv",
+      "bytes": 10365,
+      "sha256": "61ccb3794b05dfefea35102abb5bf86c14bad27eb0f2255ed6db9cc695f82f00"
+    },
+    {
+      "path": "thesis/results/e1/e1a_diagnostics_summary_5seeds.csv",
+      "bytes": 3678,
+      "sha256": "016a7d25fcf1ecd9c19684d14c338cf57fc0e1c16618a325de790a9f2f1d8397"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/full/en-fr_seed1/FAILED.txt",
+      "bytes": 59,
+      "sha256": "9d5d5971f675f49e57f3edc16636495ab6dd6ef8752c56e55f2e6fb0b2ed68ec"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/full/en-it_seed1/results.json",
+      "bytes": 587202,
+      "sha256": "8b7da2b89bc2054fa1717d9e1c8088027015bceba5e41025cd11ab0ed50c97c9"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/full/en-it_seed2/results.json",
+      "bytes": 587314,
+      "sha256": "5f39220c3aebae0944c7a90d4db41dc151007c203588024958c88388431be010"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/full/en-it_seed3/results.json",
+      "bytes": 587276,
+      "sha256": "3de547d894400a085d924f6a54290bb71adb753ba3649774c61c20b2d50dc763"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/full/en-it_seed4/results.json",
+      "bytes": 587391,
+      "sha256": "72db2967937277fbd0d995a0eda517b380fa57aa7d28c48bb4f703d240560275"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/full/en-it_seed5/results.json",
+      "bytes": 587195,
+      "sha256": "9dad458f12c9ca5a0887c3ce514cd9ead46c68fd315f14e1417492d896eea54b"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/full/en-ru_seed1/results.json",
+      "bytes": 318932,
+      "sha256": "1bef7ea656ecb471778c349b97efd9d708cd1f03df41d19e5850d4c9c722aaf5"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/full/en-ru_seed2/results.json",
+      "bytes": 318648,
+      "sha256": "55f1a730fc4b1b258db84ed208759caf297bce6d54c7994179d15f2cfc2d79d9"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/full/en-ru_seed3/results.json",
+      "bytes": 318598,
+      "sha256": "978b026eb292d6fd6af96203185f66aa4cd0844b5a45742e88d310114e39b3ba"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/full/en-ru_seed4/results.json",
+      "bytes": 318793,
+      "sha256": "fe6a3ed7cc1b8ca575e41fb0353d8a71a5cbbdfeca13030b5024ba4c17d36c66"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/full/en-ru_seed5/results.json",
+      "bytes": 318739,
+      "sha256": "1556ba26e2bf47feaf4b169a7dc7df4bb1d20ecbe6ac07c5196b5263b697bfab"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-fr_seed1/gate.json",
+      "bytes": 794,
+      "sha256": "82a81d674c71387b19f293343b018ce6ca2804f0a1b4df7d3070755b1e12ed17"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-fr_seed1/results.json",
+      "bytes": 3647,
+      "sha256": "7c0aad684c1596a13a7bafe8254f3d343774182ca94aae89166a811c9fa552ae"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-it_seed1/gate.json",
+      "bytes": 794,
+      "sha256": "d821f3dd5889ed5e26d6e4ecec0f9d8a3a2935ebb5d6122a9ef37d9b1d61ca21"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-it_seed1/results.json",
+      "bytes": 3651,
+      "sha256": "cb648f5a0e6b6ed5a44736582a2df622d53868f8b73da699b23b6fc00e01146a"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-it_seed2/gate.json",
+      "bytes": 794,
+      "sha256": "8b7057aba28e71205800df9265ee508bf87a2b000cbd36509463b65d2b98090e"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-it_seed2/results.json",
+      "bytes": 3651,
+      "sha256": "067bb31dc509211d55e544e4041792598f0753f2c57abbb5282dffe7bd622ac6"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-it_seed3/gate.json",
+      "bytes": 794,
+      "sha256": "e42bd14ca4334eac1acbdfa12590118d94523d41958449ab1b1a2bd9d5ffbc09"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-it_seed3/results.json",
+      "bytes": 3654,
+      "sha256": "66f502d5e9c3fa48b3b01a96a72a2c3b84cd2723dc856058c389316c513f1398"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-it_seed4/gate.json",
+      "bytes": 794,
+      "sha256": "3af45f41644f2185644cb73de43160651a8cac70c3e6f3be29974d6026c1855b"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-it_seed4/results.json",
+      "bytes": 3644,
+      "sha256": "cb06a0330414845592e4bcced65604d485cf64bbcd656da5084d933ecabc456c"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-it_seed5/gate.json",
+      "bytes": 794,
+      "sha256": "e720f724983df3b21a6fdf42f5e47c8ab3a630bb8d3dbb65e7482db4ad956183"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-it_seed5/results.json",
+      "bytes": 3631,
+      "sha256": "648c8b016e75ca433fe7715bd0befb991b5be02efb838f5ff401b4204ec312e5"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-ru_seed1/gate.json",
+      "bytes": 794,
+      "sha256": "0dca831150c20a55488567605ce4bbe32be1af223d9c132d8ebcc90f4aab225e"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-ru_seed1/results.json",
+      "bytes": 3651,
+      "sha256": "081d3e5f5b2c6ea6147d48212e6a60ce095bbdb9bac982d6173ea9c79d9b811c"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-ru_seed2/gate.json",
+      "bytes": 794,
+      "sha256": "314d840ca55443dd228ea8a924d523254fcc43698983b1c06e2016d80540d7b1"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-ru_seed2/results.json",
+      "bytes": 3648,
+      "sha256": "79005423c0b89fc30d21e721a295ecdc1543c783d497492b45ef66e24efe2677"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-ru_seed3/gate.json",
+      "bytes": 794,
+      "sha256": "62d83280e7f21790e8d5b711949f338c9debd19dea2a9b5a7a8ebc4bdb26f07c"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-ru_seed3/results.json",
+      "bytes": 3646,
+      "sha256": "84ae64f90d26729f0bfaca47da2a762ff8a2be16f7efaf50440f069c6dd1e701"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-ru_seed4/gate.json",
+      "bytes": 794,
+      "sha256": "f0c820e337d8a0897c9478167d20eccbbf18c7e0044bb6f9d2f840a5486f8781"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-ru_seed4/results.json",
+      "bytes": 3643,
+      "sha256": "8dadf4b1f5d44db5d0b56ad36802bc92e9de1d4f6d94f3a22bc12544118ccec4"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-ru_seed5/gate.json",
+      "bytes": 794,
+      "sha256": "dc0ae38311e40dccf3cf9977d3fe39341b1a15fb548f69629ff4c003360ef8f9"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v1/smoke/en-ru_seed5/results.json",
+      "bytes": 3630,
+      "sha256": "f114652e877cf5d0fa9d7c03e0c2b55330b640e864ef1ae7d17bc2f87926683e"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-es_seed1/results.json",
+      "bytes": 1955598,
+      "sha256": "53758f66d91e7cc2687840f012b161490c643154a07a49ae3c9316fbaf802179"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-es_seed2/results.json",
+      "bytes": 1955201,
+      "sha256": "5b8ea8a2150c374e20423621af4312dabe496d50ed4525129ea5dbf2eeba8a8c"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-es_seed3/results.json",
+      "bytes": 1955474,
+      "sha256": "1a1a4be0aa36805d3d4e6a4c545481197956438f09660880544c57b73a136b7a"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-es_seed4/results.json",
+      "bytes": 1956057,
+      "sha256": "f015e84fa41c9b9f00728f8e3825c409bb8a4859799db4dd266d4763e6f072e7"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-es_seed5/results.json",
+      "bytes": 1955770,
+      "sha256": "921adfede97c8ad5a14c290c99a7a9ff22463edede623bbae0de8132ffaac21c"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-fr_seed1/results.json",
+      "bytes": 2657455,
+      "sha256": "eb7a48353389beebd4bea48bfa909f0bf466786792466324af224289c45bf296"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-fr_seed2/results.json",
+      "bytes": 2657265,
+      "sha256": "3f561d977d00f705f5f4b2179486a6783aae534cf289d71e534f6676a9b9fa4e"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-fr_seed3/results.json",
+      "bytes": 2657803,
+      "sha256": "92941e4eb0cb70956b491dcb6a2ccb2e5f02a632392ace8f20150b7fe8b83569"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-fr_seed4/results.json",
+      "bytes": 2656855,
+      "sha256": "8f1ce07b06347a07e54e151ee730ddf4c985c3474df1a47c83cf3b6324df8d65"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-fr_seed5/results.json",
+      "bytes": 2656986,
+      "sha256": "313a566b2c8a5a8fecdbe0390689538ff728b9cccf6af8d6b7c15a5acd2268c4"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-it_seed1/results.json",
+      "bytes": 677809,
+      "sha256": "d0cbe07948ef819881590563014acb7060b67d2dcc333c9b9e198f3e86e5a6fe"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-it_seed2/results.json",
+      "bytes": 677921,
+      "sha256": "b41f216338a7ba8f7ae30debb2b1ed85648bf1b52503b0151c03f5dfe6eea5dc"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-it_seed3/results.json",
+      "bytes": 677883,
+      "sha256": "745d0d9b63a7b80828696c1d8877c34b06cdc2867a88df45a9911a140085454a"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-it_seed4/results.json",
+      "bytes": 677998,
+      "sha256": "173e4accfe5f52e13efb0f6eb49319bb4fcb77ce4013bc214fe6822bc5b02903"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-it_seed5/results.json",
+      "bytes": 677802,
+      "sha256": "f630fbfc94193194b6d2b37d2586fcb00eb4154321a4b9221abe618cd0e46734"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-ru_seed1/results.json",
+      "bytes": 367988,
+      "sha256": "b21b6714c1c42ab85ed5ed7f4a957517ac9f2a30fbb17cd3c97911c874a609a6"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-ru_seed2/results.json",
+      "bytes": 367704,
+      "sha256": "46ceb6628a5a4ea23150391c80d21b282e0485ac24d2eb917c75492df91ef0c6"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-ru_seed3/results.json",
+      "bytes": 367654,
+      "sha256": "7c10ba31317434f33f09a4527228ac62dfd873c2f61d17c863f43d4a8b1b7f7a"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-ru_seed4/results.json",
+      "bytes": 367849,
+      "sha256": "ae194a5d80fb1bd51ff45b6da24bab3afcad64ccfae5f07132639e1278625884"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/full/en-ru_seed5/results.json",
+      "bytes": 367795,
+      "sha256": "babe34c3b5a56e1694443389cc07f3f8a0d1641c83ea091d4a0cac6f073c07fd"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-es_seed1/gate.json",
+      "bytes": 794,
+      "sha256": "f43b1aef1380f5ce5e0b7c79fbb08cee004bdef5d3e63a4d1163f3fa0ce97a06"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-es_seed1/results.json",
+      "bytes": 3870,
+      "sha256": "53bfcbf8831610f3423652ac0dff28ddd4bbbe52cab30ea3b9a804d3976d9f0f"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-es_seed2/gate.json",
+      "bytes": 794,
+      "sha256": "358c2a6c2651cf88e4808f8f4e81e1d38280064a70106749cc5428fb98932a1d"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-es_seed2/results.json",
+      "bytes": 3875,
+      "sha256": "6610257f469d21fd6799eb8f99d32d19f499edd5a7dc9ccf42bb74e7d8ac304e"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-es_seed3/gate.json",
+      "bytes": 794,
+      "sha256": "4fdc7bee0f0f8d7dabd356303fdf9c147782fff650732f1ef0153ec42fb18146"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-es_seed3/results.json",
+      "bytes": 3876,
+      "sha256": "568f6f5932a5ff873bd8bbb2dc0f8e159f484fa7700b3c96febf440eea3f91ac"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-es_seed4/gate.json",
+      "bytes": 794,
+      "sha256": "89812b0854411dc891c26733c951d5043bafd68e14f875de8904504050d57ff2"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-es_seed4/results.json",
+      "bytes": 3879,
+      "sha256": "4b7d2c5560685544be31e72547a68001a8862e075951f849fbb64c4a5ba1d701"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-es_seed5/gate.json",
+      "bytes": 794,
+      "sha256": "9d3487dc669d74a3cfccc539f22dab57ed5695d01300fb86a1336fac968f757a"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-es_seed5/results.json",
+      "bytes": 3877,
+      "sha256": "ab65ce3e532097f076a81ed2dad5bcfc27af4aab62da7df7b0338cbbba3670a2"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-fr_seed1/gate.json",
+      "bytes": 794,
+      "sha256": "eea3cd04e42be386ddc5d69f2fafbb4db2d1a860e57d1c1d69bf37e0d83efe7d"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-fr_seed1/results.json",
+      "bytes": 3871,
+      "sha256": "b360e42a1c3ce174b05fe9f66918794d14f594ed88f69308dfa7e47176919a62"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-fr_seed2/gate.json",
+      "bytes": 794,
+      "sha256": "c3c6d4aff0b3db2b83df82c6137e888f7d2ced3f0d5387b6c35f522465666ae3"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-fr_seed2/results.json",
+      "bytes": 3867,
+      "sha256": "632072cf5306ffafc52811412fa81027b09adbcabae32eb481f7177419fcd70a"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-fr_seed3/gate.json",
+      "bytes": 794,
+      "sha256": "34447134a1a59aaee92664d14c343ad48da1ec2a7ac530957d2abee2994d7eff"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-fr_seed3/results.json",
+      "bytes": 3868,
+      "sha256": "4ba03d07b4f148b6f5ac51cc5cdd662fea70982bad291126b9c9f61aa49a4df1"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-fr_seed4/gate.json",
+      "bytes": 794,
+      "sha256": "d6b3107da48770a1f7e88e5449071b297a93bbcf64f3ff108d12167c5563089e"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-fr_seed4/results.json",
+      "bytes": 3864,
+      "sha256": "c49a58dc7764810382e8122e0d655c8aa061b8269a2805059b59a18188abb5db"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-fr_seed5/gate.json",
+      "bytes": 794,
+      "sha256": "3fa05296af0c6ec99e0acec22efd0bddd9379a0d7d4fc729a36731b9c04d01a5"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-fr_seed5/results.json",
+      "bytes": 3861,
+      "sha256": "26932c2dde488023e646434ff702e77ddf718a0abadbd9137f3b1d9dc11b87ae"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-it_seed1/gate.json",
+      "bytes": 794,
+      "sha256": "f2608d020f29b8d6f731b2bed9bbb799cd7f1994ac35a23cac9ec26c16f7c2ea"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-it_seed1/results.json",
+      "bytes": 3875,
+      "sha256": "4ddab32f5543773a18d16c3ebdc1f546681ad4a5effbd3ef332cc8190a36376f"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-it_seed2/gate.json",
+      "bytes": 794,
+      "sha256": "d745280c3a43ae1a088485e5669ef6ae2a542ebd098514761e89cb2ec5b65796"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-it_seed2/results.json",
+      "bytes": 3875,
+      "sha256": "a9f4db71d8f0f5bb0f58d64296b65505777b00fb4f1f9f3f7613607f1329f5a8"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-it_seed3/gate.json",
+      "bytes": 794,
+      "sha256": "a9a244257965d287dd5fef6002b01df4080c22e2af2f27406275c2aac1c3b166"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-it_seed3/results.json",
+      "bytes": 3878,
+      "sha256": "6557e6f1f6918004c8e4c7d901f57fce0b93e88e09231ab34aad8808b0660269"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-it_seed4/gate.json",
+      "bytes": 794,
+      "sha256": "e79d17ba9f231298920ca86a0f7cc061e63843d6e303155b2aa8de32193121f2"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-it_seed4/results.json",
+      "bytes": 3868,
+      "sha256": "ccb0a5fbf9ab6c46c498e26d0bb1f5649ca039d0b5defbe72d1e9e0375782106"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-it_seed5/gate.json",
+      "bytes": 794,
+      "sha256": "be7a89c40d1ae9b4b655f7d8465a8e45bbd95a0bbe4aa07e4d52d5f75b3bccc9"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-it_seed5/results.json",
+      "bytes": 3855,
+      "sha256": "c4d5b69ba4cc52971f21e76276c77c5306c331acedfd22220067242133059790"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-ru_seed1/gate.json",
+      "bytes": 794,
+      "sha256": "0fd09ccdaa47e1a5203d755705c6c07d8f257bdc8989e303c18aecfba287b918"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-ru_seed1/results.json",
+      "bytes": 3875,
+      "sha256": "c22af82db06cfd8c3716530e27715a80909870d63bfd9bc8033b90362c89ec37"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-ru_seed2/gate.json",
+      "bytes": 794,
+      "sha256": "fd9a14812a3c5a19555c54ee21dd6887cf2fc59e48de8953a344ceb28e2a8225"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-ru_seed2/results.json",
+      "bytes": 3872,
+      "sha256": "2803c646488c8913da62c9e6eeaa52bebb71e48786233a52aae7013b962fff31"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-ru_seed3/gate.json",
+      "bytes": 794,
+      "sha256": "46c1309c20013a73747e4080f206fecc4a44dc2e83c8c657d4c065ef94af1e03"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-ru_seed3/results.json",
+      "bytes": 3870,
+      "sha256": "9a8192094b23c0f93d4ae5e39b70db6157900380c372f66fdb84743f4a429133"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-ru_seed4/gate.json",
+      "bytes": 794,
+      "sha256": "0a4c3d44ee85206abfa6c4a8dd2b8487fffe6b8702ec9b8e946da8bc5ede2fb0"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-ru_seed4/results.json",
+      "bytes": 3867,
+      "sha256": "8a77cd635ab0f263a29cc2a575797b4cfd23f5f7999755bc4a231ecdd9c6fdb8"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-ru_seed5/gate.json",
+      "bytes": 794,
+      "sha256": "58d5141e1371f46618a332f631038c97ea2fb49a2565604d848a4df03ae78ea2"
+    },
+    {
+      "path": "thesis/results/e2/reliability_gated_v2/smoke/en-ru_seed5/results.json",
+      "bytes": 3854,
+      "sha256": "cac00961526a34750a5adaebe055209206815a5f68c4322cc0c745ec4443cd52"
+    },
+    {
+      "path": "train_structure_preserving_multilingual.py",
+      "bytes": 29232,
+      "sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0"
+    }
+  ]
+}

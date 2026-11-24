@@ -1,0 +1,38 @@
+{
+  "phase": "E1-B",
+  "pair": "en-ru",
+  "seeds": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "expected_steps_per_branch": 438,
+  "runner_sha256": "00d0701b70c7714f2d5f4a8b272ed2dd67f8079939064bb7f063a43a435521bd",
+  "seed1_pilot_results_sha256": "a52d9b3497e7f7d4e421442fd93cdb4bb355bd7c8e9cfc4f2e5f9c732df1e021",
+  "batch_id": "20261018T115545Z",
+  "status": "FAILED",
+  "runs": [
+    {
+      "seed": 2,
+      "status": "FAILED",
+      "log": "/workspace/Multilingual-Thesis/thesis/audits/e1/e1b_batch_logs/batch_20261018T115545Z/seed2.log",
+      "output": "/workspace/Multilingual-Thesis/thesis/results/e1/b_interventions/full/en-ru_seed2",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "run",
+        "--pair",
+        "en-ru",
+        "--seed",
+        "2",
+        "--device",
+        "cuda",
+        "--approve-full"
+      ],
+      "returncode": 2
+    }
+  ],
+  "error": "Seed 2 failed with exit code 2; inspect /workspace/Multilingual-Thesis/thesis/audits/e1/e1b_batch_logs/batch_20261018T115545Z/seed2.log"
+}

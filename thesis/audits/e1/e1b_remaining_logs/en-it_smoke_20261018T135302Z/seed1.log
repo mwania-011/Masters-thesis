@@ -1,0 +1,57 @@
+PROVENANCE VERIFIED: historical E0 runner 7b650c86ed3e0e2d6d4bc46f576afa508403d38d; current runner SHA256=daf8e6a1088980328d0c0b48ef72180357957ae661e931fd279ce766fb80b918
+PROVENANCE VERIFIED: historical E0 runner 7b650c86ed3e0e2d6d4bc46f576afa508403d38d; current runner SHA256=daf8e6a1088980328d0c0b48ef72180357957ae661e931fd279ce766fb80b918
+{
+  "phase": "E1-B",
+  "mode": "smoke-test",
+  "run": "en-it_seed1",
+  "checkpoint_sha256": "eed171cf5b17ec90c7c2ea5e16f1ec90c0a4a70a7de543c1b2de6b57fa0dfe41",
+  "initial_states": [
+    {
+      "branch": "control",
+      "model_sha256": "f8c0bb3b0015a27fa35b85afeb60b3f6e9c8cc8602bba671c4d891aeb64f7879",
+      "optimizer_sha256": "a73508dba0bb3801463a7413607a47a41fd453dd39151f2ff5efff2f1832232d"
+    },
+    {
+      "branch": "geo",
+      "model_sha256": "f8c0bb3b0015a27fa35b85afeb60b3f6e9c8cc8602bba671c4d891aeb64f7879",
+      "optimizer_sha256": "a73508dba0bb3801463a7413607a47a41fd453dd39151f2ff5efff2f1832232d"
+    },
+    {
+      "branch": "topo",
+      "model_sha256": "f8c0bb3b0015a27fa35b85afeb60b3f6e9c8cc8602bba671c4d891aeb64f7879",
+      "optimizer_sha256": "a73508dba0bb3801463a7413607a47a41fd453dd39151f2ff5efff2f1832232d"
+    },
+    {
+      "branch": "full",
+      "model_sha256": "f8c0bb3b0015a27fa35b85afeb60b3f6e9c8cc8602bba671c4d891aeb64f7879",
+      "optimizer_sha256": "a73508dba0bb3801463a7413607a47a41fd453dd39151f2ff5efff2f1832232d"
+    }
+  ],
+  "schedule_sha256": "ef338deee0ed10b8bded09acbcc408b82c563a293bc5f008713d2e70c5ef346a",
+  "steps": 2,
+  "branch_coefficients": {
+    "control": [
+      0.0,
+      0.0
+    ],
+    "geo": [
+      0.0005,
+      0.0
+    ],
+    "topo": [
+      0.0,
+      0.0002
+    ],
+    "full": [
+      0.0005,
+      0.0002
+    ]
+  },
+  "status": "PREFLIGHT_PASS"
+}
+PASS control: 2 steps, Top-1=0.976562
+PASS geo: 2 steps, Top-1=0.976562
+PASS topo: 2 steps, Top-1=0.976562
+PASS full: 2 steps, Top-1=0.976562
+=== E1-B SMOKE-TEST PASS ===
+Output: /workspace/Multilingual-Thesis/thesis/results/e1/b_interventions/smoke/en-it_seed1

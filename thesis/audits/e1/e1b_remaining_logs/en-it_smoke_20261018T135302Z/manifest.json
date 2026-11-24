@@ -1,0 +1,110 @@
+{
+  "pair": "en-it",
+  "mode": "smoke",
+  "runner_sha256": "00d0701b70c7714f2d5f4a8b272ed2dd67f8079939064bb7f063a43a435521bd",
+  "protocol_sha256": "c90e57e9e0676067502dc4b431986e547701aa0240a192eb398d57c2bb366ae2",
+  "matrix_sha256": "96157e465a1ef76276baf51f4d68fc0a9dbabf1638fda2893d22a7457d47ac45",
+  "status": "PASS",
+  "runs": [
+    {
+      "seed": 1,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "smoke-test",
+        "--pair",
+        "en-it",
+        "--seed",
+        "1",
+        "--device",
+        "cuda",
+        "--steps",
+        "2"
+      ],
+      "returncode": 0,
+      "gate_sha256": "11973ef26ad6157960f4dc1f7e78675d8781db194d5d453946d49900bafed391"
+    },
+    {
+      "seed": 2,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "smoke-test",
+        "--pair",
+        "en-it",
+        "--seed",
+        "2",
+        "--device",
+        "cuda",
+        "--steps",
+        "2"
+      ],
+      "returncode": 0,
+      "gate_sha256": "88057fb2dcd465cc51e1614980ff255edc79cc3d0e0e91fe09b53dc3a5276cf7"
+    },
+    {
+      "seed": 3,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "smoke-test",
+        "--pair",
+        "en-it",
+        "--seed",
+        "3",
+        "--device",
+        "cuda",
+        "--steps",
+        "2"
+      ],
+      "returncode": 0,
+      "gate_sha256": "ae79df8ffc76141eca11c32877c3f93ce0d25d9d22b54a9b85654ce75ef1d4ca"
+    },
+    {
+      "seed": 4,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "smoke-test",
+        "--pair",
+        "en-it",
+        "--seed",
+        "4",
+        "--device",
+        "cuda",
+        "--steps",
+        "2"
+      ],
+      "returncode": 0,
+      "gate_sha256": "a0e8ce79971094f33f11723215789a9679f5fc8eb9aad003e390c1a20b930333"
+    },
+    {
+      "seed": 5,
+      "status": "PASS",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "smoke-test",
+        "--pair",
+        "en-it",
+        "--seed",
+        "5",
+        "--device",
+        "cuda",
+        "--steps",
+        "2"
+      ],
+      "returncode": 0,
+      "gate_sha256": "896705f8aaae70f79f2a2462e11945e8a14d4a9ccb9ef6d538eca94c6a781120"
+    }
+  ]
+}

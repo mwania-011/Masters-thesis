@@ -1,0 +1,65 @@
+{
+  "language_pair": "en-fr",
+  "seed": 5,
+  "variant": "full",
+  "run_id": "en-fr_seed5_full",
+  "epochs": 10,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0005
+  },
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "24ce4a120d33e5fcd2e9bb844882a6737286036f44b3e7e5fcb39e06e1e5bcb1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "daf8e6a1088980328d0c0b48ef72180357957ae661e931fd279ce766fb80b918",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": false,
+  "torch_version": "2.5.1+cu121"
+}
+[en-fr_seed5_full] Epoch 1/10 TrainLoss=0.83515 ValTop1=0.90903 BestTop1=0.90903
+[en-fr_seed5_full] Epoch 2/10 TrainLoss=0.49542 ValTop1=0.91926 BestTop1=0.91926
+[en-fr_seed5_full] Epoch 3/10 TrainLoss=0.46526 ValTop1=0.92336 BestTop1=0.92336
+[en-fr_seed5_full] Epoch 4/10 TrainLoss=0.44603 ValTop1=0.92517 BestTop1=0.92517
+[en-fr_seed5_full] Epoch 5/10 TrainLoss=0.43256 ValTop1=0.92690 BestTop1=0.92690
+[en-fr_seed5_full] Epoch 6/10 TrainLoss=0.42305 ValTop1=0.92540 BestTop1=0.92690
+[en-fr_seed5_full] Epoch 7/10 TrainLoss=0.41625 ValTop1=0.92682 BestTop1=0.92690
+[en-fr_seed5_full] Epoch 8/10 TrainLoss=0.41079 ValTop1=0.92808 BestTop1=0.92808
+[en-fr_seed5_full] Epoch 9/10 TrainLoss=0.40703 ValTop1=0.92690 BestTop1=0.92808
+[en-fr_seed5_full] Epoch 10/10 TrainLoss=0.40402 ValTop1=0.92839 BestTop1=0.92839
+{
+  "run_id": "en-fr_seed5_full",
+  "smoke_test": false,
+  "best_epoch": 10,
+  "best_validation": {
+    "Top-1": 0.9283915643689015,
+    "Top-5": 0.9610481586402266,
+    "MeanRank": 56.56153604028958,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9197386503219604,
+    "HardNegMean": 0.7934901714324951,
+    "MarginMean": 0.1262485384941101,
+    "NeighborOverlap@10": 0.3906909033679572,
+    "Uniformity": -1.8112822112534912
+  },
+  "held_out_test": {
+    "Top-1": 0.9232040286411205,
+    "Top-5": 0.9574317412857031,
+    "MeanRank": 50.25934377212999,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9213736653327942,
+    "HardNegMean": 0.7955371141433716,
+    "MarginMean": 0.1258365660905838,
+    "NeighborOverlap@10": 0.3990164450389488,
+    "Uniformity": -1.812972798405481
+  }
+}

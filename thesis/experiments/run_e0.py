@@ -137,12 +137,19 @@ def main():
     parser.add_argument("--device", choices=("cpu", "cuda"), default="cpu")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--smoke-test", action="store_true")
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="Resume an interrupted E0 run from last.pt",
+    )
     parser.add_argument("--chunk-size", type=int, default=256)
     parser.add_argument("--structural-every-epoch", action="store_true")
     args = parser.parse_args()
 
     if args.chunk_size < 1:
         parser.error("--chunk-size must be positive")
+    if args.resume and (args.smoke_test or args.dry_run):
+        parser.error("--resume cannot be combined with --smoke-test or --dry-run")
 
     run = E0Run(args.pair, args.seed, args.variant)
     cfg = run.experiment_config()
@@ -184,12 +191,19 @@ def main():
     else:
         output_dir = run.output_dir
 
-    if output_dir.exists() and any(output_dir.iterdir()):
-        raise RuntimeError(
-            f"Output directory already contains files: {output_dir}"
-        )
-
-    output_dir.mkdir(parents=True, exist_ok=True)
+    if args.resume:
+        if not (output_dir / "last.pt").is_file():
+            raise RuntimeError("Cannot resume: last.pt is missing")
+        if not (output_dir / "best.pt").is_file():
+            raise RuntimeError("Cannot resume: best.pt is missing")
+        if (output_dir / "summary.json").exists():
+            raise RuntimeError("Cannot resume an already completed run")
+    else:
+        if output_dir.exists() and any(output_dir.iterdir()):
+            raise RuntimeError(
+                f"Output directory already contains files: {output_dir}"
+            )
+        output_dir.mkdir(parents=True, exist_ok=True)
 
     device = torch.device(
         "cuda:0" if args.device == "cuda" else "cpu"
@@ -257,15 +271,93 @@ def main():
     epochs = 1 if args.smoke_test else EPOCHS
     best_top1 = -1.0
     best_epoch = None
-
-    (output_dir / "metadata.json").write_text(
-        json.dumps(metadata, indent=2),
-        encoding="utf-8",
-    )
-
+    start_epoch = 0
     log_path = output_dir / "epochs.csv"
 
-    for epoch in range(epochs):
+    if args.resume:
+        saved_metadata = json.loads(
+            (output_dir / "metadata.json").read_text()
+        )
+        state = torch.load(
+            output_dir / "last.pt",
+            map_location="cpu",
+            weights_only=False,
+        )
+        best_state = torch.load(
+            output_dir / "best.pt",
+            map_location="cpu",
+            weights_only=False,
+        )
+
+        for key in (
+            "run_id", "manifest_sha256", "journal_sha256",
+            "evaluator_sha256", "device", "smoke_test",
+            "structural_every_epoch", "torch_version",
+        ):
+            if saved_metadata[key] != metadata[key]:
+                raise RuntimeError(f"Resume metadata mismatch: {key}")
+            if state["metadata"][key] != saved_metadata[key]:
+                raise RuntimeError(f"Checkpoint metadata mismatch: {key}")
+
+        if state["run"] != run.metadata():
+            raise RuntimeError("Checkpoint run configuration mismatch")
+        if best_state["run"] != run.metadata():
+            raise RuntimeError("Best checkpoint run mismatch")
+
+        start_epoch = int(state["epoch"])
+        best_epoch = int(best_state["epoch"])
+        best_top1 = float(state["best_validation_top1"])
+
+        if not (0 < start_epoch < epochs):
+            raise RuntimeError("Invalid resume epoch")
+        if not (0 < best_epoch <= start_epoch):
+            raise RuntimeError("Invalid best epoch")
+        if abs(
+            float(best_state["best_validation_top1"]) - best_top1
+        ) > 1e-10:
+            raise RuntimeError("Best checkpoint score mismatch")
+
+        with log_path.open(newline="") as f:
+            rows = list(csv.DictReader(f))
+
+        recorded_epochs = [int(row["Epoch"]) for row in rows]
+        if recorded_epochs != list(range(1, start_epoch + 1)):
+            raise RuntimeError("epochs.csv does not match checkpoint")
+
+        if abs(
+            float(rows[best_epoch - 1]["Top-1"]) - best_top1
+        ) > 1e-6:
+            raise RuntimeError("Best validation score differs from epochs.csv")
+
+        model.load_state_dict(state["model"])
+        optimizer.load_state_dict(state["optimizer"])
+
+        # Restore RNG only after model/optimizer initialization.
+        random.setstate(state["rng_python"])
+        np.random.set_state(state["rng_numpy"])
+        torch.set_rng_state(state["rng_torch"])
+        if args.device == "cuda":
+            if state["rng_cuda"] is None:
+                raise RuntimeError("Missing CUDA RNG state")
+            torch.cuda.set_rng_state_all(state["rng_cuda"])
+        train_generator.set_state(state["loader_generator"])
+
+        print(
+            f"RESUMING {run.run_id}: "
+            f"completed={start_epoch}, next={start_epoch + 1}, "
+            f"best_epoch={best_epoch}",
+            flush=True,
+        )
+    else:
+        (output_dir / "metadata.json").write_text(
+            json.dumps(metadata, indent=2),
+            encoding="utf-8",
+        )
+
+    if args.resume:
+        metadata = saved_metadata
+
+    for epoch in range(start_epoch, epochs):
         train_stats = journal.train_one_epoch(
             model, train_loader, optimizer, cfg, epoch
         )
@@ -288,7 +380,7 @@ def main():
             writer = csv.DictWriter(
                 f, fieldnames=list(row.keys())
             )
-            if epoch == 0:
+            if epoch == 0 and not args.resume:
                 writer.writeheader()
             writer.writerow(row)
 

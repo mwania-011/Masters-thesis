@@ -1,0 +1,101 @@
+{
+  "phase": "E1-B",
+  "pair": "en-ru",
+  "seeds": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "expected_steps_per_branch": 438,
+  "runner_sha256": "00d0701b70c7714f2d5f4a8b272ed2dd67f8079939064bb7f063a43a435521bd",
+  "seed1_pilot_results_sha256": "a52d9b3497e7f7d4e421442fd93cdb4bb355bd7c8e9cfc4f2e5f9c732df1e021",
+  "batch_id": "20261018T121016Z",
+  "status": "PASS",
+  "runs": [
+    {
+      "seed": 2,
+      "status": "PASS",
+      "log": "/workspace/Multilingual-Thesis/thesis/audits/e1/e1b_batch_logs/batch_20261018T121016Z/seed2.log",
+      "output": "/workspace/Multilingual-Thesis/thesis/results/e1/b_interventions/full/en-ru_seed2",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "run",
+        "--pair",
+        "en-ru",
+        "--seed",
+        "2",
+        "--device",
+        "cuda",
+        "--approve-full"
+      ],
+      "returncode": 0,
+      "results_sha256": "d0e75339bcfb8d6a668ae1b994d9e476faba3d8c78a4284a4f569ed85b82b3f8"
+    },
+    {
+      "seed": 3,
+      "status": "PASS",
+      "log": "/workspace/Multilingual-Thesis/thesis/audits/e1/e1b_batch_logs/batch_20261018T121016Z/seed3.log",
+      "output": "/workspace/Multilingual-Thesis/thesis/results/e1/b_interventions/full/en-ru_seed3",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "run",
+        "--pair",
+        "en-ru",
+        "--seed",
+        "3",
+        "--device",
+        "cuda",
+        "--approve-full"
+      ],
+      "returncode": 0,
+      "results_sha256": "caf043f1f54342de964053b44fc3aac2527185c6ca6c6900df22cbbcb2817dee"
+    },
+    {
+      "seed": 4,
+      "status": "PASS",
+      "log": "/workspace/Multilingual-Thesis/thesis/audits/e1/e1b_batch_logs/batch_20261018T121016Z/seed4.log",
+      "output": "/workspace/Multilingual-Thesis/thesis/results/e1/b_interventions/full/en-ru_seed4",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "run",
+        "--pair",
+        "en-ru",
+        "--seed",
+        "4",
+        "--device",
+        "cuda",
+        "--approve-full"
+      ],
+      "returncode": 0,
+      "results_sha256": "b93c7dfdb8c3e6fb17464171479646cad5dc2226f318fc83b18942713ab57fdc"
+    },
+    {
+      "seed": 5,
+      "status": "PASS",
+      "log": "/workspace/Multilingual-Thesis/thesis/audits/e1/e1b_batch_logs/batch_20261018T121016Z/seed5.log",
+      "output": "/workspace/Multilingual-Thesis/thesis/results/e1/b_interventions/full/en-ru_seed5",
+      "command": [
+        "/usr/bin/python",
+        "/workspace/Multilingual-Thesis/thesis/experiments/run_e1b.py",
+        "--mode",
+        "run",
+        "--pair",
+        "en-ru",
+        "--seed",
+        "5",
+        "--device",
+        "cuda",
+        "--approve-full"
+      ],
+      "returncode": 0,
+      "results_sha256": "cc75439e2ca84d270a08477cf2e953ca0f826d38fa8b267c87c94079a5c77306"
+    }
+  ]
+}

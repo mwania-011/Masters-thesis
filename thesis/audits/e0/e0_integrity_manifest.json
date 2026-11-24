@@ -1,0 +1,1518 @@
+{
+  "experiment": "E0",
+  "status": "60/60 validated",
+  "created_utc": "2026-10-17T05:05:46.900902+00:00",
+  "file_count": 302,
+  "files": [
+    {
+      "path": "thesis/results/e0/en-es_seed1_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "8995f2365f2c088d92267fd39c19e87f798d59bd1689bf3db7bbc54403e5f891"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_baseline/epochs.csv",
+      "size_bytes": 1891,
+      "sha256": "f0d560c5ed7e6409c7b1b9759c0a057f79bac0137acb4ed62e20c88067068f64"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "d1efb0e87dcb73fa55f5245bc14723c9050f6739d1aa5c28b8563a86ffd4ab45"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "398a246026343717267d06936608dbe0730c19aae8b58a58ef782cd49f020fd8"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_baseline/summary.json",
+      "size_bytes": 782,
+      "sha256": "3724de657f78f240845727a0d43202b0c5844c795251262d862afffe278a049c"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "5bb6d5cb12e668f148f5775d55228b70b49407fc4848facf0d2531efcffcf9b1"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_full/epochs.csv",
+      "size_bytes": 2064,
+      "sha256": "64664543c3edbecce33b7dd0eb9f418b81e17074e58267afa106f848d21d50c7"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "ebe0d39cb75a1d838f26da14476a62ce90fb335f609a6afbd5520dd73c650d13"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "068c0669e206fa33d45ec1733f43b1be5a5019dc1d5bfcdec9629edc29950f98"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_full/summary.json",
+      "size_bytes": 779,
+      "sha256": "279f42bd3275327b6820e80f306222fcc8dd4a5d84ddccfe181975fb509f15d4"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "95aa8241d8960020407b69200d51a4f3979f82ded32c6bb3bf52ebf5f9ac23cc"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_geo/epochs.csv",
+      "size_bytes": 2022,
+      "sha256": "862c342f278ff8d48a954fbd58a942210a9e218975a7b04dd547b2250d008156"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "acab2543f78ae92649801625154d7e2df4e9e42f3d03099a5a6281c20932eccf"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "58927c2334b264090599cd70fa9dad1a3ddb6d51769e1e4d4823b773b5d5fcbd"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed1_geo/summary.json",
+      "size_bytes": 778,
+      "sha256": "fecb1421f5d2394d590477d26ab657a2ac8c58f3de599b0bf6fd68a2c699e70f"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "d49f6ab7053fc6404f89494d00a592b2627b7f8c1b9c800bcdaf83628a1808c6"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_baseline/epochs.csv",
+      "size_bytes": 1891,
+      "sha256": "ef7861185cf4a13b8c47a248e1b8b39a8b2cb3b6fedf70cad2acabaf18b4a568"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "2b3625ad314a6e9801ea6f8bc48566d4cc7a0f6664a54dc249406edcd0eb347e"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "b876f4fedddc132507160038a1ff49772701f708cad298f85f578c43f509dfb5"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_baseline/summary.json",
+      "size_bytes": 782,
+      "sha256": "4de2674ceb5f9ee49333a1e85434312822a0f9831729cc88e8ddf537969f9f19"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "a132b401ac6aec0cc9fd0f474540f277113bfaf4845ff24e4d7afe78d0807a35"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_full/epochs.csv",
+      "size_bytes": 2063,
+      "sha256": "4eba89d485a8a40a3cf2c21faed4093d9a0b3ac768c471aef5b583a5e7131728"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "c6f883bde2333560c2f99fc3587482dc2b6592b556f4f1c11d75d66101be4e44"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "d9dcf6760d1c9c3405fca4ef1e54c1f32aced980de234f231380c0770ccf9878"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_full/summary.json",
+      "size_bytes": 776,
+      "sha256": "5ef95e90b247bda96fad16774bb5412f90e0cce65a88efbf95f00d46bc6d68c9"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "336097acae9ad8e728e26308df7795a68015e8862889624c96f549d3fe85ddde"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_geo/epochs.csv",
+      "size_bytes": 2034,
+      "sha256": "add27a714f5969dd1dee668e2249880fe09d57a15b36ebd21017115649b5742c"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "c5b60e43572205fa26170b9f93a75fef4b22ebcf2a0efa984e252b5147e8194f"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "249ce76d3d5a406341c8f80079ff07e060a442f196d9c3a86fe6de3eb9d42a05"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed2_geo/summary.json",
+      "size_bytes": 771,
+      "sha256": "b33297000bb6ad2fee149cf62b0db66e03920346a83b76b52819a3ebd6624c45"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "b98857984bf1952108bc103cbc9166966531aa75fce07449ba82f2db0bda19ec"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_baseline/epochs.csv",
+      "size_bytes": 1890,
+      "sha256": "df91c42347c1541bdf0beb1ec0b88a3ddf44867cf3841e67f2116a7d11488791"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "e6a56eade8898431407203e3517cd1021e70bb2c16ddd1f036e2634b39adb27a"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "6a94bda2ca61017bca3b04721f7f1774e4677da93c50f8b974642f3aab8a45e7"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_baseline/summary.json",
+      "size_bytes": 782,
+      "sha256": "269c5e4ce2bfa5e230e4901b90d5483b1be6333427c3aed2b8970a742723c649"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "35d8f82154d9d4653c8a51e70d4afc19cc59be03ba20e911710315e7b789c844"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_full/epochs.csv",
+      "size_bytes": 2064,
+      "sha256": "dc3bfc816f4001ffe2ae56cba06410ed9903bee1760faa071cda8d7e978f58a3"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "c0a82a792b5f507ad33a8fcac7cf9d39f85c83874d018421c08634095ee5e8b9"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "15afe06d6de5637ced9034d0a12d526d15aa29424f69cccf11669d9037a2398f"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_full/summary.json",
+      "size_bytes": 777,
+      "sha256": "de3778d7e1c06fae63c788523070fac5203704173ad7a5f044110f3a96bac0f9"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "7af06009eb0fc9e82c775770e93de4d8a23168842e883c310ecd8d6d0ed81062"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_geo/epochs.csv",
+      "size_bytes": 2019,
+      "sha256": "ce3213b7abded1803bf60a2911150e025a8ae10ab5a881966e59d906d38d0352"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "ee73e4a63e1b37ce112321a9599fcb832c568f1305049acba530056159f6441e"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "197ee364a3393aed2424ce63d825bd3fd1c01d937c1b8701cecc6d224b70bff8"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed3_geo/summary.json",
+      "size_bytes": 777,
+      "sha256": "5875cdd5b686838d2c1eaf57dcf17981f88a1abfaf2bd209cae58acc202b926d"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "b4bbf342f2b5c099154a396d6328e06f12ba1a20a3a6dc55b91a4f54b02c1ac1"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_baseline/epochs.csv",
+      "size_bytes": 1889,
+      "sha256": "f65a2a8e2812885a0a967251d7dc5397a33ae113141c9f57644dd8c96249f78d"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "7017a8d4005477d886a51f5858b1fac193581dc8bcd31ce8cf55deabeb32138e"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "394b836c7ce8549f313ac444ac080405deed5a899e4d87fa524a9ab22e1799da"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_baseline/summary.json",
+      "size_bytes": 780,
+      "sha256": "64a0782684e6286f017428f7b91a98e4ecc7079e2a1526ce56e289f5ad2d799e"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "add74bc25142e4694c87333a04928a91b5a24f4a79b2f673a8c87b89894eec1b"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_full/epochs.csv",
+      "size_bytes": 2056,
+      "sha256": "97ccd5aea2b4e0087d694ca3246e318e929c181173c24190bc1ef2d13b0a1b88"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_full/last.pt",
+      "size_bytes": 3341488305,
+      "sha256": "7408075fc9705c649ef1b958f9dc35e654a130c45c645e52884c16580028e120"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "127cc9be1d6496dde520c9316ee9f264d72b2084670a5c25bbfb6fbe6ded08f8"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_full/summary.json",
+      "size_bytes": 774,
+      "sha256": "0506fe6d8bf570c2a587e7b5a14acc73130de6d8be4d6d4a8c4998eb15664c88"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "8aa70dd5b38bf76758f804b7bdb6d04e437113556f2a465017e7e84bc11bcbc8"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_geo/epochs.csv",
+      "size_bytes": 2029,
+      "sha256": "1da584b332881a56cf1144e6d5bf81f53bcaa349a096e45e49eef98abff9fbfd"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_geo/last.pt",
+      "size_bytes": 3341488305,
+      "sha256": "29684befadc911c76c15960f042217d8fe78cc303748310e983b1552f87d38f8"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "a37331a164e6fc2bcfc418e4607a9283961a392fdf83911d6d7eacf87d447aa4"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed4_geo/summary.json",
+      "size_bytes": 779,
+      "sha256": "b83e283cbb79c47061719425bf878184c1e6a2bd191acd0aeb34d5885e256585"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "c47435454c12daf592a51f5a646326e7f1c35b305dbac2e61eea42225da76dad"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_baseline/epochs.csv",
+      "size_bytes": 1884,
+      "sha256": "911ed1053a38215db27539f1cacd457e3008f8c195da1de9fe8e4c0e34069771"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "4304356c508abd6eee74309ccf9d34ef0cb545c3d605f3b3bd3404f60598e6e3"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "c8cc8c85a11a7136bf410b933b4ef122fbafadd04480a0755a2d97b8a2e0e5a7"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_baseline/summary.json",
+      "size_bytes": 781,
+      "sha256": "1213de5b78a92e640e6f36a5266cc54aaa67bac2e4d53813d1a6d4fdc9cca6da"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "a149ad7433633edeeb5119af6fb174fd1d56298d8fb4ab60091d5c7c56e0ff97"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_full/epochs.csv",
+      "size_bytes": 2057,
+      "sha256": "ed3a98431a12e1e4fc36d827e1286df8abc285855410dd4df0b01b001f8d041b"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "385d211f32ef57b7d640952079c5cca2ff13839758341ad36926d9dacdbd92d1"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "61e18dfc992a2b0544b6f8d6f00f8101631992a3ec12c11a8f6eeda010e2acad"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_full/summary.json",
+      "size_bytes": 778,
+      "sha256": "68bece70888d7b908279a0dff29fffa7fbadddb88347da101b46d616e5688921"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "6d3ba88463f6db0bc0936416203f7f890094c6e23885c737998b25929e61063d"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_geo/epochs.csv",
+      "size_bytes": 2026,
+      "sha256": "925c7118a12acfe3b34698689d3c054704f7b8e217871219dadb1f4db37634d0"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "92a8a148847b026c81b940d1160755099ab7d6f594bab24cce0531f14dc7bdde"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "affdfa448dadfa9d8e64ef8270bd7c03541eba78df707e325c7f48bd916a9a54"
+    },
+    {
+      "path": "thesis/results/e0/en-es_seed5_geo/summary.json",
+      "size_bytes": 775,
+      "sha256": "8095d811312a6bceb04a9f777b8a946035fca71cbc9c9078d1f31b55d18aefcc"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "4d797e5eee03a80fecfc1fa418f8e4cf7a7280812410c939c08e2d8a6412d05b"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_baseline/epochs.csv",
+      "size_bytes": 1892,
+      "sha256": "a82eb003f93d836b04545f59151935297a91230320eb2957b8b316300789ccde"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "74fe4b9d2dac21625259fff3deb10762af7a41eff9e74f23c83980f85c58381a"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "5de6029c5a4f0173cf39d2a5add1b707128c094a40c1763eba8062665557d97c"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_baseline/summary.json",
+      "size_bytes": 782,
+      "sha256": "93cba0d57e4fa4d2e01873837d6abeef0dfe48fbef145afda647a916bcc4fe38"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_full/best.pt",
+      "size_bytes": 1115398565,
+      "sha256": "9c9d5cd5db1ca4b70ac15564efa0b581c3735d67b29d1a87825fdaee9ba29f9f"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_full/epochs.csv",
+      "size_bytes": 2069,
+      "sha256": "024671d241113cbdb83a0731574d67a3cec6d078362920468ec140c99606ad40"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_full/last.pt",
+      "size_bytes": 3341488561,
+      "sha256": "aaf4a7a8b00861be978c9f99d8e2f6939dd8b200498c4d170dffd9203d7e04ba"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "aeeb84f88846d2cc6824e0bb6364156999c5b24a807c5b77c74ac10f63692874"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_full/summary.json",
+      "size_bytes": 777,
+      "sha256": "daf5ac91dad1d68cb6908f060981615b5c64c3f18e3ac89e800486f243e33466"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "b6111139a25e83b742f7cdb0912e663481e1c5ae822bb31fae9fd4487e2a68f0"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_geo/epochs.csv",
+      "size_bytes": 2033,
+      "sha256": "ec50bfa0cfe61150c39fa80d739bcd4475613c17ebde261fe8269d40e536da5f"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "5c53faa282ae2cd9bbfd7209426634642df0c69e1409e86041e429375e5a38d7"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "ad221166bacb2fc33c06482e498346cd6c23285626f5bea6b2304c23da2dd20c"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed1_geo/summary.json",
+      "size_bytes": 778,
+      "sha256": "eef4bf33063b30dcad9ed1f9c4e84774d300f6537947d83115a5d6c7c0201853"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "4b776466b3b3759fa756ef4362976c4bf0b76f1597ddb09f2dd721cb645c612b"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_baseline/epochs.csv",
+      "size_bytes": 1885,
+      "sha256": "19e2b45fa150bbdf7611d3fa08be1e97fd52568e89c7b5b59a3a17391292a236"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "d7e5d9a9d127e06b2c6c3ccf008072ffeb9d546f11f10e141002c304aa38dcc7"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "d5622bee82a0574bcf3508241d8d6052901d8ee0e4080fcd9ab8bb55dd9286bf"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_baseline/summary.json",
+      "size_bytes": 782,
+      "sha256": "7d74a1b47e92214b3256cb2fbf3f07cf804bb740e19dd548be9a79216c0ff005"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "eeac4f93782414e95cac9448a52497c0026150aa766ac1ef677f0cd954d64200"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_full/epochs.csv",
+      "size_bytes": 2069,
+      "sha256": "1c263511a6781076e0ff6be394d4c74916e26987e83f2f159f83aa4f7ab0997b"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "39726c6ff88cf6325122857518e120d7ce60d6e85aaa745589bc401493af9c70"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "1557af7ea757f3d28a96b092b114d52baaf7ae6eab6bf80054c6c1cd2070c160"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_full/summary.json",
+      "size_bytes": 778,
+      "sha256": "228a16e0232cf0f0210c32b8476a014faa23d24110ecb15682726c0ea04d65a0"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "982d122236b6485052bf171de43dd8b27e2ab131632a3534e15d51c73cd44c44"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_geo/epochs.csv",
+      "size_bytes": 2023,
+      "sha256": "abe65d77fce30635422338ddde04db3b8227407a8d0e5c6e8395fb880bff6c4e"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "e36a117c0bdf003a82f83a1f68ba06aadb2ca639d817b8bf727d22b11a35feac"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "0a9f01210013358422201b45bfce18b67af8cf25e6f0ff8453aac72b75e686d7"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed2_geo/summary.json",
+      "size_bytes": 775,
+      "sha256": "cf720f0e50024a88191b3094c00c7a15197849c6ff94ef8d56ba2a32cb73f19b"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "6c7b2bb8c6261a2d3350ab01142fb7a5d721ce9dbe86dd7fe484d97d93523a88"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_baseline/epochs.csv",
+      "size_bytes": 1888,
+      "sha256": "3f723f69850b5c1c292b2f93ad571d21c3096b9a5ea506f1e323c8d2ce91a32d"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "361b3ee1db35d833bb1d92a2ee323f630065715026a9735d1709a93b8726efd7"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "91323ed8307ed8b10c13c796b6aef4da4b21f1542b0c5a985b7e00448224e4ad"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_baseline/summary.json",
+      "size_bytes": 781,
+      "sha256": "9b1af2019fbc1a5a337f5b246e9ba47abaf425548143b79e14a421d94686ce3e"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "86c2106723b34b5077cd8d0a177bb397b6c11e7b08ad93deed1539bd3c44a2c0"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_full/epochs.csv",
+      "size_bytes": 2070,
+      "sha256": "e058d255427f098ead5966d9312f15392bff7dc98a608015885297a4627fab72"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "aab010747c6139b9d463e13ec2c5e94e7859a2faf67729bcabf6353122c164f4"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "ec0541bf286e5a8dd99cdf01d640b1776ce91e342b1ad5ee8b6a3ea2ace94e14"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_full/summary.json",
+      "size_bytes": 778,
+      "sha256": "5d5c77820e8576fdcca2e846bbf134414d551a55939b0255c9167b34c795296e"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "765bc66d102de1a7966d4db2ae6759dd3c7dfb14a76e25ccdbb22db92cc7867d"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_geo/epochs.csv",
+      "size_bytes": 2026,
+      "sha256": "47221540e476e3f8ab632bb94abaf3d0c24eb994c48c2b236ace58716d7a2588"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "1a1337ebd1123590fa257f437b0fde28121d518d3827fc8de9e631e5eba890d7"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "e101fec8ee4d3055e683f8a48ab0d8aab7f2abe5bf62d88363da3f3b20de9930"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed3_geo/summary.json",
+      "size_bytes": 776,
+      "sha256": "6ecfe66f402f950adde7352e8b31faf773b92accf72ce15c8f106d7fb910af63"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "2f9af1a3dbb5070de2ffea83dac62bfb3747460742d9fdd2d4bd89a1050cb76e"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_baseline/epochs.csv",
+      "size_bytes": 1890,
+      "sha256": "f3bcdf1ddebe1afdde0c254e178120ed93461fd8e3267f703acafd91e35eabb6"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "838c174db67dfb8edf37914363a5d181e18a0425504abc7bc5b8ba2717cfd64b"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "421b3e314856994e90c75348ca5248b39f07b58e7369122cbabf32bbe24be209"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_baseline/summary.json",
+      "size_bytes": 784,
+      "sha256": "c0cccaf872667ce750a222c7c4b21eb02ca8c8a966c28c2dfda400e3bc2c3d91"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "58839183b560834d5a0bcbbc38ac91a6ea54b2b056b1c96242f51edc080d4d9f"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_full/epochs.csv",
+      "size_bytes": 2073,
+      "sha256": "07f791d71555c81392af3d33f238c26177830942ba327dd92b3ce201dd37cc44"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_full/last.pt",
+      "size_bytes": 3341488305,
+      "sha256": "2bc8b0e838ac0f2525677ab64e6684d433d95653a37214758a63bd45da39c29f"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "8cce3c65449a23d01d0370669d36ea652cd5252f48262e412be52ca2ed1f8b4b"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_full/summary.json",
+      "size_bytes": 779,
+      "sha256": "c3bb57d255e73acd5c0472f21638de795e4578552654cf24c4dec131e0ab01ba"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "623221978918a4136226194f9e17174d1676f98ac6cab518c09d29654235d8c4"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_geo/epochs.csv",
+      "size_bytes": 2030,
+      "sha256": "d37a3f04998a82839ec5d215f52189325dc0a04ae6ea5652d1294421bf7663d2"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_geo/last.pt",
+      "size_bytes": 3341488305,
+      "sha256": "7598715389718554beca47cce0e7a2aea5986eec137874d8586e3c70b89e0013"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "9ecbd5fa510c9a4af1e264e35239b234354d0f093bfdc2a4d3766803b4e2b869"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed4_geo/summary.json",
+      "size_bytes": 775,
+      "sha256": "afc17ba67fddd449f907764c33bbda6c28d4dbbdfd4e903e5cf61fa8fd737f74"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "d637bbe17eb40721f8ab10f49b8508651ec8fec4772d1d161c8a85af9e5b795c"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_baseline/epochs.csv",
+      "size_bytes": 1891,
+      "sha256": "ed646f0d085b87a194881ce2b33a1e5f159d7b5044fbb4170f50b2b130df6c85"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "7f12f859507262a6d1b687b3db0040b33c3987d3c1326e7c9fde7f7974895754"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "61dd51718678c8742e0bcb803c74e14695925a4121b88ea8e274e74c09742d42"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_baseline/summary.json",
+      "size_bytes": 774,
+      "sha256": "f7cb3f724ac6904088bdf3a0aed532af1da0ef1e35473cda3c92c6115d7ac0d4"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "71332b51dee949b038c4e828a8b837c02c9ac39f8fdf29f4e5738287151999dc"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_full/epochs.csv",
+      "size_bytes": 2066,
+      "sha256": "8cb6d70eb0117ea795206a2657624985036c3779cc802d9289cc0886b8a3ff15"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "6f07d75ab8d0b4c244ba30fb952c679aba872ac54b31e7cd607a65b8505b826d"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "cda8dbf761b2bd65bba1efb0333d731343227138db2f05f2a049d0e729e91225"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_full/summary.json",
+      "size_bytes": 776,
+      "sha256": "07832edc4d06d44d3bbf5b22e76c495ab36c5d418c415abd59913b09a5a3f279"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "286547bd6740af279f1b80e50cae3221504c9efca5c9133411d612d4c090a7dc"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_geo/epochs.csv",
+      "size_bytes": 2034,
+      "sha256": "492bf76e1804c05802f0dcbed66b30324911c2ec8474d683e27fc70d6b09945d"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "1bfb8ac25e385e4d58807f26778b627b8c2e47299e699cc6c67a637e8b2d4825"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "8ea408c518a8eeb718c09e9b015a7bf60b910c020d213635559a30568c264e60"
+    },
+    {
+      "path": "thesis/results/e0/en-fr_seed5_geo/summary.json",
+      "size_bytes": 780,
+      "sha256": "52edb20f4e2af8710d6a411ef355bd67bbf450b38fd0b4cb67675267e7904ae7"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "c26b69c526d2c8170a8adb9691854fe57b7553084023d7025724efa4d691b044"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_baseline/epochs.csv",
+      "size_bytes": 1890,
+      "sha256": "3342265297bf9ca667e76bd6d00a5a68bdedcd5ed7f0a950a745a51fb162d2eb"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "eed171cf5b17ec90c7c2ea5e16f1ec90c0a4a70a7de543c1b2de6b57fa0dfe41"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "a52e3b1f4f1f1ff78f6ae9ca9b503f70977f8e2219812563f74ca54a93f7d3a0"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_baseline/summary.json",
+      "size_bytes": 780,
+      "sha256": "d70c3d919977df019bcad9a013c69f569c6ec70db622bae2db43347b635b376c"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "96660bbf52562a26e545e987b5c5fc2c13a66ee1dee8886e5c05e3fa1a58d611"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_full/epochs.csv",
+      "size_bytes": 2070,
+      "sha256": "fa378c2affd3dd0d9440c4047e09895cd6f7a1337ca7920000bc4d7b2c7bf7d1"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "6c0601322b7f674d6612bbca4f40a4df36c01a77cf5dfab0cc2d9e31c7ed0535"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "46ef52151cbee13d773f6c507c2885d6ce5ae4a8b284217cb4095f5db8acda52"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_full/summary.json",
+      "size_bytes": 781,
+      "sha256": "b728c2416cfee131d1625dc20e92c7e2e57769d3981e180b9b20d500acc6881c"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "6fca6bb418d76dc35ccc68415c2de64bc8d873af68d3aaf4146016cc5bf37698"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_geo/epochs.csv",
+      "size_bytes": 2034,
+      "sha256": "d28bee370b5e3d3f3913b5ff2a7188a0c29ad5290642a5f47a12700118bedf1a"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "cc07ae869c117cd65ee29a0f22cd1e892d4a5d75e378ec91649240167462a7fa"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "4af745f8b3ab2a02ce29707895c2bca54fa505c49931dfab754fd65bbb4951b6"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed1_geo/summary.json",
+      "size_bytes": 774,
+      "sha256": "15cb82f22969c56f5d728cf0ae5eabdbe7b80a7f255cc00679b829d225b28787"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "7de7999ef1216b4e6316819e4593150675bf70a8351a453c2394dd4fffac39ef"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_baseline/epochs.csv",
+      "size_bytes": 1895,
+      "sha256": "5118fad2542d0d28fe94e6a6fea1ed8997a7c818b047374e7bc51b41fad65617"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "53e9e7da8ef744ee7d4bad152bde801856bbef368e99eac160dfa6602af86704"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "8e530e9327bddc9bf42f139eb06b7696048c539b7f7f8c902aa69d51a635873b"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_baseline/summary.json",
+      "size_bytes": 786,
+      "sha256": "9b360c0d51bab14c91dd9d56643a68783fc7999187b6b8918a67532a034d5a0f"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "62108c272dd88cd35dac268035247c206f6aaf12aff5976b06ad1fa3cf9f9b53"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_full/epochs.csv",
+      "size_bytes": 2061,
+      "sha256": "72ac8069f0766c5a2e85bfbfc0e0613695275df0f037898e950999b375ece036"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "cf2869a3529d80cff1ca04d6ac74bcdc65567a23ff2046980c7875b63f15106d"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "b3484a697d85bc98bfca944b9f0b855ddb3084ede21bbe6f65c51e9aac12d65c"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_full/summary.json",
+      "size_bytes": 780,
+      "sha256": "43a07ed4da84a6c8651bb1c0fa9afec632efeaf8c8d129c8e099d400cd8c1483"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "ef24d2bb9372ef11e69dc7ea39c2437372d1d85004372c2291fd23545edb0ad8"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_geo/epochs.csv",
+      "size_bytes": 2030,
+      "sha256": "a6a071faea7edcd7944ff91c7d9179487c802f23baeea3f3428a1efab85b690f"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "3388784a4ee6870122ec0990913b617594ed22188c9aa8d8d875f698783ef7ab"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "6e52687adf307dd21653f69b90a280ce38a6f2dc5d69a63b0a35794b547c6a6e"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed2_geo/summary.json",
+      "size_bytes": 782,
+      "sha256": "e1cc250926811d751832ffc5f6868d8ba212146ba59c0b12a1dfef032ea8ddb8"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "0e2e3355d5acd19976509e58981b6dc128eaee79d6d44fb3301ecb1aede12d81"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_baseline/epochs.csv",
+      "size_bytes": 1896,
+      "sha256": "65a076ba71963fc15152cbbdf265d4a4d8fe73abc4d55a81a2c6df508c69547a"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "66527f98fd8fb58d8299a6ec796d659375851ad971828d324d941f4592e31a84"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "add10d90a621f5e1e98b10977a721de265b54e5e2fc33887336f367f80dd8810"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_baseline/summary.json",
+      "size_bytes": 782,
+      "sha256": "6b31d44852f8de46b3f9696b3d884af8264c76fc25db0814550bf35081986816"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "456dd0b874135024c91b9d404342bda830f9291486ac4f5f56e007327112ab46"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_full/epochs.csv",
+      "size_bytes": 2075,
+      "sha256": "018684ce051e03768fc6eb426291ca33acb0ba17425b92e76ffb3304961dfdc7"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "b06398ef5272fadc16be3f4a0bce27f751be88629a40edaff952b959e02e58a8"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "8cd07441dfe46334b65f9c2f9e5a6c277b00002d1aed2facdd9ee2b5ec438e2a"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_full/summary.json",
+      "size_bytes": 781,
+      "sha256": "54435fe5e53e5fb8268b457b38782f6583cd2662b0122fe3a13c013a03f37f39"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "d77249a26ed69add304ef9e193a17d14b50e558097c001d67b7071e66463bf24"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_geo/epochs.csv",
+      "size_bytes": 2036,
+      "sha256": "e30f4c418a9995117ced208eb7b1b8b5fe33910554a7399f58190d4d6396039a"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "89317b059d3396df54a868852c90ea7c12c01f5ba18eae6a1c9191ba2612beb6"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "8bda185daf1611f9009df1bd4f7ee84be8947c6d47a36411a45126b202ba39f1"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed3_geo/summary.json",
+      "size_bytes": 776,
+      "sha256": "18ee1d1e1f153b30d12cb4a05749ff101ae03442cf528b2ddbc004c9e763581d"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "f7be625ea1e9cc55bdd57776993b0668c1452ba24f22778824562243b6e67442"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_baseline/epochs.csv",
+      "size_bytes": 1894,
+      "sha256": "e218d0708eecd743c9c0495d09c93092c4f4b0969f7873666798b0055aec1a9c"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "80245cecde082219627bb663a100b7df2c7719fe36fa19d29c52889022540e55"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "8a0cde9cdeb9a020f2c686353b906b2c42dc067933e3f7400c772dbd0bc0b8c1"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_baseline/summary.json",
+      "size_bytes": 783,
+      "sha256": "f552c74b2119380f6dc94cb261b3b010719f153e653cdfa8aca0fa6c81f593a3"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "7c0f03af04b256762cfa4e8d1ae9ce9c81ef0a3dd3a9a4fd4e0eaec71c6fc242"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_full/epochs.csv",
+      "size_bytes": 2071,
+      "sha256": "81fc61c90dcd852f994bf653d032f4d5d8b264c695548c745a69a39f46b781e9"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_full/last.pt",
+      "size_bytes": 3341488305,
+      "sha256": "1c2c116b07e0a3ac1040f3b5e7399b33cb1895cbeb36bf639fc50150400d9675"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "1a29fc7e0d56029e6b01f7c2b957240b5da4ecdce325dec6d5021f75e7491488"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_full/summary.json",
+      "size_bytes": 779,
+      "sha256": "76eb399074ceb530e8d6751bdac7d482ae2d009414792606f2549143bf61ad49"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "e828876bea2e6bdf521edfcd61330045610e03fcaf12f4f23ed97592b882425d"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_geo/epochs.csv",
+      "size_bytes": 2032,
+      "sha256": "b152aa9e65d6fa92dda2adae58f8b58a4846eda29f220b7ba97ec05c67e09dbb"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_geo/last.pt",
+      "size_bytes": 3341488305,
+      "sha256": "299b14515403d8fdcfaa961ba523229209abd3960adfbfecf72ceb0be52a99a4"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "34b3062b31c8809169dd4502d3a0e6491e6d30f2aeaf87c816e2a44faeb9ee44"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed4_geo/summary.json",
+      "size_bytes": 778,
+      "sha256": "9cb8f6af5e519d9e8bc72c43aa784f3bb57570bbc089d6ff94587d721eafb9aa"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "b9430446bf441057a136539007f5c0712ca596479bb5ea87bcb4ecd23998b347"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_baseline/epochs.csv",
+      "size_bytes": 1896,
+      "sha256": "09d14d0d1bb95922dce4a2737136d4aa39854b2fd890ec0cfd5f223b6270c731"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "a8916e135a569c4769f90c9321453d5506f88f07c04ef6d1f4cbf4c45080a098"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "358cbb576132072bd1e0167e86709b9002d33642435c78da1c40c056ffc26935"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_baseline/summary.json",
+      "size_bytes": 785,
+      "sha256": "223ec17cefbdd073865eef50a19619118b44997397afb55fe7d045242e6a869f"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "b72b5bd6462dceaedcbb011961c1e1aae25119364105cf92ca19a252240dc7e9"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_full/epochs.csv",
+      "size_bytes": 2072,
+      "sha256": "5ff6be3c87371de2716c1e3c674a58f7e9946060d6a5b255c2aa90a4277dea6e"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "34596f49b48ba785f4c511b5d961e53141276ea4d4acf96c758cff6cec0825fb"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "f5cab7f259d18bd50268d0776ee0e756911cbd3d375c2128b600f24c0c02ff26"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_full/summary.json",
+      "size_bytes": 777,
+      "sha256": "f6f0961609b04703cea71ad34f0f33343f6723ddc1091c5496d4419ee0ae4524"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "85267fc0cbf58e15fd8e6ff2af83d01b017aa25082a375807413f5844e6fd6da"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_geo/epochs.csv",
+      "size_bytes": 2043,
+      "sha256": "c5122c8c651d9287cca88c0497a6ac93b4e1017de3c1d507d0b26b7056dec048"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "aa4bd4cc87d94d13479c1db2b699fea0f5f29a84d669a7b66dad61d8e3e509b9"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "999569474e9cb5fe03e3c17e71ee2d9e154d169ae8fd8b720cd62b9b9584f6e8"
+    },
+    {
+      "path": "thesis/results/e0/en-it_seed5_geo/summary.json",
+      "size_bytes": 775,
+      "sha256": "81be810465c881ad09b14b720f2473b2b92453f08d8d0e6b3f6eaebb3db44b9e"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "54852b04dfd323beacf1cb6217698338eb534b9e6f206d7e8801fa2bc5a98915"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_baseline/epochs.csv",
+      "size_bytes": 1884,
+      "sha256": "d39ef598d74c6bc548cbdba461c3cc44ea98a197bc5c6a5b0f7d74f9c3fc828e"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "03968459217bd524cd352fafb0280c9d8ef553da0a74b044868f194ef0305d51"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "6590f348bc2df6a893e8ec2390361f412bf09811fd1cb6edf104f539c8f45e2c"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_baseline/summary.json",
+      "size_bytes": 782,
+      "sha256": "dc0df3b718f417fb6a5f58320c9729e9c6250bde2a1b8e157f65910815929dec"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "22ae4f379c368e02bf3a80c6cf732105c75adf9f8b29058fccfa4c3863f980ce"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_full/epochs.csv",
+      "size_bytes": 2058,
+      "sha256": "b4f3d701818b50b7a458ff02a948eede722ed4043d8f78c2f9d71f603aabab15"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "fa55bb476c4a50f4c9735d6163c9c6d03370ba9a2ae305066e69f624ec1179af"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "bfddb64c80b5136e49ba9f3cb9cc540b98a552370575bde2f707e10b087eb976"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_full/summary.json",
+      "size_bytes": 779,
+      "sha256": "ba7a1c05161ccce4b1d8d6ef9f931ee402728517f225e1072243f460a996b19c"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "74872914ff6b5b5391a23f37c57eebaf452bee5fb8cc2cdb98d001b5c422ae10"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_geo/epochs.csv",
+      "size_bytes": 2028,
+      "sha256": "8381cdfec8bb2e47f8d2f0dc65cf04becd6cc6e1301f081d757f106dbe0f9e29"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "8858af2366393da64eac07f10e7929e2ea2c77222f61827aad112c920afafb39"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "e85fb2008c2d7d4e48eb899eb076a05006a9f1bda1e6b231b157d3321e00313e"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed1_geo/summary.json",
+      "size_bytes": 773,
+      "sha256": "445afde5017801fa120243d1ba67080a3ed67d08d5f9738a4552196781f5b94f"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "f606b3ec67d2a3a13e9bbbd0aee756ebdf35c0133c8ae24f79ed87cf70c48dc6"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_baseline/epochs.csv",
+      "size_bytes": 1885,
+      "sha256": "108129ffd2042dc49aa424ae621d3bf5b33784285915cc9642691b15754dc838"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "763f36e78cc46a00fb80843263ff8105b0025785ccbb60b5d27f918c9a342feb"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "e76236c8c87d6e7e089bdccf44aa88006e458544679099818e32a5f249f70a21"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_baseline/summary.json",
+      "size_bytes": 782,
+      "sha256": "f029a30cad1aea542f6c7e15966d34a0ecace39a36fe6e0d857bc62272281c78"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "69b40c0d23822552550e6fc7d1e28fafba2604674dcefbb39fe5be2f9f896080"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_full/epochs.csv",
+      "size_bytes": 2071,
+      "sha256": "ef55aeb4c842df583ffd0d2f806bdbdf5a5b7072f35d0f0bc98a7f1ec6b805b3"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "154fe0c978d0d2b66d84263cf08730de9606605eca49d2ad276c56b5a84da9f8"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "b525d10361b5f3fdc75b148626c35df4e5b9038c7b8426b9ed35686c0a4e96e4"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_full/summary.json",
+      "size_bytes": 778,
+      "sha256": "7d98e67f00623a4e666061a641fdf4a9f343c5e0c8df9c0a419f764727645c44"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "0e51d04dfdcd8a9855c929327d96ce569c23eb7decb23ac97022a344b4f67ffa"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_geo/epochs.csv",
+      "size_bytes": 2034,
+      "sha256": "8526ed57f6e7ed30bfece569de2a3dbb104466bb9e7570e79ace48f059fff7a5"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "27a28ef5bd3a37b1b1fab747c1494c13c161101efc5e43868b7956be044251e3"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "c66d22969e77fd43166216f94dfbf5341bfd934e35d434633cc4b9e3f2d4dc2d"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed2_geo/summary.json",
+      "size_bytes": 777,
+      "sha256": "d98617377b351f2b3cdc299e3af70d072d07e6b18f71e88199839cbd908fdd8b"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "245103d2c5b5518f6dfab979422570272ece25040172239faf7958c2075e12ef"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_baseline/epochs.csv",
+      "size_bytes": 1887,
+      "sha256": "d94ca19eb360e2f40bb794f24d5f87d1c40c7ba6050292001f37c4650b1af019"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "1229795f425a9830a44a0208913d461f9f83647b88c6c28385cf959ef2edd104"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "d0e551015019fd926e86e608da7e4d9184af651cc4e70e2af9bc16afe5e4c0c7"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_baseline/summary.json",
+      "size_bytes": 780,
+      "sha256": "c26be64d97f452862cd0768a77901469797253f481110cc220df02d4b24d499d"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "f4a39c821edac67bbb850a87083aa2023b4c14fc2bd4febecc0650dd025d02c8"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_full/epochs.csv",
+      "size_bytes": 2062,
+      "sha256": "3e1cd160bc9cb4f27220f318748c574e51cc5cd10a6bb05cdc86c5a30e595efb"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "edcd2640295c303175e6bba4f05ff41950b83580ddaeab4109cf5f7a7c22f8e5"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "afc46f2d4dd98574b0466ac84c94b6981a0ea54eee118ccd0f068c8881175edf"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_full/summary.json",
+      "size_bytes": 778,
+      "sha256": "b01961798d42b671556d911fa825c26f28dcec225e7bc2bbcc2a26335da43cdc"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "aa43120e3a43c390870d1264dee9eae0f3b9c72d76d594e03145447e3413c80b"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_geo/epochs.csv",
+      "size_bytes": 2032,
+      "sha256": "5c5c9621e3ee5a383ec2de9a1a648022161703fa510a43d6893e170f2f484c6c"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "eea5fb44b1fc3912840ae2890d32931219a402f4ad9d967149169c4bc933bae4"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "c25a9f5f9ff4fbf30ca89b84e2c9ffd9a2e4138505ec80a0059b3a43f98b8d7e"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed3_geo/summary.json",
+      "size_bytes": 776,
+      "sha256": "1b333fd57a3c76df3098890c667b3a090696aa321aac2e9054094e8a7c3fc07f"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "99c7e78d4f359ed46d39a64be0a8afa8f6548d974fc0ac8cd28191c68c0fea29"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_baseline/epochs.csv",
+      "size_bytes": 1879,
+      "sha256": "845b1e299650d25e5b8b2d5c79a05637c7ca50c482a7af9f24715cfbe23197ae"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "40daabee6fcc02b8beae18642509c7426d0365e619a0ba1aa708758b4213e231"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "8339ee084779f6baac28ad4427468bcac5a498b70f9b60d4fd272bf104e472be"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_baseline/summary.json",
+      "size_bytes": 778,
+      "sha256": "4ae7dbc8163cbcbfcbb2204916a4ad7a34f4d4206022338a3bfaedb6a25d4913"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "e26065967f6d5dd3546979b2e59d764ac106ee6ca859db70cb5f47956b48fe3b"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_full/epochs.csv",
+      "size_bytes": 2056,
+      "sha256": "22cbde58d5b2deab908e50257ca48582feff524955c3cbcae7ce3c92ee538b63"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_full/last.pt",
+      "size_bytes": 3341488305,
+      "sha256": "912b48838b02a3aadf0fbf47e0d499762204d7ebd9f87ceb24d46e4cbd1ca894"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "d2fb8f90909e069458fcdbd0d9215e8794037230a8eeee9579e4720f14b9e8ca"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_full/summary.json",
+      "size_bytes": 782,
+      "sha256": "2aaa9b546a824ba2ded443223cb29a7957bd9587892cff491bdd56dde4b94c7a"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "052694fd068fc1d25da39d4ce94bf5678ae5d72c61d17abe324750c02961373d"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_geo/epochs.csv",
+      "size_bytes": 2033,
+      "sha256": "b2592f5a4fc9a637ed4d136327689eb7a6f9b07f29428714785f79b3babc636a"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_geo/last.pt",
+      "size_bytes": 3341488305,
+      "sha256": "9ca51d804e5f811c34047f38db96254afb0743a85c8782a3b40066fed40b507d"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "573a706e164d4c88cd2dc5e32ce108c80c5c240db46aca20714bb5fe905c268f"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed4_geo/summary.json",
+      "size_bytes": 778,
+      "sha256": "807128a806e35698155938316242720fe0f0afc8a2a5cb4cf53d71989d6d3392"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_baseline/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "60a750801e7cd0ae030e809b1aa9e190d0fb69ecded1d84b1b74917abfad10d5"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_baseline/epochs.csv",
+      "size_bytes": 1887,
+      "sha256": "76ba52e8ff941a8ed6b41576c80b1771ca822cd2d2d70df3ca42d9148e051572"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_baseline/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "f69d6ab1ee1e37b52ec9694f6637e6a3e7c79e088ac612b1967a2895646fcf3e"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_baseline/metadata.json",
+      "size_bytes": 903,
+      "sha256": "91f2d13e4573f77a8bf473a27090d1d2d11e1da4bf640d95320bbe179a6df4d1"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_baseline/summary.json",
+      "size_bytes": 784,
+      "sha256": "a0e92b414d6bb4438d724a996a7568416aa65f64cdc520aa3fd7320adf18fd58"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_full/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "66d19c0ef2be512305e4efca2fa357e31c1a20b0a5dc143a59cf88784e7bad9a"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_full/epochs.csv",
+      "size_bytes": 2062,
+      "sha256": "9cad6c86e49d412b5c349853602661dedead0dcb113c536f2377c9a6bd138ffb"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_full/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "97557a77226561bf486a73a06e5ec086809d4fb336ad6473c84a4986e883b4f4"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_full/metadata.json",
+      "size_bytes": 892,
+      "sha256": "dfde3a1456a9a9668476f393e0d43387459bb334dec36141dccf37dcb7894fcf"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_full/summary.json",
+      "size_bytes": 779,
+      "sha256": "3fc765902a0aaf5b91f4e225f05dfa8ef4b0a64f1d380f24a9c653f92457db05"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_geo/best.pt",
+      "size_bytes": 1115398373,
+      "sha256": "35afaff03ff7d6d8b9cd7daaf22cbff3b16651a2bdddfd46f6382c24fa4fce24"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_geo/epochs.csv",
+      "size_bytes": 2032,
+      "sha256": "70265ace3486109a7fc9aa2dac0f541ecf84c4a6e31702490ed50cfe77c1ba01"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_geo/last.pt",
+      "size_bytes": 3341488369,
+      "sha256": "060998cc5361586e97fe9e09f6045a887cf2ae95a9aa9819cbd4f45f844b3f77"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_geo/metadata.json",
+      "size_bytes": 887,
+      "sha256": "f20fa430fb24ba075da584c8a8433268ae17dabf450290bd97518f29a492d9a2"
+    },
+    {
+      "path": "thesis/results/e0/en-ru_seed5_geo/summary.json",
+      "size_bytes": 777,
+      "sha256": "e5e959181eb101ead526463f97e51b8396e1b5f646294353296dada82bd96a29"
+    },
+    {
+      "path": "thesis/results/e0_aggregate_5seeds.csv",
+      "size_bytes": 4397,
+      "sha256": "b5483b4f1a1e2dae0ce14e24ba99fcb94535e4e394459954e6ad59fb605eef9c"
+    },
+    {
+      "path": "thesis/results/e0_all_60_runs.csv",
+      "size_bytes": 10568,
+      "sha256": "3ef684a1e67cdd7fb4d320f4868088905d21f6d21d07bd7df6a11247e87794fa"
+    }
+  ]
+}

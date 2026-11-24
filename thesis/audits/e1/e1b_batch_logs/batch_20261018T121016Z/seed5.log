@@ -1,0 +1,57 @@
+PROVENANCE VERIFIED: historical E0 runner 7b650c86ed3e0e2d6d4bc46f576afa508403d38d; current runner SHA256=daf8e6a1088980328d0c0b48ef72180357957ae661e931fd279ce766fb80b918
+PROVENANCE VERIFIED: historical E0 runner 7b650c86ed3e0e2d6d4bc46f576afa508403d38d; current runner SHA256=daf8e6a1088980328d0c0b48ef72180357957ae661e931fd279ce766fb80b918
+{
+  "phase": "E1-B",
+  "mode": "run",
+  "run": "en-ru_seed5",
+  "checkpoint_sha256": "f69d6ab1ee1e37b52ec9694f6637e6a3e7c79e088ac612b1967a2895646fcf3e",
+  "initial_states": [
+    {
+      "branch": "control",
+      "model_sha256": "4231ac7c258a21dda9cc57c17e29d041b8f79fe7b832596c2a149cc79a2ed1f1",
+      "optimizer_sha256": "3952de4855e0dd38961edfaa8961d17a46a044c10391b98a970160e1153baafd"
+    },
+    {
+      "branch": "geo",
+      "model_sha256": "4231ac7c258a21dda9cc57c17e29d041b8f79fe7b832596c2a149cc79a2ed1f1",
+      "optimizer_sha256": "3952de4855e0dd38961edfaa8961d17a46a044c10391b98a970160e1153baafd"
+    },
+    {
+      "branch": "topo",
+      "model_sha256": "4231ac7c258a21dda9cc57c17e29d041b8f79fe7b832596c2a149cc79a2ed1f1",
+      "optimizer_sha256": "3952de4855e0dd38961edfaa8961d17a46a044c10391b98a970160e1153baafd"
+    },
+    {
+      "branch": "full",
+      "model_sha256": "4231ac7c258a21dda9cc57c17e29d041b8f79fe7b832596c2a149cc79a2ed1f1",
+      "optimizer_sha256": "3952de4855e0dd38961edfaa8961d17a46a044c10391b98a970160e1153baafd"
+    }
+  ],
+  "schedule_sha256": "7173d0f5967e58ab459216120b135775a9b440315588925e2357f79599d820ae",
+  "steps": 438,
+  "branch_coefficients": {
+    "control": [
+      0.0,
+      0.0
+    ],
+    "geo": [
+      0.0005,
+      0.0
+    ],
+    "topo": [
+      0.0,
+      0.0004
+    ],
+    "full": [
+      0.0005,
+      0.0004
+    ]
+  },
+  "status": "PREFLIGHT_PASS"
+}
+PASS control: 438 steps, Top-1=0.928531
+PASS geo: 438 steps, Top-1=0.926244
+PASS topo: 438 steps, Top-1=0.926244
+PASS full: 438 steps, Top-1=0.927959
+=== E1-B RUN PASS ===
+Output: /workspace/Multilingual-Thesis/thesis/results/e1/b_interventions/full/en-ru_seed5

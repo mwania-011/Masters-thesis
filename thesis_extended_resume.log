@@ -1,0 +1,3646 @@
+Prepared isolated runner: thesis/experiments/run_thesis_extended.py
+Runner SHA256: 5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0
+SKIP completed: en-fr_seed1_baseline
+SKIP completed: en-fr_seed1_geo
+SKIP completed: en-fr_seed1_full
+SKIP completed: en-fr_seed2_baseline
+SKIP completed: en-fr_seed2_geo
+SKIP completed: en-fr_seed2_full
+SKIP completed: en-fr_seed3_baseline
+SKIP completed: en-fr_seed3_geo
+SKIP completed: en-fr_seed3_full
+SKIP completed: en-fr_seed4_baseline
+SKIP completed: en-fr_seed4_geo
+SKIP completed: en-fr_seed4_full
+SKIP completed: en-fr_seed5_baseline
+SKIP completed: en-fr_seed5_geo
+SKIP completed: en-fr_seed5_full
+SKIP completed: en-ru_seed1_baseline
+RUN 17/60: en-ru_seed1_geo
+/usr/local/lib/python3.10/dist-packages/torch/cuda/__init__.py:129: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+{
+  "language_pair": "en-ru",
+  "seed": 1,
+  "variant": "geo",
+  "run_id": "en-ru_seed1_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+Traceback (most recent call last):
+  File "/workspace/Multilingual-Thesis/thesis/experiments/run_thesis_extended.py", line 491, in <module>
+    main()
+  File "/workspace/Multilingual-Thesis/thesis/experiments/run_thesis_extended.py", line 206, in main
+    raise RuntimeError("CUDA is unavailable")
+RuntimeError: CUDA is unavailable
+/usr/local/lib/python3.10/dist-packages/torch/cuda/__init__.py:129: UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+Traceback (most recent call last):
+  File "/workspace/Multilingual-Thesis/thesis_extended_training.py", line 176, in <module>
+    main()
+  File "/workspace/Multilingual-Thesis/thesis_extended_training.py", line 171, in main
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python', '/workspace/Multilingual-Thesis/thesis/experiments/run_thesis_extended.py', '--pair', 'en-ru', '--seed', '1', '--variant', 'geo', '--device', 'cuda', '--structural-every-epoch', '--resume']' returned non-zero exit status 1.
+Prepared isolated runner: thesis/experiments/run_thesis_extended.py
+Runner SHA256: 5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0
+SKIP completed: en-fr_seed1_baseline
+SKIP completed: en-fr_seed1_geo
+SKIP completed: en-fr_seed1_full
+SKIP completed: en-fr_seed2_baseline
+SKIP completed: en-fr_seed2_geo
+SKIP completed: en-fr_seed2_full
+SKIP completed: en-fr_seed3_baseline
+SKIP completed: en-fr_seed3_geo
+SKIP completed: en-fr_seed3_full
+SKIP completed: en-fr_seed4_baseline
+SKIP completed: en-fr_seed4_geo
+SKIP completed: en-fr_seed4_full
+SKIP completed: en-fr_seed5_baseline
+SKIP completed: en-fr_seed5_geo
+SKIP completed: en-fr_seed5_full
+SKIP completed: en-ru_seed1_baseline
+RUN 17/60: en-ru_seed1_geo
+Traceback (most recent call last):
+  File "/workspace/Multilingual-Thesis/thesis/experiments/run_thesis_extended.py", line 15, in <module>
+    import train_structure_preserving_multilingual as journal
+ModuleNotFoundError: No module named 'train_structure_preserving_multilingual'
+Traceback (most recent call last):
+  File "/workspace/Multilingual-Thesis/thesis_extended_training.py", line 176, in <module>
+    main()
+  File "/workspace/Multilingual-Thesis/thesis_extended_training.py", line 171, in main
+    subprocess.run(cmd, check=True)
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python', '/workspace/Multilingual-Thesis/thesis/experiments/run_thesis_extended.py', '--pair', 'en-ru', '--seed', '1', '--variant', 'geo', '--device', 'cuda', '--structural-every-epoch', '--resume']' returned non-zero exit status 1.
+Prepared isolated runner: thesis/experiments/run_thesis_extended.py
+Runner SHA256: 5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0
+SKIP completed: en-fr_seed1_baseline
+SKIP completed: en-fr_seed1_geo
+SKIP completed: en-fr_seed1_full
+SKIP completed: en-fr_seed2_baseline
+SKIP completed: en-fr_seed2_geo
+SKIP completed: en-fr_seed2_full
+SKIP completed: en-fr_seed3_baseline
+SKIP completed: en-fr_seed3_geo
+SKIP completed: en-fr_seed3_full
+SKIP completed: en-fr_seed4_baseline
+SKIP completed: en-fr_seed4_geo
+SKIP completed: en-fr_seed4_full
+SKIP completed: en-fr_seed5_baseline
+SKIP completed: en-fr_seed5_geo
+SKIP completed: en-fr_seed5_full
+SKIP completed: en-ru_seed1_baseline
+RUN 17/60: en-ru_seed1_geo
+{
+  "language_pair": "en-ru",
+  "seed": 1,
+  "variant": "geo",
+  "run_id": "en-ru_seed1_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+RESUMING en-ru_seed1_geo: completed=8, next=9, best_epoch=7
+[en-ru_seed1_geo] Epoch 9/40 TrainLoss=0.42850 ValTop1=0.93082 BestTop1=0.93082
+[en-ru_seed1_geo] Epoch 10/40 TrainLoss=0.42479 ValTop1=0.92853 BestTop1=0.93082
+[en-ru_seed1_geo] Epoch 11/40 TrainLoss=0.42098 ValTop1=0.93082 BestTop1=0.93082
+[en-ru_seed1_geo] Epoch 12/40 TrainLoss=0.41789 ValTop1=0.93539 BestTop1=0.93539
+[en-ru_seed1_geo] Epoch 13/40 TrainLoss=0.41570 ValTop1=0.93425 BestTop1=0.93539
+[en-ru_seed1_geo] Epoch 14/40 TrainLoss=0.41339 ValTop1=0.93425 BestTop1=0.93539
+[en-ru_seed1_geo] Epoch 15/40 TrainLoss=0.41124 ValTop1=0.93425 BestTop1=0.93539
+[en-ru_seed1_geo] Epoch 16/40 TrainLoss=0.40867 ValTop1=0.93253 BestTop1=0.93539
+[en-ru_seed1_geo] Epoch 17/40 TrainLoss=0.40784 ValTop1=0.93425 BestTop1=0.93539
+EARLY STOP: epoch=17, patience=5
+{
+  "run_id": "en-ru_seed1_geo",
+  "smoke_test": false,
+  "best_epoch": 12,
+  "epochs_completed": 17,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9353916523727844,
+    "Top-5": 0.9702687249857062,
+    "MeanRank": 11.783304745568897,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.903466522693634,
+    "HardNegMean": 0.7563645243644714,
+    "MarginMean": 0.14710205793380737,
+    "NeighborOverlap@10": 0.3855345911949686,
+    "Uniformity": -1.8988364605755441
+  },
+  "held_out_test": {
+    "Top-1": 0.912621359223301,
+    "Top-5": 0.9565962307252999,
+    "MeanRank": 7.459166190748144,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9078705310821533,
+    "HardNegMean": 0.7642381191253662,
+    "MarginMean": 0.14363236725330353,
+    "NeighborOverlap@10": 0.4224443175328384,
+    "Uniformity": -1.8980980754737715
+  }
+}
+RUN 18/60: en-ru_seed1_full
+{
+  "language_pair": "en-ru",
+  "seed": 1,
+  "variant": "full",
+  "run_id": "en-ru_seed1_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0004
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed1_full] Epoch 1/40 TrainLoss=1.55608 ValTop1=0.88508 BestTop1=0.88508
+[en-ru_seed1_full] Epoch 2/40 TrainLoss=0.60399 ValTop1=0.91252 BestTop1=0.91252
+[en-ru_seed1_full] Epoch 3/40 TrainLoss=0.52931 ValTop1=0.91938 BestTop1=0.91938
+[en-ru_seed1_full] Epoch 4/40 TrainLoss=0.49030 ValTop1=0.91881 BestTop1=0.91938
+[en-ru_seed1_full] Epoch 5/40 TrainLoss=0.46895 ValTop1=0.92624 BestTop1=0.92624
+[en-ru_seed1_full] Epoch 6/40 TrainLoss=0.45385 ValTop1=0.92396 BestTop1=0.92624
+[en-ru_seed1_full] Epoch 7/40 TrainLoss=0.44388 ValTop1=0.92910 BestTop1=0.92910
+[en-ru_seed1_full] Epoch 8/40 TrainLoss=0.43610 ValTop1=0.93253 BestTop1=0.93253
+[en-ru_seed1_full] Epoch 9/40 TrainLoss=0.42862 ValTop1=0.92910 BestTop1=0.93253
+[en-ru_seed1_full] Epoch 10/40 TrainLoss=0.42547 ValTop1=0.93082 BestTop1=0.93253
+[en-ru_seed1_full] Epoch 11/40 TrainLoss=0.42145 ValTop1=0.93139 BestTop1=0.93253
+[en-ru_seed1_full] Epoch 12/40 TrainLoss=0.41801 ValTop1=0.93939 BestTop1=0.93939
+[en-ru_seed1_full] Epoch 13/40 TrainLoss=0.41599 ValTop1=0.93654 BestTop1=0.93939
+[en-ru_seed1_full] Epoch 14/40 TrainLoss=0.41381 ValTop1=0.93196 BestTop1=0.93939
+[en-ru_seed1_full] Epoch 15/40 TrainLoss=0.41129 ValTop1=0.93711 BestTop1=0.93939
+[en-ru_seed1_full] Epoch 16/40 TrainLoss=0.40878 ValTop1=0.93539 BestTop1=0.93939
+[en-ru_seed1_full] Epoch 17/40 TrainLoss=0.40800 ValTop1=0.93825 BestTop1=0.93939
+EARLY STOP: epoch=17, patience=5
+{
+  "run_id": "en-ru_seed1_full",
+  "smoke_test": false,
+  "best_epoch": 12,
+  "epochs_completed": 17,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9393939393939394,
+    "Top-5": 0.9696969696969697,
+    "MeanRank": 13.802172670097198,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9048277139663696,
+    "HardNegMean": 0.7592912912368774,
+    "MarginMean": 0.1455363631248474,
+    "NeighborOverlap@10": 0.3929102344196684,
+    "Uniformity": -1.876735364751867
+  },
+  "held_out_test": {
+    "Top-1": 0.9120502569960023,
+    "Top-5": 0.963449457452884,
+    "MeanRank": 7.8972015990862365,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9094712138175964,
+    "HardNegMean": 0.7670581936836243,
+    "MarginMean": 0.14241307973861694,
+    "NeighborOverlap@10": 0.4162764134780126,
+    "Uniformity": -1.871376716960642
+  }
+}
+RUN 19/60: en-ru_seed2_baseline
+{
+  "language_pair": "en-ru",
+  "seed": 2,
+  "variant": "baseline",
+  "run_id": "en-ru_seed2_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed2_baseline] Epoch 1/40 TrainLoss=1.60250 ValTop1=0.87764 BestTop1=0.87764
+[en-ru_seed2_baseline] Epoch 2/40 TrainLoss=0.60710 ValTop1=0.91652 BestTop1=0.91652
+[en-ru_seed2_baseline] Epoch 3/40 TrainLoss=0.53257 ValTop1=0.92453 BestTop1=0.92453
+[en-ru_seed2_baseline] Epoch 4/40 TrainLoss=0.49344 ValTop1=0.92510 BestTop1=0.92510
+[en-ru_seed2_baseline] Epoch 5/40 TrainLoss=0.46990 ValTop1=0.92967 BestTop1=0.92967
+[en-ru_seed2_baseline] Epoch 6/40 TrainLoss=0.45508 ValTop1=0.92567 BestTop1=0.92967
+[en-ru_seed2_baseline] Epoch 7/40 TrainLoss=0.44433 ValTop1=0.93139 BestTop1=0.93139
+[en-ru_seed2_baseline] Epoch 8/40 TrainLoss=0.43578 ValTop1=0.93310 BestTop1=0.93310
+[en-ru_seed2_baseline] Epoch 9/40 TrainLoss=0.42962 ValTop1=0.93139 BestTop1=0.93310
+[en-ru_seed2_baseline] Epoch 10/40 TrainLoss=0.42414 ValTop1=0.93368 BestTop1=0.93368
+[en-ru_seed2_baseline] Epoch 11/40 TrainLoss=0.42142 ValTop1=0.93139 BestTop1=0.93368
+[en-ru_seed2_baseline] Epoch 12/40 TrainLoss=0.41809 ValTop1=0.93196 BestTop1=0.93368
+[en-ru_seed2_baseline] Epoch 13/40 TrainLoss=0.41506 ValTop1=0.93482 BestTop1=0.93482
+[en-ru_seed2_baseline] Epoch 14/40 TrainLoss=0.41304 ValTop1=0.93768 BestTop1=0.93768
+[en-ru_seed2_baseline] Epoch 15/40 TrainLoss=0.41064 ValTop1=0.93139 BestTop1=0.93768
+[en-ru_seed2_baseline] Epoch 16/40 TrainLoss=0.40864 ValTop1=0.93596 BestTop1=0.93768
+[en-ru_seed2_baseline] Epoch 17/40 TrainLoss=0.40731 ValTop1=0.93654 BestTop1=0.93768
+[en-ru_seed2_baseline] Epoch 18/40 TrainLoss=0.40603 ValTop1=0.93939 BestTop1=0.93939
+[en-ru_seed2_baseline] Epoch 19/40 TrainLoss=0.40436 ValTop1=0.93882 BestTop1=0.93939
+[en-ru_seed2_baseline] Epoch 20/40 TrainLoss=0.40353 ValTop1=0.93711 BestTop1=0.93939
+[en-ru_seed2_baseline] Epoch 21/40 TrainLoss=0.40264 ValTop1=0.93539 BestTop1=0.93939
+[en-ru_seed2_baseline] Epoch 22/40 TrainLoss=0.40128 ValTop1=0.93939 BestTop1=0.93939
+[en-ru_seed2_baseline] Epoch 23/40 TrainLoss=0.40016 ValTop1=0.93939 BestTop1=0.93939
+EARLY STOP: epoch=23, patience=5
+{
+  "run_id": "en-ru_seed2_baseline",
+  "smoke_test": false,
+  "best_epoch": 18,
+  "epochs_completed": 23,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9393939393939394,
+    "Top-5": 0.9708404802744426,
+    "MeanRank": 13.361349342481418,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.908315896987915,
+    "HardNegMean": 0.7639226913452148,
+    "MarginMean": 0.144393190741539,
+    "NeighborOverlap@10": 0.3979416809605489,
+    "Uniformity": -1.793044333366201
+  },
+  "held_out_test": {
+    "Top-1": 0.912621359223301,
+    "Top-5": 0.9583095374071959,
+    "MeanRank": 9.62193032552827,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9121081829071045,
+    "HardNegMean": 0.7699755430221558,
+    "MarginMean": 0.14213262498378754,
+    "NeighborOverlap@10": 0.4207881210736722,
+    "Uniformity": -1.795636365088806
+  }
+}
+RUN 20/60: en-ru_seed2_geo
+{
+  "language_pair": "en-ru",
+  "seed": 2,
+  "variant": "geo",
+  "run_id": "en-ru_seed2_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed2_geo] Epoch 1/40 TrainLoss=1.60250 ValTop1=0.87764 BestTop1=0.87764
+[en-ru_seed2_geo] Epoch 2/40 TrainLoss=0.60710 ValTop1=0.91652 BestTop1=0.91652
+[en-ru_seed2_geo] Epoch 3/40 TrainLoss=0.53257 ValTop1=0.92453 BestTop1=0.92453
+[en-ru_seed2_geo] Epoch 4/40 TrainLoss=0.49318 ValTop1=0.92510 BestTop1=0.92510
+[en-ru_seed2_geo] Epoch 5/40 TrainLoss=0.46984 ValTop1=0.92739 BestTop1=0.92739
+[en-ru_seed2_geo] Epoch 6/40 TrainLoss=0.45455 ValTop1=0.92396 BestTop1=0.92739
+[en-ru_seed2_geo] Epoch 7/40 TrainLoss=0.44414 ValTop1=0.93368 BestTop1=0.93368
+[en-ru_seed2_geo] Epoch 8/40 TrainLoss=0.43579 ValTop1=0.92967 BestTop1=0.93368
+[en-ru_seed2_geo] Epoch 9/40 TrainLoss=0.42960 ValTop1=0.93253 BestTop1=0.93368
+[en-ru_seed2_geo] Epoch 10/40 TrainLoss=0.42425 ValTop1=0.93253 BestTop1=0.93368
+[en-ru_seed2_geo] Epoch 11/40 TrainLoss=0.42128 ValTop1=0.93253 BestTop1=0.93368
+[en-ru_seed2_geo] Epoch 12/40 TrainLoss=0.41768 ValTop1=0.93539 BestTop1=0.93539
+[en-ru_seed2_geo] Epoch 13/40 TrainLoss=0.41517 ValTop1=0.93368 BestTop1=0.93539
+[en-ru_seed2_geo] Epoch 14/40 TrainLoss=0.41306 ValTop1=0.93482 BestTop1=0.93539
+[en-ru_seed2_geo] Epoch 15/40 TrainLoss=0.41084 ValTop1=0.93082 BestTop1=0.93539
+[en-ru_seed2_geo] Epoch 16/40 TrainLoss=0.40887 ValTop1=0.93539 BestTop1=0.93539
+[en-ru_seed2_geo] Epoch 17/40 TrainLoss=0.40721 ValTop1=0.93310 BestTop1=0.93539
+EARLY STOP: epoch=17, patience=5
+{
+  "run_id": "en-ru_seed2_geo",
+  "smoke_test": false,
+  "best_epoch": 12,
+  "epochs_completed": 17,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9353916523727844,
+    "Top-5": 0.967409948542024,
+    "MeanRank": 12.132075471698114,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9050440788269043,
+    "HardNegMean": 0.763253927230835,
+    "MarginMean": 0.1417900174856186,
+    "NeighborOverlap@10": 0.3946826758147513,
+    "Uniformity": -1.8621023616532386
+  },
+  "held_out_test": {
+    "Top-1": 0.9097658480868075,
+    "Top-5": 0.9611650485436893,
+    "MeanRank": 7.886350656767561,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9104472398757935,
+    "HardNegMean": 0.7693580389022827,
+    "MarginMean": 0.14108918607234955,
+    "NeighborOverlap@10": 0.41941747572815535,
+    "Uniformity": -1.863477638272981
+  }
+}
+RUN 21/60: en-ru_seed2_full
+{
+  "language_pair": "en-ru",
+  "seed": 2,
+  "variant": "full",
+  "run_id": "en-ru_seed2_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0004
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed2_full] Epoch 1/40 TrainLoss=1.60250 ValTop1=0.87764 BestTop1=0.87764
+[en-ru_seed2_full] Epoch 2/40 TrainLoss=0.60710 ValTop1=0.91652 BestTop1=0.91652
+[en-ru_seed2_full] Epoch 3/40 TrainLoss=0.53257 ValTop1=0.92453 BestTop1=0.92453
+[en-ru_seed2_full] Epoch 4/40 TrainLoss=0.49344 ValTop1=0.92510 BestTop1=0.92510
+[en-ru_seed2_full] Epoch 5/40 TrainLoss=0.46989 ValTop1=0.92967 BestTop1=0.92967
+[en-ru_seed2_full] Epoch 6/40 TrainLoss=0.45509 ValTop1=0.93025 BestTop1=0.93025
+[en-ru_seed2_full] Epoch 7/40 TrainLoss=0.44396 ValTop1=0.93082 BestTop1=0.93082
+[en-ru_seed2_full] Epoch 8/40 TrainLoss=0.43555 ValTop1=0.93482 BestTop1=0.93482
+[en-ru_seed2_full] Epoch 9/40 TrainLoss=0.42915 ValTop1=0.93711 BestTop1=0.93711
+[en-ru_seed2_full] Epoch 10/40 TrainLoss=0.42481 ValTop1=0.93253 BestTop1=0.93711
+[en-ru_seed2_full] Epoch 11/40 TrainLoss=0.42146 ValTop1=0.93596 BestTop1=0.93711
+[en-ru_seed2_full] Epoch 12/40 TrainLoss=0.41829 ValTop1=0.93654 BestTop1=0.93711
+[en-ru_seed2_full] Epoch 13/40 TrainLoss=0.41532 ValTop1=0.93425 BestTop1=0.93711
+[en-ru_seed2_full] Epoch 14/40 TrainLoss=0.41283 ValTop1=0.93082 BestTop1=0.93711
+EARLY STOP: epoch=14, patience=5
+{
+  "run_id": "en-ru_seed2_full",
+  "smoke_test": false,
+  "best_epoch": 9,
+  "epochs_completed": 14,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9371069182389937,
+    "Top-5": 0.9702687249857062,
+    "MeanRank": 10.734705546026301,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8991034626960754,
+    "HardNegMean": 0.7556821703910828,
+    "MarginMean": 0.14342130720615387,
+    "NeighborOverlap@10": 0.3766152086906804,
+    "Uniformity": -1.965985453109993
+  },
+  "held_out_test": {
+    "Top-1": 0.9080525414049114,
+    "Top-5": 0.9628783552255854,
+    "MeanRank": 8.272986864648772,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9032464623451233,
+    "HardNegMean": 0.7602628469467163,
+    "MarginMean": 0.14298367500305176,
+    "NeighborOverlap@10": 0.4000571102227299,
+    "Uniformity": -1.9627141912899817
+  }
+}
+RUN 22/60: en-ru_seed3_baseline
+{
+  "language_pair": "en-ru",
+  "seed": 3,
+  "variant": "baseline",
+  "run_id": "en-ru_seed3_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed3_baseline] Epoch 1/40 TrainLoss=2.06212 ValTop1=0.82905 BestTop1=0.82905
+[en-ru_seed3_baseline] Epoch 2/40 TrainLoss=0.65343 ValTop1=0.91023 BestTop1=0.91023
+[en-ru_seed3_baseline] Epoch 3/40 TrainLoss=0.54958 ValTop1=0.90795 BestTop1=0.91023
+[en-ru_seed3_baseline] Epoch 4/40 TrainLoss=0.50451 ValTop1=0.93082 BestTop1=0.93082
+[en-ru_seed3_baseline] Epoch 5/40 TrainLoss=0.47617 ValTop1=0.92281 BestTop1=0.93082
+[en-ru_seed3_baseline] Epoch 6/40 TrainLoss=0.45915 ValTop1=0.92453 BestTop1=0.93082
+[en-ru_seed3_baseline] Epoch 7/40 TrainLoss=0.44684 ValTop1=0.93139 BestTop1=0.93139
+[en-ru_seed3_baseline] Epoch 8/40 TrainLoss=0.43834 ValTop1=0.92739 BestTop1=0.93139
+[en-ru_seed3_baseline] Epoch 9/40 TrainLoss=0.43067 ValTop1=0.93253 BestTop1=0.93253
+[en-ru_seed3_baseline] Epoch 10/40 TrainLoss=0.42557 ValTop1=0.93253 BestTop1=0.93253
+[en-ru_seed3_baseline] Epoch 11/40 TrainLoss=0.42169 ValTop1=0.93082 BestTop1=0.93253
+[en-ru_seed3_baseline] Epoch 12/40 TrainLoss=0.41886 ValTop1=0.93368 BestTop1=0.93368
+[en-ru_seed3_baseline] Epoch 13/40 TrainLoss=0.41612 ValTop1=0.94111 BestTop1=0.94111
+[en-ru_seed3_baseline] Epoch 14/40 TrainLoss=0.41414 ValTop1=0.93196 BestTop1=0.94111
+[en-ru_seed3_baseline] Epoch 15/40 TrainLoss=0.41073 ValTop1=0.93654 BestTop1=0.94111
+[en-ru_seed3_baseline] Epoch 16/40 TrainLoss=0.40982 ValTop1=0.93596 BestTop1=0.94111
+[en-ru_seed3_baseline] Epoch 17/40 TrainLoss=0.40783 ValTop1=0.93082 BestTop1=0.94111
+[en-ru_seed3_baseline] Epoch 18/40 TrainLoss=0.40685 ValTop1=0.93539 BestTop1=0.94111
+EARLY STOP: epoch=18, patience=5
+{
+  "run_id": "en-ru_seed3_baseline",
+  "smoke_test": false,
+  "best_epoch": 13,
+  "epochs_completed": 18,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9411092052601486,
+    "Top-5": 0.9725557461406518,
+    "MeanRank": 9.762149799885648,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9047889113426208,
+    "HardNegMean": 0.7585176825523376,
+    "MarginMean": 0.14627113938331604,
+    "NeighborOverlap@10": 0.39262435677530017,
+    "Uniformity": -1.8869772894213084
+  },
+  "held_out_test": {
+    "Top-1": 0.9131924614505996,
+    "Top-5": 0.9577384351798972,
+    "MeanRank": 8.83894917190177,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.909950315952301,
+    "HardNegMean": 0.7672547698020935,
+    "MarginMean": 0.1426955610513687,
+    "NeighborOverlap@10": 0.4232438606510565,
+    "Uniformity": -1.8855500146156674
+  }
+}
+RUN 23/60: en-ru_seed3_geo
+{
+  "language_pair": "en-ru",
+  "seed": 3,
+  "variant": "geo",
+  "run_id": "en-ru_seed3_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed3_geo] Epoch 1/40 TrainLoss=2.06212 ValTop1=0.82905 BestTop1=0.82905
+[en-ru_seed3_geo] Epoch 2/40 TrainLoss=0.65343 ValTop1=0.91023 BestTop1=0.91023
+[en-ru_seed3_geo] Epoch 3/40 TrainLoss=0.54958 ValTop1=0.90795 BestTop1=0.91023
+[en-ru_seed3_geo] Epoch 4/40 TrainLoss=0.50460 ValTop1=0.93139 BestTop1=0.93139
+[en-ru_seed3_geo] Epoch 5/40 TrainLoss=0.47639 ValTop1=0.92338 BestTop1=0.93139
+[en-ru_seed3_geo] Epoch 6/40 TrainLoss=0.45943 ValTop1=0.92281 BestTop1=0.93139
+[en-ru_seed3_geo] Epoch 7/40 TrainLoss=0.44683 ValTop1=0.92281 BestTop1=0.93139
+[en-ru_seed3_geo] Epoch 8/40 TrainLoss=0.43808 ValTop1=0.92510 BestTop1=0.93139
+[en-ru_seed3_geo] Epoch 9/40 TrainLoss=0.43092 ValTop1=0.92967 BestTop1=0.93139
+EARLY STOP: epoch=9, patience=5
+{
+  "run_id": "en-ru_seed3_geo",
+  "smoke_test": false,
+  "best_epoch": 4,
+  "epochs_completed": 9,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9313893653516295,
+    "Top-5": 0.9708404802744426,
+    "MeanRank": 8.831332189822756,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8953421115875244,
+    "HardNegMean": 0.7682749629020691,
+    "MarginMean": 0.12706710398197174,
+    "NeighborOverlap@10": 0.3620354488279017,
+    "Uniformity": -2.07188355756076
+  },
+  "held_out_test": {
+    "Top-1": 0.9046259280411194,
+    "Top-5": 0.9565962307252999,
+    "MeanRank": 7.189034837235865,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.900434672832489,
+    "HardNegMean": 0.7752388119697571,
+    "MarginMean": 0.12519587576389313,
+    "NeighborOverlap@10": 0.3860079954311822,
+    "Uniformity": -2.0649230254638944
+  }
+}
+RUN 24/60: en-ru_seed3_full
+{
+  "language_pair": "en-ru",
+  "seed": 3,
+  "variant": "full",
+  "run_id": "en-ru_seed3_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0004
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed3_full] Epoch 1/40 TrainLoss=2.06212 ValTop1=0.82905 BestTop1=0.82905
+[en-ru_seed3_full] Epoch 2/40 TrainLoss=0.65343 ValTop1=0.91023 BestTop1=0.91023
+[en-ru_seed3_full] Epoch 3/40 TrainLoss=0.54958 ValTop1=0.90795 BestTop1=0.91023
+[en-ru_seed3_full] Epoch 4/40 TrainLoss=0.50451 ValTop1=0.93082 BestTop1=0.93082
+[en-ru_seed3_full] Epoch 5/40 TrainLoss=0.47634 ValTop1=0.92567 BestTop1=0.93082
+[en-ru_seed3_full] Epoch 6/40 TrainLoss=0.45917 ValTop1=0.92567 BestTop1=0.93082
+[en-ru_seed3_full] Epoch 7/40 TrainLoss=0.44643 ValTop1=0.92510 BestTop1=0.93082
+[en-ru_seed3_full] Epoch 8/40 TrainLoss=0.43757 ValTop1=0.93139 BestTop1=0.93139
+[en-ru_seed3_full] Epoch 9/40 TrainLoss=0.43065 ValTop1=0.92967 BestTop1=0.93139
+[en-ru_seed3_full] Epoch 10/40 TrainLoss=0.42570 ValTop1=0.93253 BestTop1=0.93253
+[en-ru_seed3_full] Epoch 11/40 TrainLoss=0.42179 ValTop1=0.93196 BestTop1=0.93253
+[en-ru_seed3_full] Epoch 12/40 TrainLoss=0.41898 ValTop1=0.93082 BestTop1=0.93253
+[en-ru_seed3_full] Epoch 13/40 TrainLoss=0.41588 ValTop1=0.93768 BestTop1=0.93768
+[en-ru_seed3_full] Epoch 14/40 TrainLoss=0.41435 ValTop1=0.93539 BestTop1=0.93768
+[en-ru_seed3_full] Epoch 15/40 TrainLoss=0.41104 ValTop1=0.93368 BestTop1=0.93768
+[en-ru_seed3_full] Epoch 16/40 TrainLoss=0.40952 ValTop1=0.92967 BestTop1=0.93768
+[en-ru_seed3_full] Epoch 17/40 TrainLoss=0.40792 ValTop1=0.93539 BestTop1=0.93768
+[en-ru_seed3_full] Epoch 18/40 TrainLoss=0.40701 ValTop1=0.93425 BestTop1=0.93768
+EARLY STOP: epoch=18, patience=5
+{
+  "run_id": "en-ru_seed3_full",
+  "smoke_test": false,
+  "best_epoch": 13,
+  "epochs_completed": 18,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9376786735277302,
+    "Top-5": 0.9719839908519153,
+    "MeanRank": 9.108061749571183,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.907159686088562,
+    "HardNegMean": 0.7621860504150391,
+    "MarginMean": 0.14497371017932892,
+    "NeighborOverlap@10": 0.397770154373928,
+    "Uniformity": -1.8660349256655202
+  },
+  "held_out_test": {
+    "Top-1": 0.9114791547687036,
+    "Top-5": 0.9605939463163906,
+    "MeanRank": 8.892061679040548,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.912744402885437,
+    "HardNegMean": 0.7708336710929871,
+    "MarginMean": 0.14191074669361115,
+    "NeighborOverlap@10": 0.4238720731010851,
+    "Uniformity": -1.8614155674136115
+  }
+}
+RUN 25/60: en-ru_seed4_baseline
+{
+  "language_pair": "en-ru",
+  "seed": 4,
+  "variant": "baseline",
+  "run_id": "en-ru_seed4_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed4_baseline] Epoch 1/40 TrainLoss=1.75134 ValTop1=0.86850 BestTop1=0.86850
+[en-ru_seed4_baseline] Epoch 2/40 TrainLoss=0.62648 ValTop1=0.91366 BestTop1=0.91366
+[en-ru_seed4_baseline] Epoch 3/40 TrainLoss=0.53958 ValTop1=0.91995 BestTop1=0.91995
+[en-ru_seed4_baseline] Epoch 4/40 TrainLoss=0.49737 ValTop1=0.92910 BestTop1=0.92910
+[en-ru_seed4_baseline] Epoch 5/40 TrainLoss=0.47260 ValTop1=0.92396 BestTop1=0.92910
+[en-ru_seed4_baseline] Epoch 6/40 TrainLoss=0.45682 ValTop1=0.92967 BestTop1=0.92967
+[en-ru_seed4_baseline] Epoch 7/40 TrainLoss=0.44413 ValTop1=0.92967 BestTop1=0.92967
+[en-ru_seed4_baseline] Epoch 8/40 TrainLoss=0.43604 ValTop1=0.92910 BestTop1=0.92967
+[en-ru_seed4_baseline] Epoch 9/40 TrainLoss=0.42982 ValTop1=0.93253 BestTop1=0.93253
+[en-ru_seed4_baseline] Epoch 10/40 TrainLoss=0.42555 ValTop1=0.93482 BestTop1=0.93482
+[en-ru_seed4_baseline] Epoch 11/40 TrainLoss=0.42072 ValTop1=0.93596 BestTop1=0.93596
+[en-ru_seed4_baseline] Epoch 12/40 TrainLoss=0.41810 ValTop1=0.93654 BestTop1=0.93654
+[en-ru_seed4_baseline] Epoch 13/40 TrainLoss=0.41603 ValTop1=0.93253 BestTop1=0.93654
+[en-ru_seed4_baseline] Epoch 14/40 TrainLoss=0.41404 ValTop1=0.93310 BestTop1=0.93654
+[en-ru_seed4_baseline] Epoch 15/40 TrainLoss=0.41108 ValTop1=0.93825 BestTop1=0.93825
+[en-ru_seed4_baseline] Epoch 16/40 TrainLoss=0.40845 ValTop1=0.93711 BestTop1=0.93825
+[en-ru_seed4_baseline] Epoch 17/40 TrainLoss=0.40688 ValTop1=0.93939 BestTop1=0.93939
+[en-ru_seed4_baseline] Epoch 18/40 TrainLoss=0.40560 ValTop1=0.93196 BestTop1=0.93939
+[en-ru_seed4_baseline] Epoch 19/40 TrainLoss=0.40445 ValTop1=0.93939 BestTop1=0.93939
+[en-ru_seed4_baseline] Epoch 20/40 TrainLoss=0.40339 ValTop1=0.93425 BestTop1=0.93939
+[en-ru_seed4_baseline] Epoch 21/40 TrainLoss=0.40165 ValTop1=0.93939 BestTop1=0.93939
+[en-ru_seed4_baseline] Epoch 22/40 TrainLoss=0.40119 ValTop1=0.93768 BestTop1=0.93939
+EARLY STOP: epoch=22, patience=5
+{
+  "run_id": "en-ru_seed4_baseline",
+  "smoke_test": false,
+  "best_epoch": 17,
+  "epochs_completed": 22,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9393939393939394,
+    "Top-5": 0.9685534591194969,
+    "MeanRank": 11.915951972555746,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9101570844650269,
+    "HardNegMean": 0.767009437084198,
+    "MarginMean": 0.14314766228199005,
+    "NeighborOverlap@10": 0.4034877072612922,
+    "Uniformity": -1.798089839076839
+  },
+  "held_out_test": {
+    "Top-1": 0.9103369503141062,
+    "Top-5": 0.9571673329525985,
+    "MeanRank": 7.9137635636778985,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9137119650840759,
+    "HardNegMean": 0.7724090218544006,
+    "MarginMean": 0.1413029432296753,
+    "NeighborOverlap@10": 0.42758423757852654,
+    "Uniformity": -1.796370808530925
+  }
+}
+RUN 26/60: en-ru_seed4_geo
+{
+  "language_pair": "en-ru",
+  "seed": 4,
+  "variant": "geo",
+  "run_id": "en-ru_seed4_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed4_geo] Epoch 1/40 TrainLoss=1.75134 ValTop1=0.86850 BestTop1=0.86850
+[en-ru_seed4_geo] Epoch 2/40 TrainLoss=0.62648 ValTop1=0.91366 BestTop1=0.91366
+[en-ru_seed4_geo] Epoch 3/40 TrainLoss=0.53958 ValTop1=0.91995 BestTop1=0.91995
+[en-ru_seed4_geo] Epoch 4/40 TrainLoss=0.49718 ValTop1=0.92739 BestTop1=0.92739
+[en-ru_seed4_geo] Epoch 5/40 TrainLoss=0.47283 ValTop1=0.92281 BestTop1=0.92739
+[en-ru_seed4_geo] Epoch 6/40 TrainLoss=0.45664 ValTop1=0.93025 BestTop1=0.93025
+[en-ru_seed4_geo] Epoch 7/40 TrainLoss=0.44482 ValTop1=0.93253 BestTop1=0.93253
+[en-ru_seed4_geo] Epoch 8/40 TrainLoss=0.43624 ValTop1=0.93368 BestTop1=0.93368
+[en-ru_seed4_geo] Epoch 9/40 TrainLoss=0.43005 ValTop1=0.93539 BestTop1=0.93539
+[en-ru_seed4_geo] Epoch 10/40 TrainLoss=0.42591 ValTop1=0.93310 BestTop1=0.93539
+[en-ru_seed4_geo] Epoch 11/40 TrainLoss=0.42062 ValTop1=0.93596 BestTop1=0.93596
+[en-ru_seed4_geo] Epoch 12/40 TrainLoss=0.41888 ValTop1=0.93368 BestTop1=0.93596
+[en-ru_seed4_geo] Epoch 13/40 TrainLoss=0.41644 ValTop1=0.93539 BestTop1=0.93596
+[en-ru_seed4_geo] Epoch 14/40 TrainLoss=0.41362 ValTop1=0.93482 BestTop1=0.93596
+[en-ru_seed4_geo] Epoch 15/40 TrainLoss=0.41169 ValTop1=0.93482 BestTop1=0.93596
+[en-ru_seed4_geo] Epoch 16/40 TrainLoss=0.40880 ValTop1=0.93482 BestTop1=0.93596
+EARLY STOP: epoch=16, patience=5
+{
+  "run_id": "en-ru_seed4_geo",
+  "smoke_test": false,
+  "best_epoch": 11,
+  "epochs_completed": 16,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9359634076615209,
+    "Top-5": 0.9685534591194969,
+    "MeanRank": 12.125786163522013,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9060454964637756,
+    "HardNegMean": 0.7691927552223206,
+    "MarginMean": 0.13685275614261627,
+    "NeighborOverlap@10": 0.39233847913093195,
+    "Uniformity": -1.8452960808387078
+  },
+  "held_out_test": {
+    "Top-1": 0.9097658480868075,
+    "Top-5": 0.9605939463163906,
+    "MeanRank": 7.276984580239863,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9102955460548401,
+    "HardNegMean": 0.7741289138793945,
+    "MarginMean": 0.13616658747196198,
+    "NeighborOverlap@10": 0.4080525414049115,
+    "Uniformity": -1.8453291224665547
+  }
+}
+RUN 27/60: en-ru_seed4_full
+{
+  "language_pair": "en-ru",
+  "seed": 4,
+  "variant": "full",
+  "run_id": "en-ru_seed4_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0004
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed4_full] Epoch 1/40 TrainLoss=1.75134 ValTop1=0.86850 BestTop1=0.86850
+[en-ru_seed4_full] Epoch 2/40 TrainLoss=0.62648 ValTop1=0.91366 BestTop1=0.91366
+[en-ru_seed4_full] Epoch 3/40 TrainLoss=0.53958 ValTop1=0.91995 BestTop1=0.91995
+[en-ru_seed4_full] Epoch 4/40 TrainLoss=0.49737 ValTop1=0.92910 BestTop1=0.92910
+[en-ru_seed4_full] Epoch 5/40 TrainLoss=0.47276 ValTop1=0.92338 BestTop1=0.92910
+[en-ru_seed4_full] Epoch 6/40 TrainLoss=0.45679 ValTop1=0.92682 BestTop1=0.92910
+[en-ru_seed4_full] Epoch 7/40 TrainLoss=0.44455 ValTop1=0.92338 BestTop1=0.92910
+[en-ru_seed4_full] Epoch 8/40 TrainLoss=0.43613 ValTop1=0.93139 BestTop1=0.93139
+[en-ru_seed4_full] Epoch 9/40 TrainLoss=0.43016 ValTop1=0.93539 BestTop1=0.93539
+[en-ru_seed4_full] Epoch 10/40 TrainLoss=0.42587 ValTop1=0.93654 BestTop1=0.93654
+[en-ru_seed4_full] Epoch 11/40 TrainLoss=0.42081 ValTop1=0.93368 BestTop1=0.93654
+[en-ru_seed4_full] Epoch 12/40 TrainLoss=0.41848 ValTop1=0.93368 BestTop1=0.93654
+[en-ru_seed4_full] Epoch 13/40 TrainLoss=0.41630 ValTop1=0.93425 BestTop1=0.93654
+[en-ru_seed4_full] Epoch 14/40 TrainLoss=0.41422 ValTop1=0.93310 BestTop1=0.93654
+[en-ru_seed4_full] Epoch 15/40 TrainLoss=0.41171 ValTop1=0.93596 BestTop1=0.93654
+EARLY STOP: epoch=15, patience=5
+{
+  "run_id": "en-ru_seed4_full",
+  "smoke_test": false,
+  "best_epoch": 10,
+  "epochs_completed": 15,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9365351629502573,
+    "Top-5": 0.9679817038307604,
+    "MeanRank": 12.069754145225843,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9014153480529785,
+    "HardNegMean": 0.7600210905075073,
+    "MarginMean": 0.1413942575454712,
+    "NeighborOverlap@10": 0.39165237278444825,
+    "Uniformity": -1.9387780617994157
+  },
+  "held_out_test": {
+    "Top-1": 0.9046259280411194,
+    "Top-5": 0.9588806396344945,
+    "MeanRank": 7.0731010850942315,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9054255485534668,
+    "HardNegMean": 0.7647910118103027,
+    "MarginMean": 0.14063458144664764,
+    "NeighborOverlap@10": 0.41336379211878926,
+    "Uniformity": -1.9421877206209777
+  }
+}
+RUN 28/60: en-ru_seed5_baseline
+{
+  "language_pair": "en-ru",
+  "seed": 5,
+  "variant": "baseline",
+  "run_id": "en-ru_seed5_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed5_baseline] Epoch 1/40 TrainLoss=1.56661 ValTop1=0.88393 BestTop1=0.88393
+[en-ru_seed5_baseline] Epoch 2/40 TrainLoss=0.60184 ValTop1=0.91138 BestTop1=0.91138
+[en-ru_seed5_baseline] Epoch 3/40 TrainLoss=0.52784 ValTop1=0.92682 BestTop1=0.92682
+[en-ru_seed5_baseline] Epoch 4/40 TrainLoss=0.49220 ValTop1=0.92167 BestTop1=0.92682
+[en-ru_seed5_baseline] Epoch 5/40 TrainLoss=0.46789 ValTop1=0.92910 BestTop1=0.92910
+[en-ru_seed5_baseline] Epoch 6/40 TrainLoss=0.45262 ValTop1=0.92739 BestTop1=0.92910
+[en-ru_seed5_baseline] Epoch 7/40 TrainLoss=0.44318 ValTop1=0.92967 BestTop1=0.92967
+[en-ru_seed5_baseline] Epoch 8/40 TrainLoss=0.43453 ValTop1=0.92682 BestTop1=0.92967
+[en-ru_seed5_baseline] Epoch 9/40 TrainLoss=0.42936 ValTop1=0.92910 BestTop1=0.92967
+[en-ru_seed5_baseline] Epoch 10/40 TrainLoss=0.42472 ValTop1=0.93082 BestTop1=0.93082
+[en-ru_seed5_baseline] Epoch 11/40 TrainLoss=0.42057 ValTop1=0.92853 BestTop1=0.93082
+[en-ru_seed5_baseline] Epoch 12/40 TrainLoss=0.41796 ValTop1=0.92567 BestTop1=0.93082
+[en-ru_seed5_baseline] Epoch 13/40 TrainLoss=0.41524 ValTop1=0.93082 BestTop1=0.93082
+[en-ru_seed5_baseline] Epoch 14/40 TrainLoss=0.41278 ValTop1=0.93482 BestTop1=0.93482
+[en-ru_seed5_baseline] Epoch 15/40 TrainLoss=0.41077 ValTop1=0.92739 BestTop1=0.93482
+[en-ru_seed5_baseline] Epoch 16/40 TrainLoss=0.40882 ValTop1=0.92739 BestTop1=0.93482
+[en-ru_seed5_baseline] Epoch 17/40 TrainLoss=0.40736 ValTop1=0.93025 BestTop1=0.93482
+[en-ru_seed5_baseline] Epoch 18/40 TrainLoss=0.40629 ValTop1=0.93368 BestTop1=0.93482
+[en-ru_seed5_baseline] Epoch 19/40 TrainLoss=0.40447 ValTop1=0.93082 BestTop1=0.93482
+EARLY STOP: epoch=19, patience=5
+{
+  "run_id": "en-ru_seed5_baseline",
+  "smoke_test": false,
+  "best_epoch": 14,
+  "epochs_completed": 19,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.934819897084048,
+    "Top-5": 0.9679817038307604,
+    "MeanRank": 10.658662092624358,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9072593450546265,
+    "HardNegMean": 0.7629111409187317,
+    "MarginMean": 0.14434824883937836,
+    "NeighborOverlap@10": 0.39313893653516296,
+    "Uniformity": -1.8494757526151349
+  },
+  "held_out_test": {
+    "Top-1": 0.9149057681324957,
+    "Top-5": 0.9623072529982867,
+    "MeanRank": 8.254711593375214,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.910535991191864,
+    "HardNegMean": 0.7689035534858704,
+    "MarginMean": 0.14163245260715485,
+    "NeighborOverlap@10": 0.41907481439177613,
+    "Uniformity": -1.8481485516677618
+  }
+}
+RUN 29/60: en-ru_seed5_geo
+{
+  "language_pair": "en-ru",
+  "seed": 5,
+  "variant": "geo",
+  "run_id": "en-ru_seed5_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed5_geo] Epoch 1/40 TrainLoss=1.56661 ValTop1=0.88393 BestTop1=0.88393
+[en-ru_seed5_geo] Epoch 2/40 TrainLoss=0.60184 ValTop1=0.91138 BestTop1=0.91138
+[en-ru_seed5_geo] Epoch 3/40 TrainLoss=0.52784 ValTop1=0.92682 BestTop1=0.92682
+[en-ru_seed5_geo] Epoch 4/40 TrainLoss=0.49296 ValTop1=0.92396 BestTop1=0.92682
+[en-ru_seed5_geo] Epoch 5/40 TrainLoss=0.46831 ValTop1=0.92624 BestTop1=0.92682
+[en-ru_seed5_geo] Epoch 6/40 TrainLoss=0.45289 ValTop1=0.93253 BestTop1=0.93253
+[en-ru_seed5_geo] Epoch 7/40 TrainLoss=0.44346 ValTop1=0.92624 BestTop1=0.93253
+[en-ru_seed5_geo] Epoch 8/40 TrainLoss=0.43561 ValTop1=0.92910 BestTop1=0.93253
+[en-ru_seed5_geo] Epoch 9/40 TrainLoss=0.43071 ValTop1=0.93425 BestTop1=0.93425
+[en-ru_seed5_geo] Epoch 10/40 TrainLoss=0.42518 ValTop1=0.93082 BestTop1=0.93425
+[en-ru_seed5_geo] Epoch 11/40 TrainLoss=0.42081 ValTop1=0.92967 BestTop1=0.93425
+[en-ru_seed5_geo] Epoch 12/40 TrainLoss=0.41801 ValTop1=0.92796 BestTop1=0.93425
+[en-ru_seed5_geo] Epoch 13/40 TrainLoss=0.41531 ValTop1=0.92967 BestTop1=0.93425
+[en-ru_seed5_geo] Epoch 14/40 TrainLoss=0.41309 ValTop1=0.93425 BestTop1=0.93425
+EARLY STOP: epoch=14, patience=5
+{
+  "run_id": "en-ru_seed5_geo",
+  "smoke_test": false,
+  "best_epoch": 9,
+  "epochs_completed": 14,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9342481417953116,
+    "Top-5": 0.9702687249857062,
+    "MeanRank": 10.50943396226415,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9021638035774231,
+    "HardNegMean": 0.7646812200546265,
+    "MarginMean": 0.13748258352279663,
+    "NeighborOverlap@10": 0.38730703259005145,
+    "Uniformity": -1.9213962255173285
+  },
+  "held_out_test": {
+    "Top-1": 0.905197030268418,
+    "Top-5": 0.9571673329525985,
+    "MeanRank": 8.142204454597373,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9055547118186951,
+    "HardNegMean": 0.7713267207145691,
+    "MarginMean": 0.13422797620296478,
+    "NeighborOverlap@10": 0.4078812107367219,
+    "Uniformity": -1.9163385939642579
+  }
+}
+RUN 30/60: en-ru_seed5_full
+{
+  "language_pair": "en-ru",
+  "seed": 5,
+  "variant": "full",
+  "run_id": "en-ru_seed5_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0004
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "fa83eda9ae9a7e988cfdfba09cadfd5af46b856715cf5262668a46cf9d2f4e69",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-ru_seed5_full] Epoch 1/40 TrainLoss=1.56661 ValTop1=0.88393 BestTop1=0.88393
+[en-ru_seed5_full] Epoch 2/40 TrainLoss=0.60184 ValTop1=0.91138 BestTop1=0.91138
+[en-ru_seed5_full] Epoch 3/40 TrainLoss=0.52784 ValTop1=0.92682 BestTop1=0.92682
+[en-ru_seed5_full] Epoch 4/40 TrainLoss=0.49220 ValTop1=0.92167 BestTop1=0.92682
+[en-ru_seed5_full] Epoch 5/40 TrainLoss=0.46826 ValTop1=0.92796 BestTop1=0.92796
+[en-ru_seed5_full] Epoch 6/40 TrainLoss=0.45359 ValTop1=0.93025 BestTop1=0.93025
+[en-ru_seed5_full] Epoch 7/40 TrainLoss=0.44367 ValTop1=0.93025 BestTop1=0.93025
+[en-ru_seed5_full] Epoch 8/40 TrainLoss=0.43498 ValTop1=0.92910 BestTop1=0.93025
+[en-ru_seed5_full] Epoch 9/40 TrainLoss=0.42995 ValTop1=0.93425 BestTop1=0.93425
+[en-ru_seed5_full] Epoch 10/40 TrainLoss=0.42539 ValTop1=0.93196 BestTop1=0.93425
+[en-ru_seed5_full] Epoch 11/40 TrainLoss=0.42070 ValTop1=0.93082 BestTop1=0.93425
+[en-ru_seed5_full] Epoch 12/40 TrainLoss=0.41834 ValTop1=0.92910 BestTop1=0.93425
+[en-ru_seed5_full] Epoch 13/40 TrainLoss=0.41574 ValTop1=0.92796 BestTop1=0.93425
+[en-ru_seed5_full] Epoch 14/40 TrainLoss=0.41316 ValTop1=0.93425 BestTop1=0.93425
+EARLY STOP: epoch=14, patience=5
+{
+  "run_id": "en-ru_seed5_full",
+  "smoke_test": false,
+  "best_epoch": 9,
+  "epochs_completed": 14,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9342481417953116,
+    "Top-5": 0.967409948542024,
+    "MeanRank": 10.799885648942253,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9019598960876465,
+    "HardNegMean": 0.7632060647010803,
+    "MarginMean": 0.13875387609004974,
+    "NeighborOverlap@10": 0.38542024013722126,
+    "Uniformity": -1.9276824623593225
+  },
+  "held_out_test": {
+    "Top-1": 0.9074814391776128,
+    "Top-5": 0.9605939463163906,
+    "MeanRank": 7.312392918332382,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.9058316946029663,
+    "HardNegMean": 0.7698092460632324,
+    "MarginMean": 0.13602247834205627,
+    "NeighborOverlap@10": 0.4080525414049115,
+    "Uniformity": -1.9219044442407691
+  }
+}
+RUN 31/60: en-it_seed1_baseline
+{
+  "language_pair": "en-it",
+  "seed": 1,
+  "variant": "baseline",
+  "run_id": "en-it_seed1_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed1_baseline] Epoch 1/40 TrainLoss=1.18105 ValTop1=0.85772 BestTop1=0.85772
+[en-it_seed1_baseline] Epoch 2/40 TrainLoss=0.58651 ValTop1=0.88339 BestTop1=0.88339
+[en-it_seed1_baseline] Epoch 3/40 TrainLoss=0.52449 ValTop1=0.89329 BestTop1=0.89329
+[en-it_seed1_baseline] Epoch 4/40 TrainLoss=0.49099 ValTop1=0.89298 BestTop1=0.89329
+[en-it_seed1_baseline] Epoch 5/40 TrainLoss=0.46988 ValTop1=0.89669 BestTop1=0.89669
+[en-it_seed1_baseline] Epoch 6/40 TrainLoss=0.45416 ValTop1=0.90102 BestTop1=0.90102
+[en-it_seed1_baseline] Epoch 7/40 TrainLoss=0.44292 ValTop1=0.89731 BestTop1=0.90102
+[en-it_seed1_baseline] Epoch 8/40 TrainLoss=0.43503 ValTop1=0.89793 BestTop1=0.90102
+[en-it_seed1_baseline] Epoch 9/40 TrainLoss=0.42954 ValTop1=0.90071 BestTop1=0.90102
+[en-it_seed1_baseline] Epoch 10/40 TrainLoss=0.42496 ValTop1=0.90195 BestTop1=0.90195
+[en-it_seed1_baseline] Epoch 11/40 TrainLoss=0.42000 ValTop1=0.90040 BestTop1=0.90195
+[en-it_seed1_baseline] Epoch 12/40 TrainLoss=0.41646 ValTop1=0.90102 BestTop1=0.90195
+[en-it_seed1_baseline] Epoch 13/40 TrainLoss=0.41448 ValTop1=0.90319 BestTop1=0.90319
+[en-it_seed1_baseline] Epoch 14/40 TrainLoss=0.41221 ValTop1=0.90071 BestTop1=0.90319
+[en-it_seed1_baseline] Epoch 15/40 TrainLoss=0.41018 ValTop1=0.90133 BestTop1=0.90319
+[en-it_seed1_baseline] Epoch 16/40 TrainLoss=0.40810 ValTop1=0.90164 BestTop1=0.90319
+[en-it_seed1_baseline] Epoch 17/40 TrainLoss=0.40642 ValTop1=0.90319 BestTop1=0.90319
+[en-it_seed1_baseline] Epoch 18/40 TrainLoss=0.40485 ValTop1=0.90411 BestTop1=0.90411
+[en-it_seed1_baseline] Epoch 19/40 TrainLoss=0.40373 ValTop1=0.89638 BestTop1=0.90411
+[en-it_seed1_baseline] Epoch 20/40 TrainLoss=0.40313 ValTop1=0.90319 BestTop1=0.90411
+[en-it_seed1_baseline] Epoch 21/40 TrainLoss=0.40079 ValTop1=0.90411 BestTop1=0.90411
+[en-it_seed1_baseline] Epoch 22/40 TrainLoss=0.39996 ValTop1=0.90102 BestTop1=0.90411
+[en-it_seed1_baseline] Epoch 23/40 TrainLoss=0.39930 ValTop1=0.90164 BestTop1=0.90411
+EARLY STOP: epoch=23, patience=5
+{
+  "run_id": "en-it_seed1_baseline",
+  "smoke_test": false,
+  "best_epoch": 18,
+  "epochs_completed": 23,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9041138261676461,
+    "Top-5": 0.9532941540364986,
+    "MeanRank": 19.863284874729352,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8888972997665405,
+    "HardNegMean": 0.7625062465667725,
+    "MarginMean": 0.12639111280441284,
+    "NeighborOverlap@10": 0.3399319517476028,
+    "Uniformity": -1.8518350973987407
+  },
+  "held_out_test": {
+    "Top-1": 0.891465677179963,
+    "Top-5": 0.9502164502164502,
+    "MeanRank": 20.023809523809526,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8894901275634766,
+    "HardNegMean": 0.76665198802948,
+    "MarginMean": 0.12283819913864136,
+    "NeighborOverlap@10": 0.3487631416202845,
+    "Uniformity": -1.852017139072909
+  }
+}
+RUN 32/60: en-it_seed1_geo
+{
+  "language_pair": "en-it",
+  "seed": 1,
+  "variant": "geo",
+  "run_id": "en-it_seed1_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed1_geo] Epoch 1/40 TrainLoss=1.18105 ValTop1=0.85772 BestTop1=0.85772
+[en-it_seed1_geo] Epoch 2/40 TrainLoss=0.58651 ValTop1=0.88339 BestTop1=0.88339
+[en-it_seed1_geo] Epoch 3/40 TrainLoss=0.52449 ValTop1=0.89329 BestTop1=0.89329
+[en-it_seed1_geo] Epoch 4/40 TrainLoss=0.49104 ValTop1=0.89422 BestTop1=0.89422
+[en-it_seed1_geo] Epoch 5/40 TrainLoss=0.47012 ValTop1=0.89855 BestTop1=0.89855
+[en-it_seed1_geo] Epoch 6/40 TrainLoss=0.45450 ValTop1=0.89824 BestTop1=0.89855
+[en-it_seed1_geo] Epoch 7/40 TrainLoss=0.44340 ValTop1=0.89638 BestTop1=0.89855
+[en-it_seed1_geo] Epoch 8/40 TrainLoss=0.43539 ValTop1=0.89576 BestTop1=0.89855
+[en-it_seed1_geo] Epoch 9/40 TrainLoss=0.42933 ValTop1=0.89793 BestTop1=0.89855
+[en-it_seed1_geo] Epoch 10/40 TrainLoss=0.42498 ValTop1=0.89855 BestTop1=0.89855
+EARLY STOP: epoch=10, patience=5
+{
+  "run_id": "en-it_seed1_geo",
+  "smoke_test": false,
+  "best_epoch": 5,
+  "epochs_completed": 10,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8985462418806063,
+    "Top-5": 0.9471079492731209,
+    "MeanRank": 13.823693164243737,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8803886771202087,
+    "HardNegMean": 0.764833927154541,
+    "MarginMean": 0.11555475741624832,
+    "NeighborOverlap@10": 0.3092483761212496,
+    "Uniformity": -2.0573821241460513
+  },
+  "held_out_test": {
+    "Top-1": 0.891156462585034,
+    "Top-5": 0.948361162646877,
+    "MeanRank": 16.1991341991342,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8820621371269226,
+    "HardNegMean": 0.7695723176002502,
+    "MarginMean": 0.11248983442783356,
+    "NeighborOverlap@10": 0.31719233147804576,
+    "Uniformity": -2.057363198649187
+  }
+}
+RUN 33/60: en-it_seed1_full
+{
+  "language_pair": "en-it",
+  "seed": 1,
+  "variant": "full",
+  "run_id": "en-it_seed1_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0002
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed1_full] Epoch 1/40 TrainLoss=1.18105 ValTop1=0.85772 BestTop1=0.85772
+[en-it_seed1_full] Epoch 2/40 TrainLoss=0.58651 ValTop1=0.88339 BestTop1=0.88339
+[en-it_seed1_full] Epoch 3/40 TrainLoss=0.52449 ValTop1=0.89329 BestTop1=0.89329
+[en-it_seed1_full] Epoch 4/40 TrainLoss=0.49099 ValTop1=0.89298 BestTop1=0.89329
+[en-it_seed1_full] Epoch 5/40 TrainLoss=0.47005 ValTop1=0.89360 BestTop1=0.89360
+[en-it_seed1_full] Epoch 6/40 TrainLoss=0.45428 ValTop1=0.89947 BestTop1=0.89947
+[en-it_seed1_full] Epoch 7/40 TrainLoss=0.44304 ValTop1=0.89514 BestTop1=0.89947
+[en-it_seed1_full] Epoch 8/40 TrainLoss=0.43511 ValTop1=0.89453 BestTop1=0.89947
+[en-it_seed1_full] Epoch 9/40 TrainLoss=0.42951 ValTop1=0.89824 BestTop1=0.89947
+[en-it_seed1_full] Epoch 10/40 TrainLoss=0.42508 ValTop1=0.90040 BestTop1=0.90040
+[en-it_seed1_full] Epoch 11/40 TrainLoss=0.41992 ValTop1=0.89700 BestTop1=0.90040
+[en-it_seed1_full] Epoch 12/40 TrainLoss=0.41661 ValTop1=0.90133 BestTop1=0.90133
+[en-it_seed1_full] Epoch 13/40 TrainLoss=0.41499 ValTop1=0.90411 BestTop1=0.90411
+[en-it_seed1_full] Epoch 14/40 TrainLoss=0.41227 ValTop1=0.90257 BestTop1=0.90411
+[en-it_seed1_full] Epoch 15/40 TrainLoss=0.41018 ValTop1=0.90411 BestTop1=0.90411
+[en-it_seed1_full] Epoch 16/40 TrainLoss=0.40826 ValTop1=0.90226 BestTop1=0.90411
+[en-it_seed1_full] Epoch 17/40 TrainLoss=0.40665 ValTop1=0.90350 BestTop1=0.90411
+[en-it_seed1_full] Epoch 18/40 TrainLoss=0.40497 ValTop1=0.90752 BestTop1=0.90752
+[en-it_seed1_full] Epoch 19/40 TrainLoss=0.40412 ValTop1=0.90288 BestTop1=0.90752
+[en-it_seed1_full] Epoch 20/40 TrainLoss=0.40288 ValTop1=0.91061 BestTop1=0.91061
+[en-it_seed1_full] Epoch 21/40 TrainLoss=0.40114 ValTop1=0.90937 BestTop1=0.91061
+[en-it_seed1_full] Epoch 22/40 TrainLoss=0.39994 ValTop1=0.90535 BestTop1=0.91061
+[en-it_seed1_full] Epoch 23/40 TrainLoss=0.39938 ValTop1=0.90504 BestTop1=0.91061
+[en-it_seed1_full] Epoch 24/40 TrainLoss=0.39814 ValTop1=0.90195 BestTop1=0.91061
+[en-it_seed1_full] Epoch 25/40 TrainLoss=0.39800 ValTop1=0.90195 BestTop1=0.91061
+EARLY STOP: epoch=25, patience=5
+{
+  "run_id": "en-it_seed1_full",
+  "smoke_test": false,
+  "best_epoch": 20,
+  "epochs_completed": 25,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9106093411691927,
+    "Top-5": 0.9517476028456542,
+    "MeanRank": 20.0139189607176,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8907000422477722,
+    "HardNegMean": 0.7646682262420654,
+    "MarginMean": 0.1260317862033844,
+    "NeighborOverlap@10": 0.3347355397463656,
+    "Uniformity": -1.8082660098148635
+  },
+  "held_out_test": {
+    "Top-1": 0.8954854669140383,
+    "Top-5": 0.9486703772418058,
+    "MeanRank": 18.774582560296846,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.89079350233078,
+    "HardNegMean": 0.7684043049812317,
+    "MarginMean": 0.12238927185535431,
+    "NeighborOverlap@10": 0.3437847866419295,
+    "Uniformity": -1.8118114926050806
+  }
+}
+RUN 34/60: en-it_seed2_baseline
+{
+  "language_pair": "en-it",
+  "seed": 2,
+  "variant": "baseline",
+  "run_id": "en-it_seed2_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed2_baseline] Epoch 1/40 TrainLoss=1.31215 ValTop1=0.85215 BestTop1=0.85215
+[en-it_seed2_baseline] Epoch 2/40 TrainLoss=0.59472 ValTop1=0.87535 BestTop1=0.87535
+[en-it_seed2_baseline] Epoch 3/40 TrainLoss=0.52874 ValTop1=0.89391 BestTop1=0.89391
+[en-it_seed2_baseline] Epoch 4/40 TrainLoss=0.49354 ValTop1=0.89916 BestTop1=0.89916
+[en-it_seed2_baseline] Epoch 5/40 TrainLoss=0.47057 ValTop1=0.90226 BestTop1=0.90226
+[en-it_seed2_baseline] Epoch 6/40 TrainLoss=0.45465 ValTop1=0.90473 BestTop1=0.90473
+[en-it_seed2_baseline] Epoch 7/40 TrainLoss=0.44392 ValTop1=0.90319 BestTop1=0.90473
+[en-it_seed2_baseline] Epoch 8/40 TrainLoss=0.43690 ValTop1=0.90411 BestTop1=0.90473
+[en-it_seed2_baseline] Epoch 9/40 TrainLoss=0.42953 ValTop1=0.90473 BestTop1=0.90473
+[en-it_seed2_baseline] Epoch 10/40 TrainLoss=0.42555 ValTop1=0.90659 BestTop1=0.90659
+[en-it_seed2_baseline] Epoch 11/40 TrainLoss=0.42100 ValTop1=0.90380 BestTop1=0.90659
+[en-it_seed2_baseline] Epoch 12/40 TrainLoss=0.41762 ValTop1=0.90535 BestTop1=0.90659
+[en-it_seed2_baseline] Epoch 13/40 TrainLoss=0.41489 ValTop1=0.90937 BestTop1=0.90937
+[en-it_seed2_baseline] Epoch 14/40 TrainLoss=0.41243 ValTop1=0.90504 BestTop1=0.90937
+[en-it_seed2_baseline] Epoch 15/40 TrainLoss=0.41008 ValTop1=0.90473 BestTop1=0.90937
+[en-it_seed2_baseline] Epoch 16/40 TrainLoss=0.40777 ValTop1=0.90071 BestTop1=0.90937
+[en-it_seed2_baseline] Epoch 17/40 TrainLoss=0.40647 ValTop1=0.90535 BestTop1=0.90937
+[en-it_seed2_baseline] Epoch 18/40 TrainLoss=0.40534 ValTop1=0.90226 BestTop1=0.90937
+EARLY STOP: epoch=18, patience=5
+{
+  "run_id": "en-it_seed2_baseline",
+  "smoke_test": false,
+  "best_epoch": 13,
+  "epochs_completed": 18,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9093721002165172,
+    "Top-5": 0.9545313949891742,
+    "MeanRank": 17.771110423755026,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8869814872741699,
+    "HardNegMean": 0.7630254626274109,
+    "MarginMean": 0.12395599484443665,
+    "NeighborOverlap@10": 0.33405505722239404,
+    "Uniformity": -1.9043556845219671
+  },
+  "held_out_test": {
+    "Top-1": 0.8939393939393939,
+    "Top-5": 0.9465058750773037,
+    "MeanRank": 16.178107606679035,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8875846266746521,
+    "HardNegMean": 0.7657102942466736,
+    "MarginMean": 0.1218743622303009,
+    "NeighborOverlap@10": 0.33639455782312927,
+    "Uniformity": -1.9027659730831656
+  }
+}
+RUN 35/60: en-it_seed2_geo
+{
+  "language_pair": "en-it",
+  "seed": 2,
+  "variant": "geo",
+  "run_id": "en-it_seed2_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed2_geo] Epoch 1/40 TrainLoss=1.31215 ValTop1=0.85215 BestTop1=0.85215
+[en-it_seed2_geo] Epoch 2/40 TrainLoss=0.59472 ValTop1=0.87535 BestTop1=0.87535
+[en-it_seed2_geo] Epoch 3/40 TrainLoss=0.52874 ValTop1=0.89391 BestTop1=0.89391
+[en-it_seed2_geo] Epoch 4/40 TrainLoss=0.49368 ValTop1=0.89762 BestTop1=0.89762
+[en-it_seed2_geo] Epoch 5/40 TrainLoss=0.47046 ValTop1=0.90350 BestTop1=0.90350
+[en-it_seed2_geo] Epoch 6/40 TrainLoss=0.45479 ValTop1=0.90288 BestTop1=0.90350
+[en-it_seed2_geo] Epoch 7/40 TrainLoss=0.44451 ValTop1=0.90102 BestTop1=0.90350
+[en-it_seed2_geo] Epoch 8/40 TrainLoss=0.43682 ValTop1=0.90288 BestTop1=0.90350
+[en-it_seed2_geo] Epoch 9/40 TrainLoss=0.43006 ValTop1=0.90009 BestTop1=0.90350
+[en-it_seed2_geo] Epoch 10/40 TrainLoss=0.42547 ValTop1=0.90597 BestTop1=0.90597
+[en-it_seed2_geo] Epoch 11/40 TrainLoss=0.42083 ValTop1=0.90164 BestTop1=0.90597
+[en-it_seed2_geo] Epoch 12/40 TrainLoss=0.41770 ValTop1=0.90257 BestTop1=0.90597
+[en-it_seed2_geo] Epoch 13/40 TrainLoss=0.41495 ValTop1=0.90721 BestTop1=0.90721
+[en-it_seed2_geo] Epoch 14/40 TrainLoss=0.41275 ValTop1=0.89947 BestTop1=0.90721
+[en-it_seed2_geo] Epoch 15/40 TrainLoss=0.41021 ValTop1=0.90133 BestTop1=0.90721
+[en-it_seed2_geo] Epoch 16/40 TrainLoss=0.40800 ValTop1=0.90195 BestTop1=0.90721
+[en-it_seed2_geo] Epoch 17/40 TrainLoss=0.40677 ValTop1=0.90442 BestTop1=0.90721
+[en-it_seed2_geo] Epoch 18/40 TrainLoss=0.40543 ValTop1=0.90844 BestTop1=0.90844
+[en-it_seed2_geo] Epoch 19/40 TrainLoss=0.40431 ValTop1=0.90504 BestTop1=0.90844
+[en-it_seed2_geo] Epoch 20/40 TrainLoss=0.40291 ValTop1=0.90752 BestTop1=0.90844
+[en-it_seed2_geo] Epoch 21/40 TrainLoss=0.40168 ValTop1=0.90195 BestTop1=0.90844
+[en-it_seed2_geo] Epoch 22/40 TrainLoss=0.40084 ValTop1=0.90690 BestTop1=0.90844
+[en-it_seed2_geo] Epoch 23/40 TrainLoss=0.39922 ValTop1=0.90504 BestTop1=0.90844
+EARLY STOP: epoch=23, patience=5
+{
+  "run_id": "en-it_seed2_geo",
+  "smoke_test": false,
+  "best_epoch": 18,
+  "epochs_completed": 23,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9084441695020106,
+    "Top-5": 0.9514382926074854,
+    "MeanRank": 21.163006495515003,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8902453184127808,
+    "HardNegMean": 0.7664787769317627,
+    "MarginMean": 0.12376653403043747,
+    "NeighborOverlap@10": 0.3416640890813486,
+    "Uniformity": -1.8366886084137468
+  },
+  "held_out_test": {
+    "Top-1": 0.8883735312306741,
+    "Top-5": 0.9449598021026593,
+    "MeanRank": 18.45547309833024,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8911629319190979,
+    "HardNegMean": 0.7685975432395935,
+    "MarginMean": 0.12256532907485962,
+    "NeighborOverlap@10": 0.34860853432282,
+    "Uniformity": -1.833369551318421
+  }
+}
+RUN 36/60: en-it_seed2_full
+{
+  "language_pair": "en-it",
+  "seed": 2,
+  "variant": "full",
+  "run_id": "en-it_seed2_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0002
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed2_full] Epoch 1/40 TrainLoss=1.31215 ValTop1=0.85215 BestTop1=0.85215
+[en-it_seed2_full] Epoch 2/40 TrainLoss=0.59472 ValTop1=0.87535 BestTop1=0.87535
+[en-it_seed2_full] Epoch 3/40 TrainLoss=0.52874 ValTop1=0.89391 BestTop1=0.89391
+[en-it_seed2_full] Epoch 4/40 TrainLoss=0.49354 ValTop1=0.89916 BestTop1=0.89916
+[en-it_seed2_full] Epoch 5/40 TrainLoss=0.47063 ValTop1=0.90319 BestTop1=0.90319
+[en-it_seed2_full] Epoch 6/40 TrainLoss=0.45462 ValTop1=0.90504 BestTop1=0.90504
+[en-it_seed2_full] Epoch 7/40 TrainLoss=0.44389 ValTop1=0.90226 BestTop1=0.90504
+[en-it_seed2_full] Epoch 8/40 TrainLoss=0.43701 ValTop1=0.90380 BestTop1=0.90504
+[en-it_seed2_full] Epoch 9/40 TrainLoss=0.42986 ValTop1=0.90226 BestTop1=0.90504
+[en-it_seed2_full] Epoch 10/40 TrainLoss=0.42573 ValTop1=0.90597 BestTop1=0.90597
+[en-it_seed2_full] Epoch 11/40 TrainLoss=0.42144 ValTop1=0.90721 BestTop1=0.90721
+[en-it_seed2_full] Epoch 12/40 TrainLoss=0.41780 ValTop1=0.90535 BestTop1=0.90721
+[en-it_seed2_full] Epoch 13/40 TrainLoss=0.41511 ValTop1=0.90659 BestTop1=0.90721
+[en-it_seed2_full] Epoch 14/40 TrainLoss=0.41277 ValTop1=0.90040 BestTop1=0.90721
+[en-it_seed2_full] Epoch 15/40 TrainLoss=0.41031 ValTop1=0.90721 BestTop1=0.90721
+[en-it_seed2_full] Epoch 16/40 TrainLoss=0.40799 ValTop1=0.90102 BestTop1=0.90721
+EARLY STOP: epoch=16, patience=5
+{
+  "run_id": "en-it_seed2_full",
+  "smoke_test": false,
+  "best_epoch": 11,
+  "epochs_completed": 16,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9072069285493349,
+    "Top-5": 0.9514382926074854,
+    "MeanRank": 16.388493659140117,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8884829878807068,
+    "HardNegMean": 0.7694525718688965,
+    "MarginMean": 0.11903044581413269,
+    "NeighborOverlap@10": 0.34017939993813795,
+    "Uniformity": -1.8933105487825332
+  },
+  "held_out_test": {
+    "Top-1": 0.8874458874458875,
+    "Top-5": 0.9489795918367347,
+    "MeanRank": 15.810142238713667,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8883764147758484,
+    "HardNegMean": 0.7710649371147156,
+    "MarginMean": 0.1173115149140358,
+    "NeighborOverlap@10": 0.3419294990723562,
+    "Uniformity": -1.889961067479925
+  }
+}
+RUN 37/60: en-it_seed3_baseline
+{
+  "language_pair": "en-it",
+  "seed": 3,
+  "variant": "baseline",
+  "run_id": "en-it_seed3_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed3_baseline] Epoch 1/40 TrainLoss=1.16979 ValTop1=0.87937 BestTop1=0.87937
+[en-it_seed3_baseline] Epoch 2/40 TrainLoss=0.57885 ValTop1=0.89081 BestTop1=0.89081
+[en-it_seed3_baseline] Epoch 3/40 TrainLoss=0.52035 ValTop1=0.89514 BestTop1=0.89514
+[en-it_seed3_baseline] Epoch 4/40 TrainLoss=0.48891 ValTop1=0.89638 BestTop1=0.89638
+[en-it_seed3_baseline] Epoch 5/40 TrainLoss=0.46846 ValTop1=0.89700 BestTop1=0.89700
+[en-it_seed3_baseline] Epoch 6/40 TrainLoss=0.45292 ValTop1=0.89700 BestTop1=0.89700
+[en-it_seed3_baseline] Epoch 7/40 TrainLoss=0.44257 ValTop1=0.90319 BestTop1=0.90319
+[en-it_seed3_baseline] Epoch 8/40 TrainLoss=0.43411 ValTop1=0.90473 BestTop1=0.90473
+[en-it_seed3_baseline] Epoch 9/40 TrainLoss=0.42858 ValTop1=0.90566 BestTop1=0.90566
+[en-it_seed3_baseline] Epoch 10/40 TrainLoss=0.42406 ValTop1=0.90257 BestTop1=0.90566
+[en-it_seed3_baseline] Epoch 11/40 TrainLoss=0.41985 ValTop1=0.89947 BestTop1=0.90566
+[en-it_seed3_baseline] Epoch 12/40 TrainLoss=0.41648 ValTop1=0.90597 BestTop1=0.90597
+[en-it_seed3_baseline] Epoch 13/40 TrainLoss=0.41379 ValTop1=0.90783 BestTop1=0.90783
+[en-it_seed3_baseline] Epoch 14/40 TrainLoss=0.41185 ValTop1=0.90690 BestTop1=0.90783
+[en-it_seed3_baseline] Epoch 15/40 TrainLoss=0.41005 ValTop1=0.90628 BestTop1=0.90783
+[en-it_seed3_baseline] Epoch 16/40 TrainLoss=0.40792 ValTop1=0.90535 BestTop1=0.90783
+[en-it_seed3_baseline] Epoch 17/40 TrainLoss=0.40575 ValTop1=0.90813 BestTop1=0.90813
+[en-it_seed3_baseline] Epoch 18/40 TrainLoss=0.40421 ValTop1=0.90535 BestTop1=0.90813
+[en-it_seed3_baseline] Epoch 19/40 TrainLoss=0.40310 ValTop1=0.90690 BestTop1=0.90813
+[en-it_seed3_baseline] Epoch 20/40 TrainLoss=0.40150 ValTop1=0.90659 BestTop1=0.90813
+[en-it_seed3_baseline] Epoch 21/40 TrainLoss=0.40079 ValTop1=0.90844 BestTop1=0.90844
+[en-it_seed3_baseline] Epoch 22/40 TrainLoss=0.39982 ValTop1=0.90442 BestTop1=0.90844
+[en-it_seed3_baseline] Epoch 23/40 TrainLoss=0.39838 ValTop1=0.90504 BestTop1=0.90844
+[en-it_seed3_baseline] Epoch 24/40 TrainLoss=0.39820 ValTop1=0.90380 BestTop1=0.90844
+[en-it_seed3_baseline] Epoch 25/40 TrainLoss=0.39731 ValTop1=0.90597 BestTop1=0.90844
+[en-it_seed3_baseline] Epoch 26/40 TrainLoss=0.39653 ValTop1=0.90628 BestTop1=0.90844
+EARLY STOP: epoch=26, patience=5
+{
+  "run_id": "en-it_seed3_baseline",
+  "smoke_test": false,
+  "best_epoch": 21,
+  "epochs_completed": 26,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9084441695020106,
+    "Top-5": 0.9539127745128364,
+    "MeanRank": 20.827095576863595,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8935596942901611,
+    "HardNegMean": 0.770046591758728,
+    "MarginMean": 0.12351308763027191,
+    "NeighborOverlap@10": 0.3473863284874729,
+    "Uniformity": -1.7767472782823863
+  },
+  "held_out_test": {
+    "Top-1": 0.8967223252937538,
+    "Top-5": 0.9505256648113791,
+    "MeanRank": 18.289115646258505,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8952642679214478,
+    "HardNegMean": 0.7731589078903198,
+    "MarginMean": 0.12210529297590256,
+    "NeighborOverlap@10": 0.34984539270253556,
+    "Uniformity": -1.776091367740824
+  }
+}
+RUN 38/60: en-it_seed3_geo
+{
+  "language_pair": "en-it",
+  "seed": 3,
+  "variant": "geo",
+  "run_id": "en-it_seed3_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed3_geo] Epoch 1/40 TrainLoss=1.16979 ValTop1=0.87937 BestTop1=0.87937
+[en-it_seed3_geo] Epoch 2/40 TrainLoss=0.57885 ValTop1=0.89081 BestTop1=0.89081
+[en-it_seed3_geo] Epoch 3/40 TrainLoss=0.52035 ValTop1=0.89514 BestTop1=0.89514
+[en-it_seed3_geo] Epoch 4/40 TrainLoss=0.48877 ValTop1=0.89669 BestTop1=0.89669
+[en-it_seed3_geo] Epoch 5/40 TrainLoss=0.46831 ValTop1=0.89607 BestTop1=0.89669
+[en-it_seed3_geo] Epoch 6/40 TrainLoss=0.45264 ValTop1=0.90102 BestTop1=0.90102
+[en-it_seed3_geo] Epoch 7/40 TrainLoss=0.44269 ValTop1=0.90844 BestTop1=0.90844
+[en-it_seed3_geo] Epoch 8/40 TrainLoss=0.43433 ValTop1=0.90102 BestTop1=0.90844
+[en-it_seed3_geo] Epoch 9/40 TrainLoss=0.42831 ValTop1=0.90504 BestTop1=0.90844
+[en-it_seed3_geo] Epoch 10/40 TrainLoss=0.42426 ValTop1=0.90226 BestTop1=0.90844
+[en-it_seed3_geo] Epoch 11/40 TrainLoss=0.42035 ValTop1=0.90659 BestTop1=0.90844
+[en-it_seed3_geo] Epoch 12/40 TrainLoss=0.41662 ValTop1=0.90690 BestTop1=0.90844
+EARLY STOP: epoch=12, patience=5
+{
+  "run_id": "en-it_seed3_geo",
+  "smoke_test": false,
+  "best_epoch": 7,
+  "epochs_completed": 12,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9084441695020106,
+    "Top-5": 0.954840705227343,
+    "MeanRank": 15.553356016084132,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8818780779838562,
+    "HardNegMean": 0.7645333409309387,
+    "MarginMean": 0.1173446848988533,
+    "NeighborOverlap@10": 0.3109495824311785,
+    "Uniformity": -1.9738204377230344
+  },
+  "held_out_test": {
+    "Top-1": 0.8936301793444651,
+    "Top-5": 0.9499072356215214,
+    "MeanRank": 14.916202844774274,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.884078323841095,
+    "HardNegMean": 0.7675319910049438,
+    "MarginMean": 0.11654631793498993,
+    "NeighborOverlap@10": 0.3225108225108225,
+    "Uniformity": -1.9753427607497074
+  }
+}
+RUN 39/60: en-it_seed3_full
+{
+  "language_pair": "en-it",
+  "seed": 3,
+  "variant": "full",
+  "run_id": "en-it_seed3_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0002
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed3_full] Epoch 1/40 TrainLoss=1.16979 ValTop1=0.87937 BestTop1=0.87937
+[en-it_seed3_full] Epoch 2/40 TrainLoss=0.57885 ValTop1=0.89081 BestTop1=0.89081
+[en-it_seed3_full] Epoch 3/40 TrainLoss=0.52035 ValTop1=0.89514 BestTop1=0.89514
+[en-it_seed3_full] Epoch 4/40 TrainLoss=0.48891 ValTop1=0.89638 BestTop1=0.89638
+[en-it_seed3_full] Epoch 5/40 TrainLoss=0.46843 ValTop1=0.89731 BestTop1=0.89731
+[en-it_seed3_full] Epoch 6/40 TrainLoss=0.45296 ValTop1=0.89978 BestTop1=0.89978
+[en-it_seed3_full] Epoch 7/40 TrainLoss=0.44253 ValTop1=0.90504 BestTop1=0.90504
+[en-it_seed3_full] Epoch 8/40 TrainLoss=0.43425 ValTop1=0.90380 BestTop1=0.90504
+[en-it_seed3_full] Epoch 9/40 TrainLoss=0.42868 ValTop1=0.89607 BestTop1=0.90504
+[en-it_seed3_full] Epoch 10/40 TrainLoss=0.42415 ValTop1=0.90195 BestTop1=0.90504
+[en-it_seed3_full] Epoch 11/40 TrainLoss=0.42007 ValTop1=0.90071 BestTop1=0.90504
+[en-it_seed3_full] Epoch 12/40 TrainLoss=0.41656 ValTop1=0.90875 BestTop1=0.90875
+[en-it_seed3_full] Epoch 13/40 TrainLoss=0.41382 ValTop1=0.90968 BestTop1=0.90968
+[en-it_seed3_full] Epoch 14/40 TrainLoss=0.41196 ValTop1=0.90473 BestTop1=0.90968
+[en-it_seed3_full] Epoch 15/40 TrainLoss=0.41028 ValTop1=0.90597 BestTop1=0.90968
+[en-it_seed3_full] Epoch 16/40 TrainLoss=0.40816 ValTop1=0.90566 BestTop1=0.90968
+[en-it_seed3_full] Epoch 17/40 TrainLoss=0.40609 ValTop1=0.90844 BestTop1=0.90968
+[en-it_seed3_full] Epoch 18/40 TrainLoss=0.40439 ValTop1=0.90752 BestTop1=0.90968
+EARLY STOP: epoch=18, patience=5
+{
+  "run_id": "en-it_seed3_full",
+  "smoke_test": false,
+  "best_epoch": 13,
+  "epochs_completed": 18,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9096814104546861,
+    "Top-5": 0.957624497370863,
+    "MeanRank": 15.93102381688834,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8875383734703064,
+    "HardNegMean": 0.7616655230522156,
+    "MarginMean": 0.12587286531925201,
+    "NeighborOverlap@10": 0.33628209093721,
+    "Uniformity": -1.8991562385573697
+  },
+  "held_out_test": {
+    "Top-1": 0.9001236858379715,
+    "Top-5": 0.9502164502164502,
+    "MeanRank": 17.360235003092146,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8893247842788696,
+    "HardNegMean": 0.7650132179260254,
+    "MarginMean": 0.12431161850690842,
+    "NeighborOverlap@10": 0.34103277674706245,
+    "Uniformity": -1.897944909564752
+  }
+}
+RUN 40/60: en-it_seed4_baseline
+{
+  "language_pair": "en-it",
+  "seed": 4,
+  "variant": "baseline",
+  "run_id": "en-it_seed4_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed4_baseline] Epoch 1/40 TrainLoss=1.55618 ValTop1=0.83143 BestTop1=0.83143
+[en-it_seed4_baseline] Epoch 2/40 TrainLoss=0.61539 ValTop1=0.87380 BestTop1=0.87380
+[en-it_seed4_baseline] Epoch 3/40 TrainLoss=0.53832 ValTop1=0.88463 BestTop1=0.88463
+[en-it_seed4_baseline] Epoch 4/40 TrainLoss=0.50039 ValTop1=0.89050 BestTop1=0.89050
+[en-it_seed4_baseline] Epoch 5/40 TrainLoss=0.47442 ValTop1=0.89205 BestTop1=0.89205
+[en-it_seed4_baseline] Epoch 6/40 TrainLoss=0.45770 ValTop1=0.89700 BestTop1=0.89700
+[en-it_seed4_baseline] Epoch 7/40 TrainLoss=0.44669 ValTop1=0.89081 BestTop1=0.89700
+[en-it_seed4_baseline] Epoch 8/40 TrainLoss=0.43779 ValTop1=0.89422 BestTop1=0.89700
+[en-it_seed4_baseline] Epoch 9/40 TrainLoss=0.43101 ValTop1=0.90226 BestTop1=0.90226
+[en-it_seed4_baseline] Epoch 10/40 TrainLoss=0.42553 ValTop1=0.90133 BestTop1=0.90226
+[en-it_seed4_baseline] Epoch 11/40 TrainLoss=0.42208 ValTop1=0.90009 BestTop1=0.90226
+[en-it_seed4_baseline] Epoch 12/40 TrainLoss=0.41753 ValTop1=0.90040 BestTop1=0.90226
+[en-it_seed4_baseline] Epoch 13/40 TrainLoss=0.41480 ValTop1=0.90566 BestTop1=0.90566
+[en-it_seed4_baseline] Epoch 14/40 TrainLoss=0.41252 ValTop1=0.90195 BestTop1=0.90566
+[en-it_seed4_baseline] Epoch 15/40 TrainLoss=0.41004 ValTop1=0.89947 BestTop1=0.90566
+[en-it_seed4_baseline] Epoch 16/40 TrainLoss=0.40859 ValTop1=0.90040 BestTop1=0.90566
+[en-it_seed4_baseline] Epoch 17/40 TrainLoss=0.40680 ValTop1=0.90164 BestTop1=0.90566
+[en-it_seed4_baseline] Epoch 18/40 TrainLoss=0.40473 ValTop1=0.89947 BestTop1=0.90566
+EARLY STOP: epoch=18, patience=5
+{
+  "run_id": "en-it_seed4_baseline",
+  "smoke_test": false,
+  "best_epoch": 13,
+  "epochs_completed": 18,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9056603773584906,
+    "Top-5": 0.9557686359418497,
+    "MeanRank": 18.828023507578102,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8862935304641724,
+    "HardNegMean": 0.7665884494781494,
+    "MarginMean": 0.11970508098602295,
+    "NeighborOverlap@10": 0.33031240334055056,
+    "Uniformity": -1.8805232776815908
+  },
+  "held_out_test": {
+    "Top-1": 0.8920841063698206,
+    "Top-5": 0.948051948051948,
+    "MeanRank": 17.768707482993197,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8878493309020996,
+    "HardNegMean": 0.770157516002655,
+    "MarginMean": 0.11769180744886398,
+    "NeighborOverlap@10": 0.3411873840445269,
+    "Uniformity": -1.8796552258313526
+  }
+}
+RUN 41/60: en-it_seed4_geo
+{
+  "language_pair": "en-it",
+  "seed": 4,
+  "variant": "geo",
+  "run_id": "en-it_seed4_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed4_geo] Epoch 1/40 TrainLoss=1.55618 ValTop1=0.83143 BestTop1=0.83143
+[en-it_seed4_geo] Epoch 2/40 TrainLoss=0.61539 ValTop1=0.87380 BestTop1=0.87380
+[en-it_seed4_geo] Epoch 3/40 TrainLoss=0.53832 ValTop1=0.88463 BestTop1=0.88463
+[en-it_seed4_geo] Epoch 4/40 TrainLoss=0.50049 ValTop1=0.89143 BestTop1=0.89143
+[en-it_seed4_geo] Epoch 5/40 TrainLoss=0.47472 ValTop1=0.89669 BestTop1=0.89669
+[en-it_seed4_geo] Epoch 6/40 TrainLoss=0.45746 ValTop1=0.89576 BestTop1=0.89669
+[en-it_seed4_geo] Epoch 7/40 TrainLoss=0.44728 ValTop1=0.89916 BestTop1=0.89916
+[en-it_seed4_geo] Epoch 8/40 TrainLoss=0.43783 ValTop1=0.89793 BestTop1=0.89916
+[en-it_seed4_geo] Epoch 9/40 TrainLoss=0.43090 ValTop1=0.89855 BestTop1=0.89916
+[en-it_seed4_geo] Epoch 10/40 TrainLoss=0.42592 ValTop1=0.90040 BestTop1=0.90040
+[en-it_seed4_geo] Epoch 11/40 TrainLoss=0.42232 ValTop1=0.90226 BestTop1=0.90226
+[en-it_seed4_geo] Epoch 12/40 TrainLoss=0.41778 ValTop1=0.89824 BestTop1=0.90226
+[en-it_seed4_geo] Epoch 13/40 TrainLoss=0.41475 ValTop1=0.89793 BestTop1=0.90226
+[en-it_seed4_geo] Epoch 14/40 TrainLoss=0.41271 ValTop1=0.89700 BestTop1=0.90226
+[en-it_seed4_geo] Epoch 15/40 TrainLoss=0.41030 ValTop1=0.89886 BestTop1=0.90226
+[en-it_seed4_geo] Epoch 16/40 TrainLoss=0.40840 ValTop1=0.89916 BestTop1=0.90226
+EARLY STOP: epoch=16, patience=5
+{
+  "run_id": "en-it_seed4_geo",
+  "smoke_test": false,
+  "best_epoch": 11,
+  "epochs_completed": 16,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9022579647386328,
+    "Top-5": 0.9511289823693164,
+    "MeanRank": 17.96968759665945,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8840473294258118,
+    "HardNegMean": 0.7647488117218018,
+    "MarginMean": 0.1192985251545906,
+    "NeighborOverlap@10": 0.3283328178162697,
+    "Uniformity": -1.9412906317575245
+  },
+  "held_out_test": {
+    "Top-1": 0.8902288188002474,
+    "Top-5": 0.948051948051948,
+    "MeanRank": 16.772727272727273,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8849862217903137,
+    "HardNegMean": 0.7681199312210083,
+    "MarginMean": 0.11686632037162781,
+    "NeighborOverlap@10": 0.33438466295609154,
+    "Uniformity": -1.943273167177784
+  }
+}
+RUN 42/60: en-it_seed4_full
+{
+  "language_pair": "en-it",
+  "seed": 4,
+  "variant": "full",
+  "run_id": "en-it_seed4_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0002
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed4_full] Epoch 1/40 TrainLoss=1.55618 ValTop1=0.83143 BestTop1=0.83143
+[en-it_seed4_full] Epoch 2/40 TrainLoss=0.61539 ValTop1=0.87380 BestTop1=0.87380
+[en-it_seed4_full] Epoch 3/40 TrainLoss=0.53832 ValTop1=0.88463 BestTop1=0.88463
+[en-it_seed4_full] Epoch 4/40 TrainLoss=0.50039 ValTop1=0.89050 BestTop1=0.89050
+[en-it_seed4_full] Epoch 5/40 TrainLoss=0.47467 ValTop1=0.89205 BestTop1=0.89205
+[en-it_seed4_full] Epoch 6/40 TrainLoss=0.45791 ValTop1=0.89422 BestTop1=0.89422
+[en-it_seed4_full] Epoch 7/40 TrainLoss=0.44718 ValTop1=0.88958 BestTop1=0.89422
+[en-it_seed4_full] Epoch 8/40 TrainLoss=0.43806 ValTop1=0.89483 BestTop1=0.89483
+[en-it_seed4_full] Epoch 9/40 TrainLoss=0.43129 ValTop1=0.90411 BestTop1=0.90411
+[en-it_seed4_full] Epoch 10/40 TrainLoss=0.42576 ValTop1=0.90040 BestTop1=0.90411
+[en-it_seed4_full] Epoch 11/40 TrainLoss=0.42215 ValTop1=0.89793 BestTop1=0.90411
+[en-it_seed4_full] Epoch 12/40 TrainLoss=0.41800 ValTop1=0.89855 BestTop1=0.90411
+[en-it_seed4_full] Epoch 13/40 TrainLoss=0.41484 ValTop1=0.90071 BestTop1=0.90411
+[en-it_seed4_full] Epoch 14/40 TrainLoss=0.41289 ValTop1=0.90535 BestTop1=0.90535
+[en-it_seed4_full] Epoch 15/40 TrainLoss=0.41026 ValTop1=0.89978 BestTop1=0.90535
+[en-it_seed4_full] Epoch 16/40 TrainLoss=0.40839 ValTop1=0.90009 BestTop1=0.90535
+[en-it_seed4_full] Epoch 17/40 TrainLoss=0.40676 ValTop1=0.90071 BestTop1=0.90535
+[en-it_seed4_full] Epoch 18/40 TrainLoss=0.40495 ValTop1=0.89947 BestTop1=0.90535
+[en-it_seed4_full] Epoch 19/40 TrainLoss=0.40399 ValTop1=0.89793 BestTop1=0.90535
+EARLY STOP: epoch=19, patience=5
+{
+  "run_id": "en-it_seed4_full",
+  "smoke_test": false,
+  "best_epoch": 14,
+  "epochs_completed": 19,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9053510671203217,
+    "Top-5": 0.9511289823693164,
+    "MeanRank": 18.039282400247448,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8856743574142456,
+    "HardNegMean": 0.7625130414962769,
+    "MarginMean": 0.12316136807203293,
+    "NeighborOverlap@10": 0.3355706773894216,
+    "Uniformity": -1.9058543865397195
+  },
+  "held_out_test": {
+    "Top-1": 0.8905380333951762,
+    "Top-5": 0.9474335188620903,
+    "MeanRank": 17.749226963512676,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8872348666191101,
+    "HardNegMean": 0.7661347985267639,
+    "MarginMean": 0.121100053191185,
+    "NeighborOverlap@10": 0.34644403215831787,
+    "Uniformity": -1.9053484689774849
+  }
+}
+RUN 43/60: en-it_seed5_baseline
+{
+  "language_pair": "en-it",
+  "seed": 5,
+  "variant": "baseline",
+  "run_id": "en-it_seed5_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed5_baseline] Epoch 1/40 TrainLoss=1.46156 ValTop1=0.83978 BestTop1=0.83978
+[en-it_seed5_baseline] Epoch 2/40 TrainLoss=0.60512 ValTop1=0.87287 BestTop1=0.87287
+[en-it_seed5_baseline] Epoch 3/40 TrainLoss=0.53613 ValTop1=0.88927 BestTop1=0.88927
+[en-it_seed5_baseline] Epoch 4/40 TrainLoss=0.49647 ValTop1=0.89174 BestTop1=0.89174
+[en-it_seed5_baseline] Epoch 5/40 TrainLoss=0.47215 ValTop1=0.89947 BestTop1=0.89947
+[en-it_seed5_baseline] Epoch 6/40 TrainLoss=0.45611 ValTop1=0.89391 BestTop1=0.89947
+[en-it_seed5_baseline] Epoch 7/40 TrainLoss=0.44318 ValTop1=0.89700 BestTop1=0.89947
+[en-it_seed5_baseline] Epoch 8/40 TrainLoss=0.43639 ValTop1=0.89700 BestTop1=0.89947
+[en-it_seed5_baseline] Epoch 9/40 TrainLoss=0.43022 ValTop1=0.89731 BestTop1=0.89947
+[en-it_seed5_baseline] Epoch 10/40 TrainLoss=0.42406 ValTop1=0.89947 BestTop1=0.89947
+EARLY STOP: epoch=10, patience=5
+{
+  "run_id": "en-it_seed5_baseline",
+  "smoke_test": false,
+  "best_epoch": 5,
+  "epochs_completed": 10,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8994741725951129,
+    "Top-5": 0.9514382926074854,
+    "MeanRank": 12.505412929167955,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8768646121025085,
+    "HardNegMean": 0.7649365067481995,
+    "MarginMean": 0.11192815750837326,
+    "NeighborOverlap@10": 0.3090318589545314,
+    "Uniformity": -2.0961221956931486
+  },
+  "held_out_test": {
+    "Top-1": 0.8809523809523809,
+    "Top-5": 0.9421768707482994,
+    "MeanRank": 17.214285714285715,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8769776821136475,
+    "HardNegMean": 0.7672702670097351,
+    "MarginMean": 0.10970736294984818,
+    "NeighborOverlap@10": 0.30581323438466296,
+    "Uniformity": -2.0975603451187155
+  }
+}
+RUN 44/60: en-it_seed5_geo
+{
+  "language_pair": "en-it",
+  "seed": 5,
+  "variant": "geo",
+  "run_id": "en-it_seed5_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed5_geo] Epoch 1/40 TrainLoss=1.46156 ValTop1=0.83978 BestTop1=0.83978
+[en-it_seed5_geo] Epoch 2/40 TrainLoss=0.60512 ValTop1=0.87287 BestTop1=0.87287
+[en-it_seed5_geo] Epoch 3/40 TrainLoss=0.53613 ValTop1=0.88927 BestTop1=0.88927
+[en-it_seed5_geo] Epoch 4/40 TrainLoss=0.49665 ValTop1=0.89019 BestTop1=0.89019
+[en-it_seed5_geo] Epoch 5/40 TrainLoss=0.47194 ValTop1=0.89298 BestTop1=0.89298
+[en-it_seed5_geo] Epoch 6/40 TrainLoss=0.45608 ValTop1=0.89298 BestTop1=0.89298
+[en-it_seed5_geo] Epoch 7/40 TrainLoss=0.44350 ValTop1=0.89700 BestTop1=0.89700
+[en-it_seed5_geo] Epoch 8/40 TrainLoss=0.43657 ValTop1=0.89855 BestTop1=0.89855
+[en-it_seed5_geo] Epoch 9/40 TrainLoss=0.43068 ValTop1=0.90164 BestTop1=0.90164
+[en-it_seed5_geo] Epoch 10/40 TrainLoss=0.42478 ValTop1=0.89824 BestTop1=0.90164
+[en-it_seed5_geo] Epoch 11/40 TrainLoss=0.41992 ValTop1=0.89855 BestTop1=0.90164
+[en-it_seed5_geo] Epoch 12/40 TrainLoss=0.41676 ValTop1=0.89422 BestTop1=0.90164
+[en-it_seed5_geo] Epoch 13/40 TrainLoss=0.41430 ValTop1=0.89731 BestTop1=0.90164
+[en-it_seed5_geo] Epoch 14/40 TrainLoss=0.41173 ValTop1=0.89916 BestTop1=0.90164
+EARLY STOP: epoch=14, patience=5
+{
+  "run_id": "en-it_seed5_geo",
+  "smoke_test": false,
+  "best_epoch": 9,
+  "epochs_completed": 14,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.9016393442622951,
+    "Top-5": 0.952366223321992,
+    "MeanRank": 15.037426538818435,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8814924955368042,
+    "HardNegMean": 0.7653511762619019,
+    "MarginMean": 0.11614131927490234,
+    "NeighborOverlap@10": 0.3233838540055676,
+    "Uniformity": -1.961109209558492
+  },
+  "held_out_test": {
+    "Top-1": 0.8936301793444651,
+    "Top-5": 0.9489795918367347,
+    "MeanRank": 18.663883735312307,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.883011519908905,
+    "HardNegMean": 0.7669039368629456,
+    "MarginMean": 0.11610749363899231,
+    "NeighborOverlap@10": 0.3238095238095238,
+    "Uniformity": -1.961010104625561
+  }
+}
+RUN 45/60: en-it_seed5_full
+{
+  "language_pair": "en-it",
+  "seed": 5,
+  "variant": "full",
+  "run_id": "en-it_seed5_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0002
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "9dd378b69873dbe4c94f5050ab1fc799e4982407ab99dea2993c230008a461c1",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-it_seed5_full] Epoch 1/40 TrainLoss=1.46156 ValTop1=0.83978 BestTop1=0.83978
+[en-it_seed5_full] Epoch 2/40 TrainLoss=0.60512 ValTop1=0.87287 BestTop1=0.87287
+[en-it_seed5_full] Epoch 3/40 TrainLoss=0.53613 ValTop1=0.88927 BestTop1=0.88927
+[en-it_seed5_full] Epoch 4/40 TrainLoss=0.49647 ValTop1=0.89174 BestTop1=0.89174
+[en-it_seed5_full] Epoch 5/40 TrainLoss=0.47209 ValTop1=0.89638 BestTop1=0.89638
+[en-it_seed5_full] Epoch 6/40 TrainLoss=0.45588 ValTop1=0.89483 BestTop1=0.89638
+[en-it_seed5_full] Epoch 7/40 TrainLoss=0.44319 ValTop1=0.89236 BestTop1=0.89638
+[en-it_seed5_full] Epoch 8/40 TrainLoss=0.43628 ValTop1=0.89700 BestTop1=0.89700
+[en-it_seed5_full] Epoch 9/40 TrainLoss=0.43035 ValTop1=0.89793 BestTop1=0.89793
+[en-it_seed5_full] Epoch 10/40 TrainLoss=0.42441 ValTop1=0.89793 BestTop1=0.89793
+[en-it_seed5_full] Epoch 11/40 TrainLoss=0.41989 ValTop1=0.89422 BestTop1=0.89793
+[en-it_seed5_full] Epoch 12/40 TrainLoss=0.41657 ValTop1=0.89360 BestTop1=0.89793
+[en-it_seed5_full] Epoch 13/40 TrainLoss=0.41410 ValTop1=0.89329 BestTop1=0.89793
+[en-it_seed5_full] Epoch 14/40 TrainLoss=0.41190 ValTop1=0.89700 BestTop1=0.89793
+EARLY STOP: epoch=14, patience=5
+{
+  "run_id": "en-it_seed5_full",
+  "smoke_test": false,
+  "best_epoch": 9,
+  "epochs_completed": 14,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8979276214042685,
+    "Top-5": 0.954840705227343,
+    "MeanRank": 14.125889266934735,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8809541463851929,
+    "HardNegMean": 0.7632132172584534,
+    "MarginMean": 0.11774096637964249,
+    "NeighborOverlap@10": 0.3270646458397773,
+    "Uniformity": -1.9819686305469333
+  },
+  "held_out_test": {
+    "Top-1": 0.8927025355596784,
+    "Top-5": 0.948051948051948,
+    "MeanRank": 17.815089672232528,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.882357120513916,
+    "HardNegMean": 0.7652003765106201,
+    "MarginMean": 0.11715677380561829,
+    "NeighborOverlap@10": 0.32996289424860853,
+    "Uniformity": -1.982992613055264
+  }
+}
+RUN 46/60: en-es_seed1_baseline
+{
+  "language_pair": "en-es",
+  "seed": 1,
+  "variant": "baseline",
+  "run_id": "en-es_seed1_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed1_baseline] Epoch 1/40 TrainLoss=0.84993 ValTop1=0.78549 BestTop1=0.78549
+[en-es_seed1_baseline] Epoch 2/40 TrainLoss=0.57970 ValTop1=0.79854 BestTop1=0.79854
+[en-es_seed1_baseline] Epoch 3/40 TrainLoss=0.52996 ValTop1=0.80678 BestTop1=0.80678
+[en-es_seed1_baseline] Epoch 4/40 TrainLoss=0.49742 ValTop1=0.80764 BestTop1=0.80764
+[en-es_seed1_baseline] Epoch 5/40 TrainLoss=0.47320 ValTop1=0.80796 BestTop1=0.80796
+[en-es_seed1_baseline] Epoch 6/40 TrainLoss=0.45688 ValTop1=0.80839 BestTop1=0.80839
+[en-es_seed1_baseline] Epoch 7/40 TrainLoss=0.44413 ValTop1=0.81106 BestTop1=0.81106
+[en-es_seed1_baseline] Epoch 8/40 TrainLoss=0.43517 ValTop1=0.80989 BestTop1=0.81106
+[en-es_seed1_baseline] Epoch 9/40 TrainLoss=0.42783 ValTop1=0.81310 BestTop1=0.81310
+[en-es_seed1_baseline] Epoch 10/40 TrainLoss=0.42284 ValTop1=0.81331 BestTop1=0.81331
+[en-es_seed1_baseline] Epoch 11/40 TrainLoss=0.41819 ValTop1=0.81502 BestTop1=0.81502
+[en-es_seed1_baseline] Epoch 12/40 TrainLoss=0.41493 ValTop1=0.81491 BestTop1=0.81502
+[en-es_seed1_baseline] Epoch 13/40 TrainLoss=0.41162 ValTop1=0.81395 BestTop1=0.81502
+[en-es_seed1_baseline] Epoch 14/40 TrainLoss=0.40872 ValTop1=0.81181 BestTop1=0.81502
+[en-es_seed1_baseline] Epoch 15/40 TrainLoss=0.40701 ValTop1=0.81299 BestTop1=0.81502
+[en-es_seed1_baseline] Epoch 16/40 TrainLoss=0.40462 ValTop1=0.81160 BestTop1=0.81502
+EARLY STOP: epoch=16, patience=5
+{
+  "run_id": "en-es_seed1_baseline",
+  "smoke_test": false,
+  "best_epoch": 11,
+  "epochs_completed": 16,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8150208623087621,
+    "Top-5": 0.8785706643842944,
+    "MeanRank": 93.99529260725366,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8714119791984558,
+    "HardNegMean": 0.780641496181488,
+    "MarginMean": 0.09077054262161255,
+    "NeighborOverlap@10": 0.2748261474269819,
+    "Uniformity": -1.9601255116790441
+  },
+  "held_out_test": {
+    "Top-1": 0.8540708248635926,
+    "Top-5": 0.9134481651866909,
+    "MeanRank": 79.37295388894833,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8721116781234741,
+    "HardNegMean": 0.7735101580619812,
+    "MarginMean": 0.09860154986381531,
+    "NeighborOverlap@10": 0.2824863592596555,
+    "Uniformity": -1.9669900609915665
+  }
+}
+RUN 47/60: en-es_seed1_geo
+{
+  "language_pair": "en-es",
+  "seed": 1,
+  "variant": "geo",
+  "run_id": "en-es_seed1_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed1_geo] Epoch 1/40 TrainLoss=0.84993 ValTop1=0.78549 BestTop1=0.78549
+[en-es_seed1_geo] Epoch 2/40 TrainLoss=0.57970 ValTop1=0.79854 BestTop1=0.79854
+[en-es_seed1_geo] Epoch 3/40 TrainLoss=0.52996 ValTop1=0.80678 BestTop1=0.80678
+[en-es_seed1_geo] Epoch 4/40 TrainLoss=0.49752 ValTop1=0.80807 BestTop1=0.80807
+[en-es_seed1_geo] Epoch 5/40 TrainLoss=0.47327 ValTop1=0.80935 BestTop1=0.80935
+[en-es_seed1_geo] Epoch 6/40 TrainLoss=0.45681 ValTop1=0.80849 BestTop1=0.80935
+[en-es_seed1_geo] Epoch 7/40 TrainLoss=0.44427 ValTop1=0.81245 BestTop1=0.81245
+[en-es_seed1_geo] Epoch 8/40 TrainLoss=0.43532 ValTop1=0.80924 BestTop1=0.81245
+[en-es_seed1_geo] Epoch 9/40 TrainLoss=0.42801 ValTop1=0.81213 BestTop1=0.81245
+[en-es_seed1_geo] Epoch 10/40 TrainLoss=0.42301 ValTop1=0.81577 BestTop1=0.81577
+[en-es_seed1_geo] Epoch 11/40 TrainLoss=0.41864 ValTop1=0.81395 BestTop1=0.81577
+[en-es_seed1_geo] Epoch 12/40 TrainLoss=0.41534 ValTop1=0.81374 BestTop1=0.81577
+[en-es_seed1_geo] Epoch 13/40 TrainLoss=0.41196 ValTop1=0.81342 BestTop1=0.81577
+[en-es_seed1_geo] Epoch 14/40 TrainLoss=0.40887 ValTop1=0.81181 BestTop1=0.81577
+[en-es_seed1_geo] Epoch 15/40 TrainLoss=0.40715 ValTop1=0.81310 BestTop1=0.81577
+EARLY STOP: epoch=15, patience=5
+{
+  "run_id": "en-es_seed1_geo",
+  "smoke_test": false,
+  "best_epoch": 10,
+  "epochs_completed": 15,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8157697657002246,
+    "Top-5": 0.879640526372098,
+    "MeanRank": 92.7859206162405,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8702843189239502,
+    "HardNegMean": 0.7788605690002441,
+    "MarginMean": 0.09142366796731949,
+    "NeighborOverlap@10": 0.26929496095003747,
+    "Uniformity": -1.9779145372767917
+  },
+  "held_out_test": {
+    "Top-1": 0.8516101422916443,
+    "Top-5": 0.9133411789879106,
+    "MeanRank": 76.29217930886915,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8705130815505981,
+    "HardNegMean": 0.7722663283348083,
+    "MarginMean": 0.09824671596288681,
+    "NeighborOverlap@10": 0.27588531079490747,
+    "Uniformity": -1.9858748529338552
+  }
+}
+RUN 48/60: en-es_seed1_full
+{
+  "language_pair": "en-es",
+  "seed": 1,
+  "variant": "full",
+  "run_id": "en-es_seed1_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0002
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed1_full] Epoch 1/40 TrainLoss=0.84993 ValTop1=0.78549 BestTop1=0.78549
+[en-es_seed1_full] Epoch 2/40 TrainLoss=0.57970 ValTop1=0.79854 BestTop1=0.79854
+[en-es_seed1_full] Epoch 3/40 TrainLoss=0.52996 ValTop1=0.80678 BestTop1=0.80678
+[en-es_seed1_full] Epoch 4/40 TrainLoss=0.49742 ValTop1=0.80764 BestTop1=0.80764
+[en-es_seed1_full] Epoch 5/40 TrainLoss=0.47321 ValTop1=0.80807 BestTop1=0.80807
+[en-es_seed1_full] Epoch 6/40 TrainLoss=0.45690 ValTop1=0.80935 BestTop1=0.80935
+[en-es_seed1_full] Epoch 7/40 TrainLoss=0.44411 ValTop1=0.81277 BestTop1=0.81277
+[en-es_seed1_full] Epoch 8/40 TrainLoss=0.43541 ValTop1=0.80860 BestTop1=0.81277
+[en-es_seed1_full] Epoch 9/40 TrainLoss=0.42792 ValTop1=0.81277 BestTop1=0.81277
+[en-es_seed1_full] Epoch 10/40 TrainLoss=0.42305 ValTop1=0.81342 BestTop1=0.81342
+[en-es_seed1_full] Epoch 11/40 TrainLoss=0.41857 ValTop1=0.81459 BestTop1=0.81459
+[en-es_seed1_full] Epoch 12/40 TrainLoss=0.41517 ValTop1=0.81449 BestTop1=0.81459
+[en-es_seed1_full] Epoch 13/40 TrainLoss=0.41194 ValTop1=0.81170 BestTop1=0.81459
+[en-es_seed1_full] Epoch 14/40 TrainLoss=0.40881 ValTop1=0.81245 BestTop1=0.81459
+[en-es_seed1_full] Epoch 15/40 TrainLoss=0.40710 ValTop1=0.81245 BestTop1=0.81459
+[en-es_seed1_full] Epoch 16/40 TrainLoss=0.40480 ValTop1=0.81181 BestTop1=0.81459
+EARLY STOP: epoch=16, patience=5
+{
+  "run_id": "en-es_seed1_full",
+  "smoke_test": false,
+  "best_epoch": 11,
+  "epochs_completed": 16,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8145929175136407,
+    "Top-5": 0.8788916229806355,
+    "MeanRank": 101.76997967262223,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8697450160980225,
+    "HardNegMean": 0.7790483236312866,
+    "MarginMean": 0.09069667756557465,
+    "NeighborOverlap@10": 0.2789451160800257,
+    "Uniformity": -1.9734849125830571
+  },
+  "held_out_test": {
+    "Top-1": 0.8516101422916443,
+    "Top-5": 0.9121643308013266,
+    "MeanRank": 82.45105381405799,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8702544569969177,
+    "HardNegMean": 0.7717484831809998,
+    "MarginMean": 0.09850595891475677,
+    "NeighborOverlap@10": 0.28301059163367925,
+    "Uniformity": -1.9793784881002487
+  }
+}
+RUN 49/60: en-es_seed2_baseline
+{
+  "language_pair": "en-es",
+  "seed": 2,
+  "variant": "baseline",
+  "run_id": "en-es_seed2_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed2_baseline] Epoch 1/40 TrainLoss=0.88781 ValTop1=0.78239 BestTop1=0.78239
+[en-es_seed2_baseline] Epoch 2/40 TrainLoss=0.58141 ValTop1=0.79662 BestTop1=0.79662
+[en-es_seed2_baseline] Epoch 3/40 TrainLoss=0.53014 ValTop1=0.80550 BestTop1=0.80550
+[en-es_seed2_baseline] Epoch 4/40 TrainLoss=0.49649 ValTop1=0.80978 BestTop1=0.80978
+[en-es_seed2_baseline] Epoch 5/40 TrainLoss=0.47312 ValTop1=0.80989 BestTop1=0.80989
+[en-es_seed2_baseline] Epoch 6/40 TrainLoss=0.45672 ValTop1=0.80924 BestTop1=0.80989
+[en-es_seed2_baseline] Epoch 7/40 TrainLoss=0.44458 ValTop1=0.81395 BestTop1=0.81395
+[en-es_seed2_baseline] Epoch 8/40 TrainLoss=0.43624 ValTop1=0.81106 BestTop1=0.81395
+[en-es_seed2_baseline] Epoch 9/40 TrainLoss=0.42878 ValTop1=0.81406 BestTop1=0.81406
+[en-es_seed2_baseline] Epoch 10/40 TrainLoss=0.42321 ValTop1=0.81096 BestTop1=0.81406
+[en-es_seed2_baseline] Epoch 11/40 TrainLoss=0.41862 ValTop1=0.81181 BestTop1=0.81406
+[en-es_seed2_baseline] Epoch 12/40 TrainLoss=0.41499 ValTop1=0.81256 BestTop1=0.81406
+[en-es_seed2_baseline] Epoch 13/40 TrainLoss=0.41212 ValTop1=0.81331 BestTop1=0.81406
+[en-es_seed2_baseline] Epoch 14/40 TrainLoss=0.40914 ValTop1=0.80978 BestTop1=0.81406
+EARLY STOP: epoch=14, patience=5
+{
+  "run_id": "en-es_seed2_baseline",
+  "smoke_test": false,
+  "best_epoch": 9,
+  "epochs_completed": 14,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8140579865197389,
+    "Top-5": 0.8798544987696587,
+    "MeanRank": 83.30116614956671,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8665840029716492,
+    "HardNegMean": 0.7758508324623108,
+    "MarginMean": 0.09073317795991898,
+    "NeighborOverlap@10": 0.28010056702685354,
+    "Uniformity": -2.036516611173494
+  },
+  "held_out_test": {
+    "Top-1": 0.8492564459184765,
+    "Top-5": 0.9128062479940088,
+    "MeanRank": 74.7173424628223,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8668962121009827,
+    "HardNegMean": 0.7686065435409546,
+    "MarginMean": 0.09828969091176987,
+    "NeighborOverlap@10": 0.27958703327270784,
+    "Uniformity": -2.0418655714141973
+  }
+}
+RUN 50/60: en-es_seed2_geo
+{
+  "language_pair": "en-es",
+  "seed": 2,
+  "variant": "geo",
+  "run_id": "en-es_seed2_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed2_geo] Epoch 1/40 TrainLoss=0.88781 ValTop1=0.78239 BestTop1=0.78239
+[en-es_seed2_geo] Epoch 2/40 TrainLoss=0.58141 ValTop1=0.79662 BestTop1=0.79662
+[en-es_seed2_geo] Epoch 3/40 TrainLoss=0.53014 ValTop1=0.80550 BestTop1=0.80550
+[en-es_seed2_geo] Epoch 4/40 TrainLoss=0.49639 ValTop1=0.81106 BestTop1=0.81106
+[en-es_seed2_geo] Epoch 5/40 TrainLoss=0.47313 ValTop1=0.81031 BestTop1=0.81106
+[en-es_seed2_geo] Epoch 6/40 TrainLoss=0.45652 ValTop1=0.80903 BestTop1=0.81106
+[en-es_seed2_geo] Epoch 7/40 TrainLoss=0.44452 ValTop1=0.81331 BestTop1=0.81331
+[en-es_seed2_geo] Epoch 8/40 TrainLoss=0.43619 ValTop1=0.81416 BestTop1=0.81416
+[en-es_seed2_geo] Epoch 9/40 TrainLoss=0.42862 ValTop1=0.81470 BestTop1=0.81470
+[en-es_seed2_geo] Epoch 10/40 TrainLoss=0.42326 ValTop1=0.81042 BestTop1=0.81470
+[en-es_seed2_geo] Epoch 11/40 TrainLoss=0.41872 ValTop1=0.81235 BestTop1=0.81470
+[en-es_seed2_geo] Epoch 12/40 TrainLoss=0.41515 ValTop1=0.81320 BestTop1=0.81470
+[en-es_seed2_geo] Epoch 13/40 TrainLoss=0.41214 ValTop1=0.81363 BestTop1=0.81470
+[en-es_seed2_geo] Epoch 14/40 TrainLoss=0.40926 ValTop1=0.81149 BestTop1=0.81470
+EARLY STOP: epoch=14, patience=5
+{
+  "run_id": "en-es_seed2_geo",
+  "smoke_test": false,
+  "best_epoch": 9,
+  "epochs_completed": 14,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8146999037124211,
+    "Top-5": 0.8794265539745373,
+    "MeanRank": 82.11629399807426,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.867500901222229,
+    "HardNegMean": 0.7771578431129456,
+    "MarginMean": 0.09034308046102524,
+    "NeighborOverlap@10": 0.27890232160051354,
+    "Uniformity": -2.026581232415991
+  },
+  "held_out_test": {
+    "Top-1": 0.8535358938696909,
+    "Top-5": 0.9144110409757141,
+    "MeanRank": 74.3050176527228,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.868099570274353,
+    "HardNegMean": 0.769858181476593,
+    "MarginMean": 0.0982413962483406,
+    "NeighborOverlap@10": 0.2797689098106344,
+    "Uniformity": -2.029545036520863
+  }
+}
+RUN 51/60: en-es_seed2_full
+{
+  "language_pair": "en-es",
+  "seed": 2,
+  "variant": "full",
+  "run_id": "en-es_seed2_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0002
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed2_full] Epoch 1/40 TrainLoss=0.88781 ValTop1=0.78239 BestTop1=0.78239
+[en-es_seed2_full] Epoch 2/40 TrainLoss=0.58141 ValTop1=0.79662 BestTop1=0.79662
+[en-es_seed2_full] Epoch 3/40 TrainLoss=0.53014 ValTop1=0.80550 BestTop1=0.80550
+[en-es_seed2_full] Epoch 4/40 TrainLoss=0.49649 ValTop1=0.80978 BestTop1=0.80978
+[en-es_seed2_full] Epoch 5/40 TrainLoss=0.47331 ValTop1=0.80700 BestTop1=0.80978
+[en-es_seed2_full] Epoch 6/40 TrainLoss=0.45684 ValTop1=0.80903 BestTop1=0.80978
+[en-es_seed2_full] Epoch 7/40 TrainLoss=0.44474 ValTop1=0.81352 BestTop1=0.81352
+[en-es_seed2_full] Epoch 8/40 TrainLoss=0.43650 ValTop1=0.81181 BestTop1=0.81352
+[en-es_seed2_full] Epoch 9/40 TrainLoss=0.42908 ValTop1=0.81523 BestTop1=0.81523
+[en-es_seed2_full] Epoch 10/40 TrainLoss=0.42339 ValTop1=0.81213 BestTop1=0.81523
+[en-es_seed2_full] Epoch 11/40 TrainLoss=0.41910 ValTop1=0.81256 BestTop1=0.81523
+[en-es_seed2_full] Epoch 12/40 TrainLoss=0.41529 ValTop1=0.81384 BestTop1=0.81523
+[en-es_seed2_full] Epoch 13/40 TrainLoss=0.41236 ValTop1=0.81374 BestTop1=0.81523
+[en-es_seed2_full] Epoch 14/40 TrainLoss=0.40946 ValTop1=0.81470 BestTop1=0.81523
+EARLY STOP: epoch=14, patience=5
+{
+  "run_id": "en-es_seed2_full",
+  "smoke_test": false,
+  "best_epoch": 9,
+  "epochs_completed": 14,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8152348347063229,
+    "Top-5": 0.8780357333903926,
+    "MeanRank": 83.68118112763453,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8655744194984436,
+    "HardNegMean": 0.7739769816398621,
+    "MarginMean": 0.09159744530916214,
+    "NeighborOverlap@10": 0.27912699261795226,
+    "Uniformity": -2.048352797325357
+  },
+  "held_out_test": {
+    "Top-1": 0.8492564459184765,
+    "Top-5": 0.9132341927891302,
+    "MeanRank": 73.89665133197818,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8655686974525452,
+    "HardNegMean": 0.7668729424476624,
+    "MarginMean": 0.09869571030139923,
+    "NeighborOverlap@10": 0.278452979565636,
+    "Uniformity": -2.053845864534976
+  }
+}
+RUN 52/60: en-es_seed3_baseline
+{
+  "language_pair": "en-es",
+  "seed": 3,
+  "variant": "baseline",
+  "run_id": "en-es_seed3_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed3_baseline] Epoch 1/40 TrainLoss=0.86795 ValTop1=0.78635 BestTop1=0.78635
+[en-es_seed3_baseline] Epoch 2/40 TrainLoss=0.57759 ValTop1=0.80036 BestTop1=0.80036
+[en-es_seed3_baseline] Epoch 3/40 TrainLoss=0.52933 ValTop1=0.80464 BestTop1=0.80464
+[en-es_seed3_baseline] Epoch 4/40 TrainLoss=0.49607 ValTop1=0.80710 BestTop1=0.80710
+[en-es_seed3_baseline] Epoch 5/40 TrainLoss=0.47342 ValTop1=0.80817 BestTop1=0.80817
+[en-es_seed3_baseline] Epoch 6/40 TrainLoss=0.45701 ValTop1=0.81277 BestTop1=0.81277
+[en-es_seed3_baseline] Epoch 7/40 TrainLoss=0.44521 ValTop1=0.81224 BestTop1=0.81277
+[en-es_seed3_baseline] Epoch 8/40 TrainLoss=0.43561 ValTop1=0.81342 BestTop1=0.81342
+[en-es_seed3_baseline] Epoch 9/40 TrainLoss=0.42862 ValTop1=0.81085 BestTop1=0.81342
+[en-es_seed3_baseline] Epoch 10/40 TrainLoss=0.42349 ValTop1=0.81235 BestTop1=0.81342
+[en-es_seed3_baseline] Epoch 11/40 TrainLoss=0.41865 ValTop1=0.81117 BestTop1=0.81342
+[en-es_seed3_baseline] Epoch 12/40 TrainLoss=0.41520 ValTop1=0.81299 BestTop1=0.81342
+[en-es_seed3_baseline] Epoch 13/40 TrainLoss=0.41240 ValTop1=0.81138 BestTop1=0.81342
+EARLY STOP: epoch=13, patience=5
+{
+  "run_id": "en-es_seed3_baseline",
+  "smoke_test": false,
+  "best_epoch": 8,
+  "epochs_completed": 13,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8134160693270568,
+    "Top-5": 0.8768588852038087,
+    "MeanRank": 84.38536428800684,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8686135411262512,
+    "HardNegMean": 0.7805469632148743,
+    "MarginMean": 0.08806657046079636,
+    "NeighborOverlap@10": 0.2714346849256446,
+    "Uniformity": -2.0163164485516285
+  },
+  "held_out_test": {
+    "Top-1": 0.851824114689205,
+    "Top-5": 0.9123783031988874,
+    "MeanRank": 72.85000534930994,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8692509531974792,
+    "HardNegMean": 0.7736029624938965,
+    "MarginMean": 0.09564806520938873,
+    "NeighborOverlap@10": 0.27516850326307907,
+    "Uniformity": -2.0172300223993473
+  }
+}
+RUN 53/60: en-es_seed3_geo
+{
+  "language_pair": "en-es",
+  "seed": 3,
+  "variant": "geo",
+  "run_id": "en-es_seed3_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed3_geo] Epoch 1/40 TrainLoss=0.86795 ValTop1=0.78635 BestTop1=0.78635
+[en-es_seed3_geo] Epoch 2/40 TrainLoss=0.57759 ValTop1=0.80036 BestTop1=0.80036
+[en-es_seed3_geo] Epoch 3/40 TrainLoss=0.52933 ValTop1=0.80464 BestTop1=0.80464
+[en-es_seed3_geo] Epoch 4/40 TrainLoss=0.49597 ValTop1=0.80668 BestTop1=0.80668
+[en-es_seed3_geo] Epoch 5/40 TrainLoss=0.47297 ValTop1=0.81138 BestTop1=0.81138
+[en-es_seed3_geo] Epoch 6/40 TrainLoss=0.45659 ValTop1=0.81342 BestTop1=0.81342
+[en-es_seed3_geo] Epoch 7/40 TrainLoss=0.44522 ValTop1=0.81277 BestTop1=0.81342
+[en-es_seed3_geo] Epoch 8/40 TrainLoss=0.43574 ValTop1=0.81267 BestTop1=0.81342
+[en-es_seed3_geo] Epoch 9/40 TrainLoss=0.42889 ValTop1=0.81470 BestTop1=0.81470
+[en-es_seed3_geo] Epoch 10/40 TrainLoss=0.42355 ValTop1=0.81502 BestTop1=0.81502
+[en-es_seed3_geo] Epoch 11/40 TrainLoss=0.41875 ValTop1=0.81352 BestTop1=0.81502
+[en-es_seed3_geo] Epoch 12/40 TrainLoss=0.41527 ValTop1=0.81438 BestTop1=0.81502
+[en-es_seed3_geo] Epoch 13/40 TrainLoss=0.41259 ValTop1=0.81342 BestTop1=0.81502
+[en-es_seed3_geo] Epoch 14/40 TrainLoss=0.40978 ValTop1=0.81470 BestTop1=0.81502
+[en-es_seed3_geo] Epoch 15/40 TrainLoss=0.40772 ValTop1=0.81235 BestTop1=0.81502
+EARLY STOP: epoch=15, patience=5
+{
+  "run_id": "en-es_seed3_geo",
+  "smoke_test": false,
+  "best_epoch": 10,
+  "epochs_completed": 15,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8150208623087621,
+    "Top-5": 0.8780357333903926,
+    "MeanRank": 85.05081844442067,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8685985803604126,
+    "HardNegMean": 0.7776246666908264,
+    "MarginMean": 0.09097392857074738,
+    "NeighborOverlap@10": 0.27638814592917516,
+    "Uniformity": -1.9951597599493711
+  },
+  "held_out_test": {
+    "Top-1": 0.8522520594843265,
+    "Top-5": 0.915587889162298,
+    "MeanRank": 80.12410399058521,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8692448139190674,
+    "HardNegMean": 0.7703483700752258,
+    "MarginMean": 0.09889636188745499,
+    "NeighborOverlap@10": 0.28352412538782495,
+    "Uniformity": -1.99942455511584
+  }
+}
+RUN 54/60: en-es_seed3_full
+{
+  "language_pair": "en-es",
+  "seed": 3,
+  "variant": "full",
+  "run_id": "en-es_seed3_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0002
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed3_full] Epoch 1/40 TrainLoss=0.86795 ValTop1=0.78635 BestTop1=0.78635
+[en-es_seed3_full] Epoch 2/40 TrainLoss=0.57759 ValTop1=0.80036 BestTop1=0.80036
+[en-es_seed3_full] Epoch 3/40 TrainLoss=0.52933 ValTop1=0.80464 BestTop1=0.80464
+[en-es_seed3_full] Epoch 4/40 TrainLoss=0.49607 ValTop1=0.80710 BestTop1=0.80710
+[en-es_seed3_full] Epoch 5/40 TrainLoss=0.47365 ValTop1=0.81181 BestTop1=0.81181
+[en-es_seed3_full] Epoch 6/40 TrainLoss=0.45718 ValTop1=0.81534 BestTop1=0.81534
+[en-es_seed3_full] Epoch 7/40 TrainLoss=0.44540 ValTop1=0.81106 BestTop1=0.81534
+[en-es_seed3_full] Epoch 8/40 TrainLoss=0.43592 ValTop1=0.81074 BestTop1=0.81534
+[en-es_seed3_full] Epoch 9/40 TrainLoss=0.42884 ValTop1=0.81256 BestTop1=0.81534
+[en-es_seed3_full] Epoch 10/40 TrainLoss=0.42362 ValTop1=0.81331 BestTop1=0.81534
+[en-es_seed3_full] Epoch 11/40 TrainLoss=0.41901 ValTop1=0.81256 BestTop1=0.81534
+EARLY STOP: epoch=11, patience=5
+{
+  "run_id": "en-es_seed3_full",
+  "smoke_test": false,
+  "best_epoch": 6,
+  "epochs_completed": 11,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8153418209051032,
+    "Top-5": 0.8758960094147855,
+    "MeanRank": 75.17855996576442,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8658360242843628,
+    "HardNegMean": 0.7784589529037476,
+    "MarginMean": 0.08737703412771225,
+    "NeighborOverlap@10": 0.27255804001283834,
+    "Uniformity": -2.101876262031852
+  },
+  "held_out_test": {
+    "Top-1": 0.8494704183160372,
+    "Top-5": 0.9119503584037659,
+    "MeanRank": 71.68920509254306,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8661807179450989,
+    "HardNegMean": 0.770969033241272,
+    "MarginMean": 0.0952116996049881,
+    "NeighborOverlap@10": 0.27405584679576334,
+    "Uniformity": -2.1090337087961735
+  }
+}
+RUN 55/60: en-es_seed4_baseline
+{
+  "language_pair": "en-es",
+  "seed": 4,
+  "variant": "baseline",
+  "run_id": "en-es_seed4_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed4_baseline] Epoch 1/40 TrainLoss=0.85711 ValTop1=0.78474 BestTop1=0.78474
+[en-es_seed4_baseline] Epoch 2/40 TrainLoss=0.57781 ValTop1=0.79726 BestTop1=0.79726
+[en-es_seed4_baseline] Epoch 3/40 TrainLoss=0.52914 ValTop1=0.80229 BestTop1=0.80229
+[en-es_seed4_baseline] Epoch 4/40 TrainLoss=0.49587 ValTop1=0.80411 BestTop1=0.80411
+[en-es_seed4_baseline] Epoch 5/40 TrainLoss=0.47272 ValTop1=0.80529 BestTop1=0.80529
+[en-es_seed4_baseline] Epoch 6/40 TrainLoss=0.45581 ValTop1=0.81213 BestTop1=0.81213
+[en-es_seed4_baseline] Epoch 7/40 TrainLoss=0.44404 ValTop1=0.80903 BestTop1=0.81213
+[en-es_seed4_baseline] Epoch 8/40 TrainLoss=0.43446 ValTop1=0.80924 BestTop1=0.81213
+[en-es_seed4_baseline] Epoch 9/40 TrainLoss=0.42777 ValTop1=0.81331 BestTop1=0.81331
+[en-es_seed4_baseline] Epoch 10/40 TrainLoss=0.42284 ValTop1=0.81342 BestTop1=0.81342
+[en-es_seed4_baseline] Epoch 11/40 TrainLoss=0.41790 ValTop1=0.81085 BestTop1=0.81342
+[en-es_seed4_baseline] Epoch 12/40 TrainLoss=0.41500 ValTop1=0.81545 BestTop1=0.81545
+[en-es_seed4_baseline] Epoch 13/40 TrainLoss=0.41159 ValTop1=0.81545 BestTop1=0.81545
+[en-es_seed4_baseline] Epoch 14/40 TrainLoss=0.40952 ValTop1=0.81502 BestTop1=0.81545
+[en-es_seed4_baseline] Epoch 15/40 TrainLoss=0.40679 ValTop1=0.81844 BestTop1=0.81844
+[en-es_seed4_baseline] Epoch 16/40 TrainLoss=0.40489 ValTop1=0.81363 BestTop1=0.81844
+[en-es_seed4_baseline] Epoch 17/40 TrainLoss=0.40341 ValTop1=0.81523 BestTop1=0.81844
+[en-es_seed4_baseline] Epoch 18/40 TrainLoss=0.40169 ValTop1=0.81384 BestTop1=0.81844
+[en-es_seed4_baseline] Epoch 19/40 TrainLoss=0.40045 ValTop1=0.81491 BestTop1=0.81844
+[en-es_seed4_baseline] Epoch 20/40 TrainLoss=0.39945 ValTop1=0.81834 BestTop1=0.81844
+EARLY STOP: epoch=20, patience=5
+{
+  "run_id": "en-es_seed4_baseline",
+  "smoke_test": false,
+  "best_epoch": 15,
+  "epochs_completed": 20,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8184444206697336,
+    "Top-5": 0.8773938161977105,
+    "MeanRank": 98.04375735530117,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8757268190383911,
+    "HardNegMean": 0.7854660749435425,
+    "MarginMean": 0.09026076644659042,
+    "NeighborOverlap@10": 0.29283192468171604,
+    "Uniformity": -1.8874860414170946
+  },
+  "held_out_test": {
+    "Top-1": 0.8553546592489569,
+    "Top-5": 0.9166577511501016,
+    "MeanRank": 80.44014122178238,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.876415491104126,
+    "HardNegMean": 0.7785674929618835,
+    "MarginMean": 0.09784796088933945,
+    "NeighborOverlap@10": 0.2992296993687814,
+    "Uniformity": -1.8928331191291197
+  }
+}
+RUN 56/60: en-es_seed4_geo
+{
+  "language_pair": "en-es",
+  "seed": 4,
+  "variant": "geo",
+  "run_id": "en-es_seed4_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed4_geo] Epoch 1/40 TrainLoss=0.85711 ValTop1=0.78474 BestTop1=0.78474
+[en-es_seed4_geo] Epoch 2/40 TrainLoss=0.57781 ValTop1=0.79726 BestTop1=0.79726
+[en-es_seed4_geo] Epoch 3/40 TrainLoss=0.52914 ValTop1=0.80229 BestTop1=0.80229
+[en-es_seed4_geo] Epoch 4/40 TrainLoss=0.49597 ValTop1=0.80550 BestTop1=0.80550
+[en-es_seed4_geo] Epoch 5/40 TrainLoss=0.47289 ValTop1=0.80785 BestTop1=0.80785
+[en-es_seed4_geo] Epoch 6/40 TrainLoss=0.45623 ValTop1=0.81042 BestTop1=0.81042
+[en-es_seed4_geo] Epoch 7/40 TrainLoss=0.44425 ValTop1=0.80817 BestTop1=0.81042
+[en-es_seed4_geo] Epoch 8/40 TrainLoss=0.43485 ValTop1=0.81106 BestTop1=0.81106
+[en-es_seed4_geo] Epoch 9/40 TrainLoss=0.42815 ValTop1=0.81160 BestTop1=0.81160
+[en-es_seed4_geo] Epoch 10/40 TrainLoss=0.42303 ValTop1=0.81256 BestTop1=0.81256
+[en-es_seed4_geo] Epoch 11/40 TrainLoss=0.41811 ValTop1=0.81288 BestTop1=0.81288
+[en-es_seed4_geo] Epoch 12/40 TrainLoss=0.41500 ValTop1=0.81513 BestTop1=0.81513
+[en-es_seed4_geo] Epoch 13/40 TrainLoss=0.41185 ValTop1=0.81427 BestTop1=0.81513
+[en-es_seed4_geo] Epoch 14/40 TrainLoss=0.40957 ValTop1=0.81181 BestTop1=0.81513
+[en-es_seed4_geo] Epoch 15/40 TrainLoss=0.40706 ValTop1=0.81877 BestTop1=0.81877
+[en-es_seed4_geo] Epoch 16/40 TrainLoss=0.40514 ValTop1=0.81406 BestTop1=0.81877
+[en-es_seed4_geo] Epoch 17/40 TrainLoss=0.40372 ValTop1=0.81277 BestTop1=0.81877
+[en-es_seed4_geo] Epoch 18/40 TrainLoss=0.40180 ValTop1=0.81770 BestTop1=0.81877
+[en-es_seed4_geo] Epoch 19/40 TrainLoss=0.40063 ValTop1=0.81224 BestTop1=0.81877
+[en-es_seed4_geo] Epoch 20/40 TrainLoss=0.39978 ValTop1=0.81213 BestTop1=0.81877
+EARLY STOP: epoch=20, patience=5
+{
+  "run_id": "en-es_seed4_geo",
+  "smoke_test": false,
+  "best_epoch": 15,
+  "epochs_completed": 20,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8187653792660746,
+    "Top-5": 0.8795335401733176,
+    "MeanRank": 97.05242323740238,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8752802014350891,
+    "HardNegMean": 0.7843165993690491,
+    "MarginMean": 0.09096362441778183,
+    "NeighborOverlap@10": 0.2894939552797689,
+    "Uniformity": -1.8918161597619216
+  },
+  "held_out_test": {
+    "Top-1": 0.8507542527014015,
+    "Top-5": 0.9163367925537605,
+    "MeanRank": 78.32780571306301,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8758053183555603,
+    "HardNegMean": 0.7776731252670288,
+    "MarginMean": 0.09813224524259567,
+    "NeighborOverlap@10": 0.2944046218037873,
+    "Uniformity": -1.895166121636822
+  }
+}
+RUN 57/60: en-es_seed4_full
+{
+  "language_pair": "en-es",
+  "seed": 4,
+  "variant": "full",
+  "run_id": "en-es_seed4_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0002
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed4_full] Epoch 1/40 TrainLoss=0.85711 ValTop1=0.78474 BestTop1=0.78474
+[en-es_seed4_full] Epoch 2/40 TrainLoss=0.57781 ValTop1=0.79726 BestTop1=0.79726
+[en-es_seed4_full] Epoch 3/40 TrainLoss=0.52914 ValTop1=0.80229 BestTop1=0.80229
+[en-es_seed4_full] Epoch 4/40 TrainLoss=0.49587 ValTop1=0.80411 BestTop1=0.80411
+[en-es_seed4_full] Epoch 5/40 TrainLoss=0.47287 ValTop1=0.80432 BestTop1=0.80432
+[en-es_seed4_full] Epoch 6/40 TrainLoss=0.45598 ValTop1=0.81063 BestTop1=0.81063
+[en-es_seed4_full] Epoch 7/40 TrainLoss=0.44427 ValTop1=0.81128 BestTop1=0.81128
+[en-es_seed4_full] Epoch 8/40 TrainLoss=0.43464 ValTop1=0.81427 BestTop1=0.81427
+[en-es_seed4_full] Epoch 9/40 TrainLoss=0.42831 ValTop1=0.81395 BestTop1=0.81427
+[en-es_seed4_full] Epoch 10/40 TrainLoss=0.42308 ValTop1=0.81374 BestTop1=0.81427
+[en-es_seed4_full] Epoch 11/40 TrainLoss=0.41817 ValTop1=0.81395 BestTop1=0.81427
+[en-es_seed4_full] Epoch 12/40 TrainLoss=0.41507 ValTop1=0.81470 BestTop1=0.81470
+[en-es_seed4_full] Epoch 13/40 TrainLoss=0.41179 ValTop1=0.81395 BestTop1=0.81470
+[en-es_seed4_full] Epoch 14/40 TrainLoss=0.40960 ValTop1=0.81577 BestTop1=0.81577
+[en-es_seed4_full] Epoch 15/40 TrainLoss=0.40693 ValTop1=0.81748 BestTop1=0.81748
+[en-es_seed4_full] Epoch 16/40 TrainLoss=0.40504 ValTop1=0.81416 BestTop1=0.81748
+[en-es_seed4_full] Epoch 17/40 TrainLoss=0.40353 ValTop1=0.81481 BestTop1=0.81748
+[en-es_seed4_full] Epoch 18/40 TrainLoss=0.40183 ValTop1=0.81470 BestTop1=0.81748
+[en-es_seed4_full] Epoch 19/40 TrainLoss=0.40065 ValTop1=0.81363 BestTop1=0.81748
+[en-es_seed4_full] Epoch 20/40 TrainLoss=0.39961 ValTop1=0.81620 BestTop1=0.81748
+EARLY STOP: epoch=20, patience=5
+{
+  "run_id": "en-es_seed4_full",
+  "smoke_test": false,
+  "best_epoch": 15,
+  "epochs_completed": 20,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8174815448807103,
+    "Top-5": 0.8789986091794159,
+    "MeanRank": 99.75703434256981,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8741657733917236,
+    "HardNegMean": 0.783141553401947,
+    "MarginMean": 0.09102430939674377,
+    "NeighborOverlap@10": 0.28870225740879424,
+    "Uniformity": -1.8877551258297693
+  },
+  "held_out_test": {
+    "Top-1": 0.8542847972611534,
+    "Top-5": 0.9140900823793731,
+    "MeanRank": 84.4047287899861,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8746981024742126,
+    "HardNegMean": 0.7760801911354065,
+    "MarginMean": 0.09861788153648376,
+    "NeighborOverlap@10": 0.29403017010805604,
+    "Uniformity": -1.8936652442527442
+  }
+}
+RUN 58/60: en-es_seed5_baseline
+{
+  "language_pair": "en-es",
+  "seed": 5,
+  "variant": "baseline",
+  "run_id": "en-es_seed5_baseline",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "baseline",
+    "use_align": true,
+    "use_geo": false,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed5_baseline] Epoch 1/40 TrainLoss=1.00117 ValTop1=0.77351 BestTop1=0.77351
+[en-es_seed5_baseline] Epoch 2/40 TrainLoss=0.58967 ValTop1=0.79063 BestTop1=0.79063
+[en-es_seed5_baseline] Epoch 3/40 TrainLoss=0.53530 ValTop1=0.80175 BestTop1=0.80175
+[en-es_seed5_baseline] Epoch 4/40 TrainLoss=0.49970 ValTop1=0.80090 BestTop1=0.80175
+[en-es_seed5_baseline] Epoch 5/40 TrainLoss=0.47611 ValTop1=0.80529 BestTop1=0.80529
+[en-es_seed5_baseline] Epoch 6/40 TrainLoss=0.45821 ValTop1=0.80593 BestTop1=0.80593
+[en-es_seed5_baseline] Epoch 7/40 TrainLoss=0.44596 ValTop1=0.80496 BestTop1=0.80593
+[en-es_seed5_baseline] Epoch 8/40 TrainLoss=0.43652 ValTop1=0.81106 BestTop1=0.81106
+[en-es_seed5_baseline] Epoch 9/40 TrainLoss=0.42936 ValTop1=0.80710 BestTop1=0.81106
+[en-es_seed5_baseline] Epoch 10/40 TrainLoss=0.42361 ValTop1=0.81031 BestTop1=0.81106
+[en-es_seed5_baseline] Epoch 11/40 TrainLoss=0.41903 ValTop1=0.80956 BestTop1=0.81106
+[en-es_seed5_baseline] Epoch 12/40 TrainLoss=0.41569 ValTop1=0.80828 BestTop1=0.81106
+[en-es_seed5_baseline] Epoch 13/40 TrainLoss=0.41226 ValTop1=0.80956 BestTop1=0.81106
+EARLY STOP: epoch=13, patience=5
+{
+  "run_id": "en-es_seed5_baseline",
+  "smoke_test": false,
+  "best_epoch": 8,
+  "epochs_completed": 13,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8110623729538889,
+    "Top-5": 0.8712956028672302,
+    "MeanRank": 84.71252808387717,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8674027323722839,
+    "HardNegMean": 0.7802971601486206,
+    "MarginMean": 0.08710554242134094,
+    "NeighborOverlap@10": 0.26504760885845724,
+    "Uniformity": -2.002264337810703
+  },
+  "held_out_test": {
+    "Top-1": 0.8486145287257943,
+    "Top-5": 0.9121643308013266,
+    "MeanRank": 73.87001176848186,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8679854869842529,
+    "HardNegMean": 0.7732439637184143,
+    "MarginMean": 0.09474154561758041,
+    "NeighborOverlap@10": 0.2695089333475982,
+    "Uniformity": -2.005546508776669
+  }
+}
+RUN 59/60: en-es_seed5_geo
+{
+  "language_pair": "en-es",
+  "seed": 5,
+  "variant": "geo",
+  "run_id": "en-es_seed5_geo",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "geo",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": false,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed5_geo] Epoch 1/40 TrainLoss=1.00117 ValTop1=0.77351 BestTop1=0.77351
+[en-es_seed5_geo] Epoch 2/40 TrainLoss=0.58967 ValTop1=0.79063 BestTop1=0.79063
+[en-es_seed5_geo] Epoch 3/40 TrainLoss=0.53530 ValTop1=0.80175 BestTop1=0.80175
+[en-es_seed5_geo] Epoch 4/40 TrainLoss=0.49977 ValTop1=0.80122 BestTop1=0.80175
+[en-es_seed5_geo] Epoch 5/40 TrainLoss=0.47613 ValTop1=0.80293 BestTop1=0.80293
+[en-es_seed5_geo] Epoch 6/40 TrainLoss=0.45805 ValTop1=0.80700 BestTop1=0.80700
+[en-es_seed5_geo] Epoch 7/40 TrainLoss=0.44587 ValTop1=0.80892 BestTop1=0.80892
+[en-es_seed5_geo] Epoch 8/40 TrainLoss=0.43661 ValTop1=0.80796 BestTop1=0.80892
+[en-es_seed5_geo] Epoch 9/40 TrainLoss=0.42952 ValTop1=0.80732 BestTop1=0.80892
+[en-es_seed5_geo] Epoch 10/40 TrainLoss=0.42355 ValTop1=0.80614 BestTop1=0.80892
+[en-es_seed5_geo] Epoch 11/40 TrainLoss=0.41929 ValTop1=0.80710 BestTop1=0.80892
+[en-es_seed5_geo] Epoch 12/40 TrainLoss=0.41580 ValTop1=0.80892 BestTop1=0.80892
+EARLY STOP: epoch=12, patience=5
+{
+  "run_id": "en-es_seed5_geo",
+  "smoke_test": false,
+  "best_epoch": 7,
+  "epochs_completed": 12,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8089226489782818,
+    "Top-5": 0.8722584786562534,
+    "MeanRank": 84.40184016261902,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8661836981773376,
+    "HardNegMean": 0.7817810773849487,
+    "MarginMean": 0.08440257608890533,
+    "NeighborOverlap@10": 0.2694875361078421,
+    "Uniformity": -2.0455429963340315
+  },
+  "held_out_test": {
+    "Top-1": 0.8461538461538461,
+    "Top-5": 0.9099176206269391,
+    "MeanRank": 72.4722370814165,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8668490648269653,
+    "HardNegMean": 0.773666501045227,
+    "MarginMean": 0.09318257868289948,
+    "NeighborOverlap@10": 0.27298598480795977,
+    "Uniformity": -2.051687566111144
+  }
+}
+RUN 60/60: en-es_seed5_full
+{
+  "language_pair": "en-es",
+  "seed": 5,
+  "variant": "full",
+  "run_id": "en-es_seed5_full",
+  "epochs": 40,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "projection_dim": 256,
+  "experiment": {
+    "name": "full",
+    "use_align": true,
+    "use_geo": true,
+    "use_topo": true,
+    "lambda_geo": 0.0005,
+    "lambda_topo": 0.0002
+  },
+  "experiment_family": "convergence_controlled_reference",
+  "git_revision": "7b650c86ed3e0e2d6d4bc46f576afa508403d38d",
+  "manifest_sha256": "71d0514b81421d6ccf06d1bb030d31458a52ba93b98f2575125a74b8cde77ea9",
+  "journal_sha256": "1272a3d2212f6b3c954cd3815f5fa90ccca0c07f9148a86438d462e8fa39a7a0",
+  "evaluator_sha256": "b74563aa1ab8d95f216de773bd0d4f73faf99a7ad2389b5ec0d5032ba9098a7e",
+  "runner_sha256": "5f8e1ffc17cda17684cafc3b570f82dc307270d2e401e802012679e29e84f0a0",
+  "device": "cuda",
+  "smoke_test": false,
+  "structural_every_epoch": true,
+  "torch_version": "2.5.1+cu121"
+}
+[en-es_seed5_full] Epoch 1/40 TrainLoss=1.00117 ValTop1=0.77351 BestTop1=0.77351
+[en-es_seed5_full] Epoch 2/40 TrainLoss=0.58967 ValTop1=0.79063 BestTop1=0.79063
+[en-es_seed5_full] Epoch 3/40 TrainLoss=0.53530 ValTop1=0.80175 BestTop1=0.80175
+[en-es_seed5_full] Epoch 4/40 TrainLoss=0.49970 ValTop1=0.80090 BestTop1=0.80175
+[en-es_seed5_full] Epoch 5/40 TrainLoss=0.47616 ValTop1=0.80454 BestTop1=0.80454
+[en-es_seed5_full] Epoch 6/40 TrainLoss=0.45829 ValTop1=0.80668 BestTop1=0.80668
+[en-es_seed5_full] Epoch 7/40 TrainLoss=0.44592 ValTop1=0.80539 BestTop1=0.80668
+[en-es_seed5_full] Epoch 8/40 TrainLoss=0.43677 ValTop1=0.81063 BestTop1=0.81063
+[en-es_seed5_full] Epoch 9/40 TrainLoss=0.42941 ValTop1=0.80860 BestTop1=0.81063
+[en-es_seed5_full] Epoch 10/40 TrainLoss=0.42384 ValTop1=0.80839 BestTop1=0.81063
+[en-es_seed5_full] Epoch 11/40 TrainLoss=0.41931 ValTop1=0.80571 BestTop1=0.81063
+[en-es_seed5_full] Epoch 12/40 TrainLoss=0.41583 ValTop1=0.80978 BestTop1=0.81063
+[en-es_seed5_full] Epoch 13/40 TrainLoss=0.41240 ValTop1=0.80924 BestTop1=0.81063
+EARLY STOP: epoch=13, patience=5
+{
+  "run_id": "en-es_seed5_full",
+  "smoke_test": false,
+  "best_epoch": 8,
+  "epochs_completed": 13,
+  "stopping_rule": {
+    "min_epochs": 5,
+    "patience": 5,
+    "min_delta": 0.0001
+  },
+  "best_validation": {
+    "Top-1": 0.8106344281587675,
+    "Top-5": 0.8712956028672302,
+    "MeanRank": 87.40697550016048,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8657769560813904,
+    "HardNegMean": 0.7789475321769714,
+    "MarginMean": 0.08682936429977417,
+    "NeighborOverlap@10": 0.2617417353161442,
+    "Uniformity": -2.0091307744114077
+  },
+  "held_out_test": {
+    "Top-1": 0.8484005563282336,
+    "Top-5": 0.9136621375842516,
+    "MeanRank": 74.24232374023751,
+    "MedianRank": 1.0,
+    "PosSimMean": 0.8669443130493164,
+    "HardNegMean": 0.7718312740325928,
+    "MarginMean": 0.09511300921440125,
+    "NeighborOverlap@10": 0.2675938803894298,
+    "Uniformity": -2.0117337170485676
+  }
+}
+EXTENDED REFERENCE TRAINING COMPLETE: 60 /60

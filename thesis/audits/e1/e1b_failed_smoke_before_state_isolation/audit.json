@@ -1,0 +1,11 @@
+{
+  "experiment": "E1-B",
+  "pair": "en-ru",
+  "seed": 1,
+  "steps": 2,
+  "status": "FAILED",
+  "failure": "RuntimeError: Deterministic replay mismatch: control",
+  "failure_sha256": "fee4c4ea8101c43d7d3246ddebf2db210d99ef38a8ec66e20a599fa9cd59f08b",
+  "archived_at_utc": "2026-10-18T08:04:04.305367+00:00",
+  "reason": "Preserve failed replay evidence before corrected smoke test"
+}

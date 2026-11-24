@@ -1,0 +1,55 @@
+{
+  "phase": "E1-B",
+  "mode": "run",
+  "run": "en-fr_seed2",
+  "checkpoint_sha256": "d7e5d9a9d127e06b2c6c3ccf008072ffeb9d546f11f10e141002c304aa38dcc7",
+  "initial_states": [
+    {
+      "branch": "control",
+      "model_sha256": "1e366dcd77ff4df4292ea33c8c3e43a349eaca06bf7eebb98816ff86ff284091",
+      "optimizer_sha256": "7b122479476207c6e86495baf01d7256ca146ee1f160cf54b5e219636df9e02f"
+    },
+    {
+      "branch": "geo",
+      "model_sha256": "1e366dcd77ff4df4292ea33c8c3e43a349eaca06bf7eebb98816ff86ff284091",
+      "optimizer_sha256": "7b122479476207c6e86495baf01d7256ca146ee1f160cf54b5e219636df9e02f"
+    },
+    {
+      "branch": "topo",
+      "model_sha256": "1e366dcd77ff4df4292ea33c8c3e43a349eaca06bf7eebb98816ff86ff284091",
+      "optimizer_sha256": "7b122479476207c6e86495baf01d7256ca146ee1f160cf54b5e219636df9e02f"
+    },
+    {
+      "branch": "full",
+      "model_sha256": "1e366dcd77ff4df4292ea33c8c3e43a349eaca06bf7eebb98816ff86ff284091",
+      "optimizer_sha256": "7b122479476207c6e86495baf01d7256ca146ee1f160cf54b5e219636df9e02f"
+    }
+  ],
+  "schedule_sha256": "836c2846e50e92a47541ee6d5362bb6ff66a18f2984d1ae52dca3e378f25a1d2",
+  "steps": 3178,
+  "branch_coefficients": {
+    "control": [
+      0.0,
+      0.0
+    ],
+    "geo": [
+      0.0005,
+      0.0
+    ],
+    "topo": [
+      0.0,
+      0.0005
+    ],
+    "full": [
+      0.0005,
+      0.0005
+    ]
+  },
+  "status": "PREFLIGHT_PASS"
+}
+PASS control: 3178 steps, Top-1=0.930044
+PASS geo: 3178 steps, Top-1=0.928155
+PASS topo: 3178 steps, Top-1=0.929336
+PASS full: 3178 steps, Top-1=0.929257
+=== E1-B RUN PASS ===
+Output: /workspace/Multilingual-Thesis/thesis/results/e1/b_interventions/full/en-fr_seed2

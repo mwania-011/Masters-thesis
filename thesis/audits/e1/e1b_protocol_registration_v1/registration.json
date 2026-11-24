@@ -1,0 +1,13 @@
+{
+  "registration_version": 1,
+  "registered_at_utc": "2026-10-18T13:35:02.692096+00:00",
+  "scope": [
+    "en-fr",
+    "en-it",
+    "en-es"
+  ],
+  "prior_exploratory_pair": "en-ru",
+  "protocol_sha256": "c90e57e9e0676067502dc4b431986e547701aa0240a192eb398d57c2bb366ae2",
+  "execution_matrix_sha256": "96157e465a1ef76276baf51f4d68fc0a9dbabf1638fda2893d22a7457d47ac45",
+  "status": "REGISTERED_NOT_EXECUTED"
+}
